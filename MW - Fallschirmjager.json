@@ -1,0 +1,1961 @@
+{
+  "catalogue": {
+    "name": "Mid-War - Fallschirmjager",
+    "id": "4e61-1b9e-452b-7fe1",
+    "authorContact": "Discord: zharrpostingghoroth",
+    "authorName": "UrsinePatriarch",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "976a-b687-1fdb-07ef",
+    "gameSystemRevision": 25,
+    "library": true,
+    "readme": "Updated to v2 4-9-2025; moderate formatting changes, some updates for Eastern Front usage",
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "sharedProfiles": [
+      {
+        "name": "Fallschirmjager Platoon",
+        "id": "a2e6-6e0b-2dbe-36e2",
+        "hidden": false,
+        "typeId": "0917-e2f0-0c3e-b482",
+        "typeName": "Infantry Unit",
+        "characteristics": [
+          {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+          {"name": "Skill", "$text": "3+", "typeId": "7258-881d-dc2d-e80b"},
+          {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+          {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+          {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+          {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+          {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+          {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+          {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+          {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+        ]
+      },
+      {
+        "name": "7.5cm Recoilless Gun",
+        "id": "cbf8-861c-ba05-01b4",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+        ]
+      },
+      {
+        "name": "MG42 & K98 Rifle team",
+        "id": "6eee-e478-0283-d72d",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+        ]
+      },
+      {
+        "name": "sMG42 HMG",
+        "id": "574d-94e3-6123-71c4",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "$text": "6", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "$text": "Assault 4+, Heavy Weapon", "typeId": "d939-5084-e654-44c6"}
+        ]
+      },
+      {
+        "name": "2.8cm anti-tank rifle",
+        "id": "e39d-547d-6b1a-46e9",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "$text": "Assault 4+, Heavy Weapon, No HE", "typeId": "d939-5084-e654-44c6"}
+        ]
+      },
+      {
+        "name": "3.7cm (firing Stielgranate)",
+        "id": "2db5-7b6e-328f-79b2",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "10\"/25cm", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "$text": "12", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "$text": "Forward Firing, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+        ]
+      },
+      {
+        "name": "7.5cm Recoilless Gun team",
+        "id": "d45d-af52-8d01-c6bd",
+        "hidden": false,
+        "typeId": "0917-e2f0-0c3e-b482",
+        "typeName": "Infantry Unit",
+        "characteristics": [
+          {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+          {"name": "Skill", "$text": "3+ / 4+ Assault", "typeId": "7258-881d-dc2d-e80b"},
+          {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+          {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+          {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+          {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+          {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+          {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+          {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+          {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Stormtroopers",
+        "id": "e2c1-5504-3684-b1fd",
+        "description": "A unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.",
+        "hidden": false
+      },
+      {"name": "Recoilless", "id": "104f-a2b8-aba6-fc6e", "description": "No idea what this does yet.", "hidden": false},
+      {"name": "Pioneers", "id": "d976-1941-e942-421e", "description": "No idea what this does yet.", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Fallschirmjager 10.5cm Recoilless Battery",
+        "id": "ee5b-b00a-238f-0dac",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Smoke", "id": "236f-4e5c-f2b7-b338", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"},
+          {"name": "Large Gun", "id": "698c-11bc-0451-59ef", "hidden": false, "targetId": "183b-aef0-86e1-693f", "type": "rule"},
+          {"name": "Recoilless", "id": "8200-13d2-922d-32f3", "hidden": false, "targetId": "104f-a2b8-aba6-fc6e", "type": "rule"},
+          {"name": "Slow Firing", "id": "4fbd-57cd-013a-6d75", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Brutal", "id": "9f8a-9bce-1594-07ec", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"},
+          {"name": "Gun", "id": "ffc5-9f10-55ec-f6b1", "hidden": false, "targetId": "139e-9d64-28a3-a3dd", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "10.5cm Recoilless Team",
+            "id": "12fa-0239-e599-3301",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "3+ / 4+ Assault", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "4+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "6\"/15cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "10.5cm recoilless gun [Artillery]",
+            "id": "152b-ca2e-9751-febd",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "64\"/160cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "3", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Recoilless", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "10.5cm recoilless gun [Direct Fire]",
+            "id": "de8c-3d72-12a3-34a4",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "10", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Brutal, Recoilless, Slow Firing, Smoke", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "0844-acc1-06ec-800f",
+            "collective": false,
+            "defaultSelectionEntryId": "587f-cf08-d91f-517e",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e572-d33a-e498-ceed",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "6389-4686-6031-8ba6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 10.5cm recoilless gun",
+                "id": "587f-cf08-d91f-517e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}]
+              },
+              {
+                "name": "4x 10.5cm recoilless gun",
+                "id": "0bbe-5bd9-51d1-01e7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 16}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager 3.7cm Tank-hunter Platoon",
+        "id": "6307-1844-7dc9-2701",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "458c-2a40-78e8-e4f8", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Gun", "id": "c123-d6b5-f79b-f05c", "hidden": false, "targetId": "139e-9d64-28a3-a3dd", "type": "rule"},
+          {"name": "Gun Shield", "id": "4a6c-1a1c-0c46-60c8", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "3.7cm gun team",
+            "id": "4dca-6fd3-e0f3-0297",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "3+ / 4+ Assault", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "8\"/20cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "3.7cm gun",
+            "id": "f4af-1fb3-2839-1233",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "08b4-9235-3529-c0ae",
+            "collective": false,
+            "defaultSelectionEntryId": "cd84-4979-868e-56e0",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ccb2-9895-fc9d-790d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "bab4-a9f6-0100-d141",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x 3.7cm gun",
+                "id": "c254-bd22-705c-31f3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}]
+              },
+              {
+                "name": "3x 3.7cm gun",
+                "id": "aa61-d096-f257-7788",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 7}]
+              },
+              {
+                "name": "2x 3.7cm gun",
+                "id": "cd84-4979-868e-56e0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}]
+              },
+              {
+                "name": "4x 3.7cm (Stielgranate) gun",
+                "id": "701f-5f01-74b3-5266",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 14}],
+                "infoLinks": [
+                  {"name": "3.7cm (firing Stielgranate)", "id": "e244-9977-07d7-82db", "hidden": false, "targetId": "2db5-7b6e-328f-79b2", "type": "profile"},
+                  {"name": "Slow Firing", "id": "b947-baa2-fa1d-0843", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+                ]
+              },
+              {
+                "name": "3x 3.7cm (Stielgranate) gun",
+                "id": "dcb9-ef6d-8287-f443",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 11}],
+                "infoLinks": [
+                  {"name": "3.7cm (firing Stielgranate)", "id": "6e15-abc6-0401-cd89", "hidden": false, "targetId": "2db5-7b6e-328f-79b2", "type": "profile"},
+                  {"name": "Slow Firing", "id": "f3e5-a137-5dfd-0da0", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+                ]
+              },
+              {
+                "name": "2x 3.7cm (Stielgranate) gun",
+                "id": "610e-4f66-3848-ceb9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 7}],
+                "infoLinks": [
+                  {"name": "3.7cm (firing Stielgranate)", "id": "a09a-586a-5cc2-01a8", "hidden": false, "targetId": "2db5-7b6e-328f-79b2", "type": "profile"},
+                  {"name": "Slow Firing", "id": "7a28-2de4-07ac-267c", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager 5cm Tank-hunter Platoon",
+        "id": "1efc-46db-899d-7d86",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Forward Firing", "id": "1765-a332-e8cd-9c2b", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "5cm gun team",
+            "id": "cf5e-98ba-400d-087f",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "3+ /  Assault 4+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "6\"/15cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "5cm gun",
+            "id": "6b26-4240-5f1d-98cf",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "2c1e-ebeb-fd8e-0793",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b002-cfa7-8c98-8fd4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a563-8d2a-282c-1f04",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x 5cm gun",
+                "id": "48db-67d5-ef58-7214",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+              },
+              {
+                "name": "2x 5cm gun",
+                "id": "7359-bae7-e3b3-3ef0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "4x 5cm gun",
+                "id": "3895-f323-f347-51ea",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager 7.5cm Tank-Hunter Platoon",
+        "id": "ee8c-8e4d-3a7a-25ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "aa7d-b986-705e-64f2", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Gun", "id": "ca86-a83d-b851-2d6c", "hidden": false, "targetId": "139e-9d64-28a3-a3dd", "type": "rule"},
+          {"name": "Gun Shield", "id": "30ef-f4ef-4a20-e0ae", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "7.5cm Tank-hunter Team",
+            "id": "d322-f1e7-a8b0-9cd6",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "3+ / Assault 4+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "2\"/5cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "6\"/15cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "7.5cm gun",
+            "id": "24f1-54b5-830e-1cdc",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "12", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward FIring", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "5a56-8859-5250-a8b3",
+            "collective": false,
+            "defaultSelectionEntryId": "6f13-7249-60ac-2daf",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "947e-2f42-444d-3f5a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9fb6-734e-fbd7-628f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x 7.5cm gun",
+                "id": "1e7c-7646-ce05-3e4d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 13}]
+              },
+              {
+                "name": "2x 7.5cm gun",
+                "id": "6f13-7249-60ac-2daf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+              },
+              {
+                "name": "4x 7.5cm gun",
+                "id": "2e6b-3950-9183-fe01",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 17}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager Marder II Tank-hunter Platoon",
+        "id": "9e3e-0802-adea-3947",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Stormtroopers", "id": "80a6-197e-a81f-9a74", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"},
+          {"name": "Forward Firing", "id": "6e0c-7e0f-0c00-33c5", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Self-Defence AA", "id": "f0d6-0839-cfd1-9734", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Marder II (7.5cm) Tank-hunter",
+            "id": "1d56-150e-b9a2-3da6",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+ / Counterattack 5+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "3+ / Assault 5+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "3", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "1", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "20\"/50cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Marder II (7.5cm)",
+            "id": "9964-3eb0-5449-baae",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "12", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Marder II (AA MG)",
+            "id": "fe89-d9a8-361a-d663",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defense AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "3652-b9e8-5d1b-a76e",
+            "collective": false,
+            "defaultSelectionEntryId": "fe2e-b9ba-3663-2939",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "527e-c993-1f69-df23",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c5d5-2a46-7dd5-0edd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Marder II (7.5cm) Tank-hunter",
+                "id": "fe2e-b9ba-3663-2939",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}]
+              },
+              {
+                "name": "3x Marder II (7.5cm)  Tank-hunter",
+                "id": "0fea-6555-d981-0bb7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 18}]
+              },
+              {
+                "name": "4x Marder II (7.5cm)  Tank-hunter",
+                "id": "d119-bfbf-37a0-cd50",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 24}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager Observation Post",
+        "id": "ab61-b1d3-2a76-30e8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Observer", "id": "b0fc-ce73-a6a8-de1e", "hidden": false, "targetId": "8153-56ce-71c0-391b", "type": "rule"},
+          {"name": "Scout", "id": "0c81-198a-ba21-f40a", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "Stormtroopers", "id": "500d-49c2-a5b5-117e", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"},
+          {"name": "Slow Firing", "id": "6f5e-5cb3-f0e2-9a7f", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Fallschirmjager Observation Post",
+            "id": "6ca4-e441-d3aa-ca06",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+ / Last Stand 4+ / Counterattack 5+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "3+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          },
+          {
+            "name": "K98 Rifle team",
+            "id": "46bf-45b5-bb63-934f",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1x Observer K98 team",
+            "id": "7795-3a0d-6548-3c08",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "4338-e940-45df-f669",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "658e-091e-d856-f5db",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirm Pioneer Platoon",
+        "id": "fc1b-0117-bfae-d9bf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {
+            "name": "Fallschirmjager Platoon",
+            "id": "5202-4e33-7c23-2b21",
+            "hidden": false,
+            "targetId": "a2e6-6e0b-2dbe-36e2",
+            "type": "profile",
+            "modifiers": [{"field": "name", "type": "set", "value": "Fallschirm Pioneer Platoon"}]
+          },
+          {"name": "Pioneers", "id": "3fd5-c979-3773-22fa", "hidden": false, "targetId": "d976-1941-e942-421e", "type": "rule"},
+          {"name": "Stormtroopers", "id": "d61b-502e-5236-02db", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"},
+          {"name": "MG42 & K98 Rifle team", "id": "5dde-aab2-c932-056c", "hidden": false, "targetId": "6eee-e478-0283-d72d", "type": "profile"},
+          {"name": "Heavy Weapon", "id": "d8f9-3229-10fc-31eb", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "Flame-thrower", "id": "eb49-d9ef-beef-a9e1", "hidden": false, "targetId": "f8ec-4aba-faa0-f2d0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Flame-thrower team",
+            "id": "f5c7-7c79-86b9-aed2",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "6\"/15cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "AUTO", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Assault 4+, Flame-thrower, Heavy Weapon, Pinned ROF 1", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "8744-9c14-5a64-55a1",
+            "collective": false,
+            "defaultSelectionEntryId": "ac87-b9ec-4676-e736",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4ad8-131f-5b6e-c969",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "bd59-874b-6b5c-e361",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "5x MG42 & K98 rifle teams, 2x Flame-thrower teams",
+                "id": "ac87-b9ec-4676-e736",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}]
+              },
+              {
+                "name": "7x MG42 & K98 rifle teams, 3x Flame-thrower teams",
+                "id": "cee8-549d-617d-9b93",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "2) Support Platoon",
+            "id": "491c-348d-9b55-226d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "2.8cm anti-tank rifle",
+                "id": "97c1-041c-3459-ad6a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "e44c-06bd-2f51-8f02",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [{"name": "2.8cm anti-tank rifle", "id": "0cbb-516c-1cc7-c7eb", "hidden": false, "targetId": "e39d-547d-6b1a-46e9", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager Company",
+        "id": "3278-296b-fd55-cec9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Fallschirmjager Platoon",
+            "id": "6f4f-b5bc-2049-db47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b07-e1ec-03dc-4f5d",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "5850-e227-7901-3831",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9838-9638-58ef-fe38",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Fallschirmjager Platoon",
+            "id": "c45c-9784-fbe4-4a6c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b07-e1ec-03dc-4f5d",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2010-a43b-d241-7493",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9a9a-3baf-7966-abd3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Fallschirmjager Company HQ",
+            "id": "50e0-0e74-b68d-85db",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "8551-3794-5ce6-d258",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9061-34c9-d8f1-77e3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "infoLinks": [{"name": "Stormtroopers", "id": "71dd-ada7-7a28-bbf4", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Fallschirmjager Company HQ",
+                "id": "3107-efa5-4620-082d",
+                "hidden": false,
+                "typeId": "0917-e2f0-0c3e-b482",
+                "typeName": "Infantry Unit",
+                "characteristics": [
+                  {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+                  {"name": "Skill", "$text": "3+", "typeId": "7258-881d-dc2d-e80b"},
+                  {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+                  {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+                  {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+                  {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+                  {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+                  {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+                  {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+                  {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+                ]
+              },
+              {
+                "name": "MP40 SMG Team",
+                "id": "2032-9a69-9fd9-5d03",
+                "hidden": false,
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "4\"/10cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "1", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "$text": "Pinned ROF 1", "typeId": "d939-5084-e654-44c6"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Unit Size",
+                "id": "8e86-aa2a-d861-0add",
+                "collective": false,
+                "defaultSelectionEntryId": "f146-af73-a010-eebb",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2b37-a2af-aa5c-cacb",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "ca42-2022-27a3-f785",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "2x MP40 SMG Team",
+                    "id": "f146-af73-a010-eebb",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+                  },
+                  {
+                    "name": "2x MP40 SMG Team, 1x 7.5cm Recoilless gun team",
+                    "id": "4571-302d-8006-d457",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                    "infoLinks": [
+                      {"name": "Recoilless", "id": "f952-4314-6c64-3f1f", "hidden": false, "targetId": "104f-a2b8-aba6-fc6e", "type": "rule"},
+                      {"name": "Heavy Weapon", "id": "89ff-b4fd-892e-3f07", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+                      {"name": "7.5cm Recoilless Gun", "id": "1450-2982-4bad-f5ab", "hidden": false, "targetId": "cbf8-861c-ba05-01b4", "type": "profile"},
+                      {"name": "7.5cm Recoilless Gun team", "id": "9a14-6c9d-8662-f51c", "hidden": false, "targetId": "d45d-af52-8d01-c6bd", "type": "profile"}
+                    ]
+                  },
+                  {
+                    "name": "2x MP40 SMG Team, 2x 7.5cm Recoilless gun team",
+                    "id": "36f7-fa9a-60b9-0c9b",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}],
+                    "infoLinks": [
+                      {"name": "Recoilless", "id": "de95-231e-b6fe-be81", "hidden": false, "targetId": "104f-a2b8-aba6-fc6e", "type": "rule"},
+                      {"name": "Heavy Weapon", "id": "6143-e6be-4a9f-595d", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+                      {"name": "7.5cm Recoilless Gun", "id": "e965-8af7-02c7-66e5", "hidden": false, "targetId": "cbf8-861c-ba05-01b4", "type": "profile"},
+                      {"name": "7.5cm Recoilless Gun team", "id": "ed21-2254-d058-f598", "hidden": false, "targetId": "d45d-af52-8d01-c6bd", "type": "profile"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "2) Optional Units",
+            "id": "e601-13a0-aa70-a3d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Fallschirmjager 8cm Mortar Platoon",
+                "id": "fbed-ad3c-9981-44ea",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9c25-71f5-93bb-3f5e",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ca0b-50a5-3bb6-0c5b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Fallschirmjager 8cm Mortar Platoon",
+                "id": "4a5c-0c30-2c0e-aebc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9c25-71f5-93bb-3f5e",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "b7df-7ce6-80da-c3f3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Fallschirmjager sMG42 Machine-gun Platoon",
+                "id": "3d1d-dd13-f20e-19b8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "7ed0-02e7-bbca-751d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "abdc-8262-feb6-ee7f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "1) Optional Fallschirmjager Platoon",
+            "id": "d8bf-91ed-76df-33f2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Fallschirmjager Platoon",
+                "id": "656a-c7c7-47a6-dd29",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6b07-e1ec-03dc-4f5d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "c967-d51d-80ef-ed20",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager 2cm Anti-aircraft Platoon",
+        "id": "f2cc-e643-a855-c888",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Dedicated AA", "id": "f08c-c38a-7551-1ae1", "hidden": false, "targetId": "f4bc-db53-7a0d-0aeb", "type": "rule"},
+          {"name": "Gun", "id": "91df-9694-0cab-93b3", "hidden": false, "targetId": "139e-9d64-28a3-a3dd", "type": "rule"},
+          {"name": "Gun Shield", "id": "0036-95d6-e21b-002b", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "2cm Anti-Aircraft Team",
+            "id": "e318-7cfe-ac9c-876a",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "3+ / 4+ Assault", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "6\"/15cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "2cm anti-aircraft gun",
+            "id": "f20c-c634-3ba4-b37b",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "5", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Dedicated AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "ec0b-170d-3abc-3323",
+            "collective": false,
+            "defaultSelectionEntryId": "088f-fa2f-3453-6f04",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6fd8-2ead-9285-a6af",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7994-41e8-9074-4fa1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 2cm anti-aircraft gun",
+                "id": "088f-fa2f-3453-6f04",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}]
+              },
+              {
+                "name": "3x 2cm anti-aircraft gun",
+                "id": "2dac-7153-f197-75cf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 7}]
+              },
+              {
+                "name": "4x 2cm anti-aircraft gun",
+                "id": "0b27-050c-d713-44dc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ju 87 Stuka Dive Bomber Flight",
+        "id": "c748-a6db-aa64-004a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Bombs", "id": "2ed0-3bf7-7438-f243", "hidden": false, "targetId": "78a2-7146-034e-a601", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Ju 87 Stuka Dive Bomber Flight",
+            "id": "3ea5-4d8c-107b-b8aa",
+            "hidden": false,
+            "typeId": "d8ed-85c5-35d4-eb3c",
+            "typeName": "Aircraft Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "ec3b-729b-2af4-7bed"},
+              {"name": "Skill", "$text": "3+", "typeId": "e506-9161-836a-5e2d"},
+              {"name": "Is Hit On", "$text": "5+", "typeId": "9691-8132-58f7-5f86"},
+              {"name": "Save", "$text": "3+", "typeId": "3a7a-29d5-008e-09f7"},
+              {"name": "Tactical", "$text": "UNLIMITED", "typeId": "8791-6355-ebcf-f430"},
+              {"name": "Terrain Dash", "typeId": "e6d2-8608-f213-ef1f"},
+              {"name": "Cross Country Dash", "typeId": "037d-b1be-ca62-5c3e"},
+              {"name": "Road Dash", "typeId": "207b-99f1-9a35-12d8"},
+              {"name": "Cross", "typeId": "07b3-6909-7897-f282"},
+              {"name": "Notes", "$text": "AUTO", "typeId": "8252-ebff-91e7-47ea"}
+            ]
+          },
+          {
+            "name": "500kg bombs",
+            "id": "aeba-0780-a3a7-2c8a",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "6\"/15cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "4", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2+", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "Bombs", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "2x Ju 87 Stuka",
+            "id": "0cbb-e985-38c9-77ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {
+                "id": "0b0e-c03a-fd0c-479f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1cdc-6831-c0ef-e9d5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager Platoon",
+        "id": "6b07-e1ec-03dc-4f5d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Fallschirmjager Platoon", "id": "0286-611c-e789-a91e", "hidden": false, "targetId": "a2e6-6e0b-2dbe-36e2", "type": "profile"},
+          {"name": "Stormtroopers", "id": "acab-82a0-fd4f-0aa3", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"},
+          {"name": "MG42 & K98 Rifle team", "id": "8884-aa89-f7e1-a2b7", "hidden": false, "targetId": "6eee-e478-0283-d72d", "type": "profile"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "5c9d-c235-bbe1-286b",
+            "collective": false,
+            "defaultSelectionEntryId": "e669-3706-c610-b8b0",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d10e-7f15-73dc-afe7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "db00-de0c-dd3f-5dc3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "10x MG42 & K98 Rifle teams ",
+                "id": "ba7a-a97f-2e1d-1a4a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 13}]
+              },
+              {
+                "name": "7x MG42 & K98 Rifle teams ",
+                "id": "e669-3706-c610-b8b0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+              }
+            ]
+          },
+          {
+            "name": "2) Support Platoons",
+            "id": "5c3a-fe33-fcb7-92a5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "2.8cm anti-tank rifle team",
+                "id": "140d-3e03-d027-0436",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "c240-5bf8-e8ce-0723",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [
+                  {"name": "Heavy Weapon", "id": "f7f9-c286-ebe9-61c3", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+                  {"name": "No HE", "id": "5554-5061-31d0-de39", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"},
+                  {"name": "2.8cm anti-tank rifle", "id": "3aee-1d92-ba12-ddff", "hidden": false, "targetId": "e39d-547d-6b1a-46e9", "type": "profile"}
+                ]
+              },
+              {
+                "name": "sMG42 HMG team",
+                "id": "bd42-9a69-08e9-d27e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "b3df-c913-c68c-bbcf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [{"name": "sMG42 HMG", "id": "2f84-f679-05a5-74fa", "hidden": false, "targetId": "574d-94e3-6123-71c4", "type": "profile"}]
+              },
+              {
+                "name": "sMG42 HMG team",
+                "id": "8b12-7812-9087-4417",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "d54d-a2fb-f09d-0703",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [{"name": "sMG42 HMG", "id": "f9a2-4124-efac-f8dc", "hidden": false, "targetId": "574d-94e3-6123-71c4", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager 8cm Mortar Platoon",
+        "id": "9c25-71f5-93bb-3f5e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Smoke Bombardment", "id": "392a-b56f-1519-e55e", "hidden": false, "targetId": "5450-1722-5ad1-1d61", "type": "rule"},
+          {"name": "Heavy Weapon", "id": "b62a-da66-d778-355c", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "Stormtroopers", "id": "d609-3ce2-1938-8c13", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "8cm Mortar Team",
+            "id": "1909-3739-2df6-d1c1",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "3+ / Assault 4+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "6\"/20cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "6\"/20cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          },
+          {
+            "name": "8cm Stummel Mortar",
+            "id": "43ba-d37d-8e18-89f7",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "1", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "40f2-5f17-3c47-0f42",
+            "collective": false,
+            "defaultSelectionEntryId": "4140-8beb-e8ff-826a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f173-b8c9-23a8-d128",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "10e9-5ce5-070e-e60e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "8cm Stummel Mortar Team",
+                "id": "4140-8beb-e8ff-826a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager sMG42 Machine-gun Platoon",
+        "id": "7ed0-02e7-bbca-751d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "sMG42 HMG", "id": "c184-6c44-778f-0ca7", "hidden": false, "targetId": "574d-94e3-6123-71c4", "type": "profile"},
+          {"name": "Heavy Weapon", "id": "534a-b1ad-34f2-ce99", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "Stormtroopers", "id": "ac30-a62a-25cc-d91c", "hidden": false, "targetId": "e2c1-5504-3684-b1fd", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "sMG42 Machine-gun team",
+            "id": "44f4-3704-9490-3c24",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "3+ / Assault 4+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "d7ab-49f8-fb70-a907",
+            "collective": false,
+            "defaultSelectionEntryId": "372b-8b54-fe41-7e91",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "062f-666f-88ac-b5ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "4b71-b87e-720c-2a79",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x sMG42 HMGs",
+                "id": "372b-8b54-fe41-7e91",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              },
+              {
+                "name": "4x sMG42 HMGs",
+                "id": "e3c9-6fa3-b4b5-2c5c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjager 7.5cm Artillery Battery",
+        "id": "3ab5-6215-3c8c-7495",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "9690-2bb2-3ab8-2aad", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Gun Shield", "id": "8833-2fe5-ff03-d21e", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"},
+          {"name": "Large Gun", "id": "c8cb-801f-3332-fdde", "hidden": false, "targetId": "183b-aef0-86e1-693f", "type": "rule"},
+          {"name": "Smoke Bombardment", "id": "23ae-fe2f-1b7f-453b", "hidden": false, "targetId": "5450-1722-5ad1-1d61", "type": "rule"},
+          {"name": "Smoke", "id": "d7e2-bad2-d17f-e587", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "7.5cm Artillery Team",
+            "id": "3ecc-4a82-5010-e9c9",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "3+ / Assault 4+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "4+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "6\"/15cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Large Gun", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "7.5cm mountain gun [Artillery]",
+            "id": "3f47-90a1-4e8d-88e9",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "72\"/180cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing, Smoke Bombardment", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "7.5cm mountain gun [Direct Fire]",
+            "id": "903c-3a5d-31c1-549c",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing, Smoke", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "b068-ce2f-3535-4ad7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3f5c-c441-2190-0042",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "eaa6-30f4-43f4-b50d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 7.5cm mountain gun",
+                "id": "b3ff-fed1-bbe7-20ab",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "4x 7.5cm mountain gun",
+                "id": "7224-30dc-9c22-980b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
