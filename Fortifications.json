@@ -1,0 +1,2596 @@
+{
+  "catalogue": {
+    "name": "Fortifications",
+    "id": "967f-3181-84b4-a557",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "976a-b687-1fdb-07ef",
+    "gameSystemRevision": 25,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Fortifications - Pacific",
+        "id": "e825-ae34-a527-ac83",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6693-92b8-fe75-c008",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a30e-556c-277a-2a35", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}],
+        "constraints": [
+          {
+            "id": "9ee9-b39d-8bd5-b964",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a9c1-c88c-6e29-d771",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "1173-f129-c209-f4b6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[EF] Fortifications - Eastern Front",
+        "id": "7467-26af-ebd6-7edb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a9c1-c88c-6e29-d771",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8ca6-bd3a-c578-c609", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}],
+        "constraints": [
+          {
+            "id": "cd55-691b-ede8-0e01",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "6693-92b8-fe75-c008",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "1173-f129-c209-f4b6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortifications - Western Front",
+        "id": "fb3c-60b5-f286-0fc0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1173-f129-c209-f4b6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fab8-7bd9-e164-88c7", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}],
+        "constraints": [
+          {
+            "id": "9a63-c7f1-6e33-b51c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a9c1-c88c-6e29-d771",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "6693-92b8-fe75-c008",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Bunker",
+        "id": "ee3a-852f-4e85-d2e4",
+        "description": "A Bunker can only be Shot at or Assaulted from within its Field of Fire. It cannot be hit by an Artillery Bombardment.\nA bunker is always Concealed and in Bulletproof Cover. Teams Shooting a Bunker must re-roll successful Firepower tests to Destroy it.\nBunkers cannot be Assaulted by Tank teams nor can they Charge into Contact.\nEach Bunker team is a separate unit, evenm when taken as part of the same selection.",
+        "hidden": false
+      },
+      {
+        "name": "Nest",
+        "id": "9c25-f3e3-3359-00e3",
+        "description": "A Nest is always Concealed and in Bulletproof Cover. Teams Shooting a Nest must re-roll successful Firepower tests to Destroy it.\nNests cannot be Assaulted by Tanks nor can they Charge into Contact.\nEach Nest is a separate Unit, even when taken as part of the same selection.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Naval Gun Bunker",
+        "id": "8653-38b6-8693-b919",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "338c-04ae-f1ea-c751", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Naval Gun Bunker",
+            "id": "b04b-0808-1b00-d0ab",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "2+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "2+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Type",
+            "id": "6a0b-1992-8344-2624",
+            "collective": false,
+            "defaultSelectionEntryId": "f30e-2aed-6ba9-ae99",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b4aa-b9ac-19cb-430a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "14cf-826f-5b77-e7dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "14cm gun",
+                "id": "f30e-2aed-6ba9-ae99",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}],
+                "infoLinks": [{"name": "Brutal", "id": "b609-c477-3cf1-522a", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "14cm gun [Artillery]",
+                    "id": "0bb2-2a85-921b-5d80",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "96\"/240cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "3", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  },
+                  {
+                    "name": "14cm gun [Direct Fire]",
+                    "id": "2ac5-c3e7-5ce3-f217",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "-", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "17", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "AUTO", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Brutal", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "8-inch gun",
+                "id": "ee9c-88ac-6557-eabf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 15}],
+                "infoGroups": [{"name": "8-inch gun", "id": "130d-5e35-12be-c662", "hidden": false}],
+                "infoLinks": [{"name": "Brutal", "id": "793c-10cc-9d62-9e52", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "8-inch gun [Artillery]",
+                    "id": "00fa-8869-0b07-3bfc",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "96\"/240cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  },
+                  {
+                    "name": "8-inch gun [Direct Fire]",
+                    "id": "c557-e1d1-7267-fd1b",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "-", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "22", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "AUTO", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Brutal", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortifications - Pacific",
+        "id": "6693-92b8-fe75-c008",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "selectionEntryGroups": [
+          {
+            "name": "1) Gun Fortification",
+            "id": "b4e0-754e-2d54-b8f6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d422-c0db-fb5a-2e31",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Naval Gun Bunker",
+                "id": "6e9f-71ea-12d0-1a03",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8653-38b6-8693-b919",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Gun Bunker",
+                "id": "0452-dd10-0a5f-941f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "99e7-c8a3-d4c9-8614",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Gun Nest",
+                "id": "ffa4-faaa-e8ff-fed5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9b28-5082-87a1-0369",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Machine-gun Fortification",
+            "id": "3c8f-5b07-cf9f-42db",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "43a0-85cf-672d-87a8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Machine-gun Bunker",
+                "id": "6b61-8be8-9db7-af6c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9ed9-994c-a026-fcc5",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Machine-gun Nest",
+                "id": "34ac-eda2-a332-27ee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b150-7e47-3913-4b15",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Fortification",
+            "id": "8c73-fe37-0d76-d74e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a8a4-047c-9943-3066",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Machine-gun Bunker",
+                "id": "6733-ba3d-f12e-9842",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9ed9-994c-a026-fcc5",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Machine-gun Nest",
+                "id": "e98e-d025-5953-8316",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b150-7e47-3913-4b15",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Gun Bunker",
+                "id": "50c6-b9ee-d2c6-51c9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "99e7-c8a3-d4c9-8614",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Gun Nest",
+                "id": "7bba-3e99-6f8e-659b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9b28-5082-87a1-0369",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gun Bunker",
+        "id": "99e7-c8a3-d4c9-8614",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "dbd0-7ada-6e6e-508c", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Gun Bunker",
+            "id": "5d11-4380-8a9e-1bf3",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "2+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "2+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Type",
+            "id": "f76d-1392-e8ac-4c62",
+            "collective": false,
+            "defaultSelectionEntryId": "84f9-9e75-1051-eb05",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "133d-eac0-061b-63a7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "f4db-c7f3-e863-99dc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "37mm gun",
+                "id": "84f9-9e75-1051-eb05",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}],
+                "infoLinks": [{"name": "Forward Firing", "id": "4d25-bb80-548d-086b", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "37mm gun",
+                    "id": "08b9-e5ae-d17c-1b12",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Long 37mm gun",
+                "id": "0941-e59d-28aa-a0bf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}],
+                "infoLinks": [{"name": "Forward Firing", "id": "d0cf-9261-cc94-909b", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Long 37mm gun",
+                    "id": "2d1f-3834-1821-fca5",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "47mm gun",
+                "id": "cce7-46da-0244-ba23",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                "infoLinks": [
+                  {"name": "Forward Firing", "id": "e553-d333-dd38-8795", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+                  {"name": "No HE", "id": "6223-ef08-a622-3936", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "47mm gun",
+                    "id": "ff05-7892-da37-5923",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "8", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing, No HE", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Machine-gun Bunkers",
+        "id": "9ed9-994c-a026-fcc5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Bunker", "id": "e405-16d2-514d-b80a", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"},
+          {"name": "Forward Firing", "id": "7a0b-7688-9393-6519", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Machine-gun Bunker",
+            "id": "aa73-14ff-c9fa-da38",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "2+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "2+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "HMG Bunker",
+            "id": "f636-29b2-6649-d6ab",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "6", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "3fd9-701a-7eda-a261",
+            "collective": false,
+            "defaultSelectionEntryId": "9831-198c-adad-7bbc",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d3c3-baa2-f8a8-059a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c641-9475-d7ac-2c1a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x HMG Bunker",
+                "id": "9831-198c-adad-7bbc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              },
+              {
+                "name": "2x HMG Bunker",
+                "id": "54ad-345c-9bad-6c5c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "3x HMG Bunker",
+                "id": "8a36-8f7e-6872-8dca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gun Nest",
+        "id": "9b28-5082-87a1-0369",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Nest", "id": "d081-e106-37ba-9511", "hidden": false, "targetId": "9c25-f3e3-3359-00e3", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Gun Nest",
+            "id": "fa76-2f7c-e7a4-23d8",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Nest", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Type",
+            "id": "3b27-6c98-421a-b290",
+            "collective": false,
+            "defaultSelectionEntryId": "9ef3-7847-b561-a968",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "19ef-d8ce-4657-b69a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3c53-0cf5-9e08-e49f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "37mm gun",
+                "id": "9ef3-7847-b561-a968",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}],
+                "infoLinks": [{"name": "Forward Firing", "id": "5dab-dad3-3f56-377c", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "37mm gun",
+                    "id": "a86e-71cb-09b5-06ac",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Long 37mm gun",
+                "id": "04b7-62c7-b5c1-4f34",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}],
+                "infoLinks": [{"name": "Forward Firing", "id": "9b1d-6fae-df79-8fc4", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Long 37mm gun",
+                    "id": "2093-2eab-86d1-8f64",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "47mm gun",
+                "id": "3740-26bc-750a-ee81",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}],
+                "infoLinks": [
+                  {"name": "Forward Firing", "id": "23ed-6ac2-d58e-824b", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+                  {"name": "No HE", "id": "c291-f9f0-bf93-8163", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "47mm gun",
+                    "id": "6b1e-659f-5acb-1695",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "8", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing, No HE", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "75mm field gun",
+                "id": "2b8a-ef24-3198-aec0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}],
+                "infoLinks": [{"name": "Forward Firing", "id": "fc01-46ba-8bcf-9384", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "75mm field gun",
+                    "id": "d475-2090-ca3b-6974",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "8", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "75mm gun",
+                "id": "1af2-e8e0-70c5-1a24",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}],
+                "infoLinks": [{"name": "Forward Firing", "id": "7e05-8944-6345-5a05", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "75mm gun",
+                    "id": "7a8e-3370-0c82-84bb",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Machine-gun Nests",
+        "id": "b150-7e47-3913-4b15",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Nest", "id": "f9b1-c92c-6371-4e4e", "hidden": false, "targetId": "9c25-f3e3-3359-00e3", "type": "rule"},
+          {"name": "Forward Firing", "id": "dd25-f435-7b4a-3f43", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Machine-gun Nest",
+            "id": "fb9d-987d-42f3-31c6",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "HMG Nest",
+            "id": "8b65-0155-af4c-ebd7",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "6", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "0a69-c898-b6c4-1916",
+            "collective": false,
+            "defaultSelectionEntryId": "0638-28d6-1d56-f1db",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5b79-4795-cea9-c158",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "58e4-4952-17d2-bc3c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x HMG Nest",
+                "id": "0638-28d6-1d56-f1db",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "2x HMG Nest",
+                "id": "e4bf-76c5-d143-bd2a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "3x HMG Nest",
+                "id": "8484-dcac-9800-d5d4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortifications - Eastern Front",
+        "id": "a9c1-c88c-6e29-d771",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "selectionEntryGroups": [
+          {
+            "name": "1) Gun Nest",
+            "id": "a942-94ef-e60d-f693",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "539b-c244-81e0-6290",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[EF] Gun Nest",
+                "id": "a379-2d2a-1282-2e56",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0942-f66a-8b4b-49fe",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Machine-gun Nests",
+            "id": "d66f-5f2f-0b29-c11f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bd3f-ca0f-0a59-25c3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[EF] Machine-gun Nest",
+                "id": "8abb-346c-3260-d729",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8ea7-60e1-5e35-efae",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Asst. Fortification #1",
+            "id": "f37f-de5e-1670-dc2c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "873f-f53b-1704-5984",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[EF] Machine-gun Nest",
+                "id": "ec0e-0b63-fd57-cb09",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8ea7-60e1-5e35-efae",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[EF] Tank Turret Bunker",
+                "id": "6f38-8137-2c8f-79e0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1b93-862d-223e-22c0",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "1) Gun Nest or Bunker",
+            "id": "b3c8-3b2f-15b3-2383",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9d31-3926-010e-89f0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Gun Nest",
+                "id": "ccf4-0d6a-0fa1-f888",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0942-f66a-8b4b-49fe",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Anti-tank Bunker",
+                "id": "e364-105c-0662-28cd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "517d-9ae1-c00d-a6a5",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Asst. Fortification #2",
+            "id": "bf08-b5c6-f9fc-a8db",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "c7c6-4115-c970-4081",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[EF] Machine-gun Nest",
+                "id": "6a83-647d-450d-7f0d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8ea7-60e1-5e35-efae",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[EF] Tank Turret Bunker",
+                "id": "393d-b933-169d-2b6d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1b93-862d-223e-22c0",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[EF] Gun Nest",
+                "id": "fbbe-fe65-9ca3-8b9c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0942-f66a-8b4b-49fe",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "1) Anti-tank Bunker",
+            "id": "4b8c-abc7-8803-f075",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "709e-3d92-7296-f850",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[EF] Anti-tank Bunker",
+                "id": "5861-1144-36a6-e093",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "517d-9ae1-c00d-a6a5",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Anti-tank Bunker",
+        "id": "517d-9ae1-c00d-a6a5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "d13e-e196-d8d0-377b", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Anti-tank Bunker",
+            "id": "3ccb-8282-69ad-5db7",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "2+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "2+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Type",
+            "id": "ee90-61e3-8521-34f7",
+            "collective": false,
+            "defaultSelectionEntryId": "0290-7aee-f454-889c",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "be76-04e9-3a41-d815",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ca34-ac37-f81b-1ca5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "7.5cm Bunker",
+                "id": "0290-7aee-f454-889c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}],
+                "infoLinks": [{"name": "Forward Firing", "id": "4d56-ee26-4aa2-a727", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "7.5cm Bunker",
+                    "id": "1c2b-cca0-254d-ed2f",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "12", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "5cm Bunker",
+                "id": "ff11-c236-8afc-6505",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}],
+                "infoLinks": [{"name": "Forward Firing", "id": "f398-1711-6998-7c94", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "5cm Bunker",
+                    "id": "94d4-becd-9d1b-153c",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "8", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gun Nest",
+        "id": "0942-f66a-8b4b-49fe",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "9bea-7505-c7fe-52dc", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Gun Nest",
+            "id": "b01c-e203-21f1-0e65",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Type",
+            "id": "595a-f8d4-f616-9dd8",
+            "collective": false,
+            "defaultSelectionEntryId": "c90e-183c-9367-070e",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3fc9-4b87-6f85-313b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "438d-d0de-a9ba-d9e0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "5cm Anti-tank Nest",
+                "id": "c90e-183c-9367-070e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}],
+                "infoLinks": [{"name": "Forward Firing", "id": "067d-8a2c-a0bf-2b63", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "5cm Anti-tank Nest",
+                    "id": "1965-ce2d-9407-797b",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "2cm AA Nest",
+                "id": "4704-3cd8-6d9b-61bb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}],
+                "infoLinks": [{"name": "Dedicated AA", "id": "be00-f58a-7198-2933", "hidden": false, "targetId": "f4bc-db53-7a0d-0aeb", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "2cm AA Nest",
+                    "id": "6d59-3fc7-24ea-2900",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "5", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Dedicated AA", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Machine-gun Nests",
+        "id": "8ea7-60e1-5e35-efae",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Nest", "id": "dd8b-5861-4a2e-e19e", "hidden": false, "targetId": "9c25-f3e3-3359-00e3", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Machine-gun Nest",
+            "id": "bb7c-59d3-9e6f-da2b",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Nest", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "Machine-gun",
+            "id": "ddf2-b4f4-2699-561e",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "8143-6c95-76fd-e316",
+            "collective": false,
+            "defaultSelectionEntryId": "97d8-1cad-0c09-a3b2",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "15ed-e73b-6420-7fe9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "83dc-73b7-1e55-7100",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Machine-gun Nest",
+                "id": "97d8-1cad-0c09-a3b2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "2x Machine-gun Nest",
+                "id": "511f-9550-6f54-f7d3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "3x Machine-gun Nest",
+                "id": "2ed5-6110-fcff-34e2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "4x Machine-gun Nest",
+                "id": "68b6-ea66-6dbf-e28c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tank Turret Bunker",
+        "id": "1b93-862d-223e-22c0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "e379-7c03-24b5-f665", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Tank Turret (MG)",
+            "id": "9cf1-e39e-29f7-95fa",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Turret Type",
+            "id": "4e3d-fc87-801c-73de",
+            "collective": false,
+            "defaultSelectionEntryId": "70b2-2289-3e6e-55e6",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b8e5-3261-28e7-aa42",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "9129-9892-dd64-9f19",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Panzer II Turret (2cm)",
+                "id": "70b2-2289-3e6e-55e6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "profiles": [
+                  {
+                    "name": "Panzer II Turret (2cm)",
+                    "id": "da7d-cc6a-87ee-99dc",
+                    "hidden": false,
+                    "typeId": "55ec-3ef5-ca51-e647",
+                    "typeName": "Tank Unit",
+                    "characteristics": [
+                      {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+                      {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+                      {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+                      {"name": "Armour Front", "$text": "3", "typeId": "b88a-3ca6-9b40-ff73"},
+                      {"name": "Armour Side & Rear", "$text": "1", "typeId": "3712-51b3-aae3-94bd"},
+                      {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+                      {"name": "Tactical", "$text": "-", "typeId": "ea9a-bf7d-68c5-e2d7"},
+                      {"name": "Terrain Dash", "$text": "-", "typeId": "f7f4-9e66-c9ed-034b"},
+                      {"name": "Cross Country Dash", "$text": "-", "typeId": "f73b-6fcf-b0d1-fde4"},
+                      {"name": "Road Dash", "$text": "-", "typeId": "b5b1-c829-470a-af62"},
+                      {"name": "Cross", "$text": "-", "typeId": "8be2-d5b6-ec4a-76d9"},
+                      {"name": "Notes", "$text": "Bunker", "typeId": "33d6-6375-9564-9985"}
+                    ]
+                  },
+                  {
+                    "name": "Panzer II Turret (2cm)",
+                    "id": "e6b7-fa2c-36ab-bdf9",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "5", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "T-70 Turret (45mm)",
+                "id": "0f7e-2c30-9a8a-43e4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "profiles": [
+                  {
+                    "name": "T-70 Turret (45mm)",
+                    "id": "3dd4-74ad-b846-195a",
+                    "hidden": false,
+                    "typeId": "55ec-3ef5-ca51-e647",
+                    "typeName": "Tank Unit",
+                    "characteristics": [
+                      {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+                      {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+                      {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+                      {"name": "Armour Front", "$text": "4", "typeId": "b88a-3ca6-9b40-ff73"},
+                      {"name": "Armour Side & Rear", "$text": "2", "typeId": "3712-51b3-aae3-94bd"},
+                      {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+                      {"name": "Tactical", "$text": "-", "typeId": "ea9a-bf7d-68c5-e2d7"},
+                      {"name": "Terrain Dash", "$text": "-", "typeId": "f7f4-9e66-c9ed-034b"},
+                      {"name": "Cross Country Dash", "$text": "-", "typeId": "f73b-6fcf-b0d1-fde4"},
+                      {"name": "Road Dash", "$text": "-", "typeId": "b5b1-c829-470a-af62"},
+                      {"name": "Cross", "$text": "-", "typeId": "8be2-d5b6-ec4a-76d9"},
+                      {"name": "Notes", "$text": "Bunker", "typeId": "33d6-6375-9564-9985"}
+                    ]
+                  },
+                  {
+                    "name": "T-70 Turret (45mm)",
+                    "id": "e8f7-f2dc-7e8c-ad68",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "T-34 Turret (76mm)",
+                "id": "8909-9953-c81e-9ffd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "T-34 Turret (76mm)",
+                    "id": "c86b-35bc-53aa-b86b",
+                    "hidden": false,
+                    "typeId": "55ec-3ef5-ca51-e647",
+                    "typeName": "Tank Unit",
+                    "characteristics": [
+                      {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+                      {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+                      {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+                      {"name": "Armour Front", "$text": "6", "typeId": "b88a-3ca6-9b40-ff73"},
+                      {"name": "Armour Side & Rear", "$text": "5", "typeId": "3712-51b3-aae3-94bd"},
+                      {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+                      {"name": "Tactical", "$text": "-", "typeId": "ea9a-bf7d-68c5-e2d7"},
+                      {"name": "Terrain Dash", "$text": "-", "typeId": "f7f4-9e66-c9ed-034b"},
+                      {"name": "Cross Country Dash", "$text": "-", "typeId": "f73b-6fcf-b0d1-fde4"},
+                      {"name": "Road Dash", "$text": "-", "typeId": "b5b1-c829-470a-af62"},
+                      {"name": "Cross", "$text": "-", "typeId": "8be2-d5b6-ec4a-76d9"},
+                      {"name": "Notes", "$text": "Bunker", "typeId": "33d6-6375-9564-9985"}
+                    ]
+                  },
+                  {
+                    "name": "T-34 Turret (76mm)",
+                    "id": "68f4-a1e0-3be7-18ef",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Panther Turret (7.5cm)",
+                "id": "4b3c-9e8f-b212-c1a5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}],
+                "profiles": [
+                  {
+                    "name": "Panther Turret (7.5cm)",
+                    "id": "f89d-9145-be9b-0fe8",
+                    "hidden": false,
+                    "typeId": "55ec-3ef5-ca51-e647",
+                    "typeName": "Tank Unit",
+                    "characteristics": [
+                      {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+                      {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+                      {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+                      {"name": "Armour Front", "$text": "9", "typeId": "b88a-3ca6-9b40-ff73"},
+                      {"name": "Armour Side & Rear", "$text": "5", "typeId": "3712-51b3-aae3-94bd"},
+                      {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+                      {"name": "Tactical", "$text": "-", "typeId": "ea9a-bf7d-68c5-e2d7"},
+                      {"name": "Terrain Dash", "$text": "-", "typeId": "f7f4-9e66-c9ed-034b"},
+                      {"name": "Cross Country Dash", "$text": "-", "typeId": "f73b-6fcf-b0d1-fde4"},
+                      {"name": "Road Dash", "$text": "-", "typeId": "b5b1-c829-470a-af62"},
+                      {"name": "Cross", "$text": "-", "typeId": "8be2-d5b6-ec4a-76d9"},
+                      {"name": "Notes", "$text": "Bunker", "typeId": "33d6-6375-9564-9985"}
+                    ]
+                  },
+                  {
+                    "name": "Panther Turret (7.5cm)",
+                    "id": "c552-c894-741b-eb1f",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "40\"/100cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "14", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "French Turret Bunker",
+        "id": "6131-9484-e00d-f8a6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "ac22-3492-32b7-4309", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "French Turret (MG)",
+            "id": "8bf7-bbf6-7478-b719",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "French Turret Bunker",
+            "id": "19d4-e617-6ab7-0408",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "4", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "4", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "-", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "-", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "-", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "French Turret (4.7cm)",
+            "id": "b5cc-a087-e329-a85e",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1x French Turret (4.7cm)",
+            "id": "956a-d9f4-291a-0d85",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5983-9d0e-5b82-e135",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "6bc3-6cfe-2e32-2b1f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+          }
+        ]
+      },
+      {
+        "name": "Anti-tank Bunker",
+        "id": "043b-6d72-fa8a-c64c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "ed0c-4eaf-45a1-aa26", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Anti-tank Bunker",
+            "id": "dd13-df26-2d55-acfd",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "2+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "2+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Type",
+            "id": "8e72-58bf-9acc-7349",
+            "collective": false,
+            "defaultSelectionEntryId": "72dc-4f1b-a54b-88df",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ce69-5b09-f399-d385",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "192a-a581-26d1-7ee1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "8.8cm Bunker",
+                "id": "07fc-3056-5339-77ca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}],
+                "infoLinks": [{"name": "Forward Firing", "id": "9135-5a17-9bc7-be23", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "8.8cm Bunker",
+                    "id": "4070-e2a6-0dd7-7549",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "48\"/120cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "17", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "5cm Bunker",
+                "id": "72dc-4f1b-a54b-88df",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}],
+                "infoLinks": [{"name": "Forward Firing", "id": "48bb-68cd-731a-2fe5", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "5cm Bunker",
+                    "id": "e949-f26a-1c00-3a46",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "8", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mortar Tobruk Pits",
+        "id": "5e5d-30c5-ff65-0279",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "b4e6-bbc5-c2f4-6d10", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Mortar Tobruk Pit",
+            "id": "ebb4-3c06-eb71-f977",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "Mortar",
+            "id": "af10-5bf2-84f5-8263",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "1", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "b75b-8c67-256a-fb82",
+            "collective": false,
+            "defaultSelectionEntryId": "c17e-8173-c544-eaf8",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0c6c-d14b-9ff4-926e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1715-e298-e234-430c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Mortar Tobruk Pit",
+                "id": "c17e-8173-c544-eaf8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "2x Mortar Tobruk Pit",
+                "id": "ca94-67c2-f43d-80d0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Machine-gun Tobruk Pits",
+        "id": "505f-fb10-93f9-270e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bunker", "id": "a1a6-a0f2-72b6-9612", "hidden": false, "targetId": "ee3a-852f-4e85-d2e4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Machine-gun Tobruk Pit",
+            "id": "e8da-91f6-0a23-cdd1",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "-", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "-", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "-", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "-", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Bunker", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "Machine-gun",
+            "id": "0b3a-70a9-896a-f58b",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "3fe3-6836-5bbd-b1f9",
+            "collective": false,
+            "defaultSelectionEntryId": "004e-7cf2-3621-fe82",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "37df-58cb-5f92-76eb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1e15-cd34-308b-59e0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Machine-gun Tobruk Pit",
+                "id": "004e-7cf2-3621-fe82",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "2x Machine-gun Tobruk Pits",
+                "id": "724f-c822-25a9-faf1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "3x Machine-gun Tobruk Pits",
+                "id": "82cc-567d-be37-51dc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "4x Machine-gun Tobruk Pits",
+                "id": "a616-e5fd-89f2-1789",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortifications - Western Front",
+        "id": "1173-f129-c209-f4b6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "selectionEntryGroups": [
+          {
+            "name": "1) Gun Nest",
+            "id": "0f70-c3f3-1c77-3bc0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3359-c1b0-e4cd-1530",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Gun Nest",
+                "id": "7733-e153-7b5b-5b6a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0942-f66a-8b4b-49fe",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Machine-gun Pits",
+            "id": "9b90-b7ad-4803-7fc7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "90bc-a0b2-7aa7-ec34",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[WF] Machine-gun Tobruk Pits",
+                "id": "f4ba-123d-821c-be64",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "505f-fb10-93f9-270e",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Asst. Fortification #1",
+            "id": "0c34-feff-0972-0091",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "44d6-7579-b365-b89b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[WF] French Turret Bunker",
+                "id": "ea6d-3be9-cedb-cc26",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6131-9484-e00d-f8a6",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Mortar Tobruk Pits",
+                "id": "5050-d62a-71f1-9158",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5e5d-30c5-ff65-0279",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "1) Gun Nest or Bunker",
+            "id": "e2ba-8984-e161-3551",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1ad2-30f3-0cbb-e761",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Gun Nest",
+                "id": "e1a8-ff34-aed2-efed",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0942-f66a-8b4b-49fe",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[WF]  Anti-tank Bunker",
+                "id": "3896-bf91-9dfb-d7e4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "043b-6d72-fa8a-c64c",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Asst. Fortification #2",
+            "id": "5413-3669-d3b6-213a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7065-06c4-c0ed-6f93",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[WF] Machine-gun Tobruk Pits",
+                "id": "f145-3bfe-9c27-16aa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "505f-fb10-93f9-270e",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[WF] French Turret Bunker",
+                "id": "1450-6654-5287-977e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6131-9484-e00d-f8a6",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Gun Nest",
+                "id": "c690-1cf9-a0a8-0fe1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0942-f66a-8b4b-49fe",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "1) Anti-tank Bunker",
+            "id": "415d-f66d-82aa-815c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1332-d372-891a-51be",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[WF]  Anti-tank Bunker",
+                "id": "8e27-e8b0-24c3-9906",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "043b-6d72-fa8a-c64c",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
