@@ -1,0 +1,4675 @@
+{
+  "catalogue": {
+    "name": "PW - British & Indian Force",
+    "id": "baf1-f5ae-92a9-b659",
+    "authorContact": "Discord: zharrpostingghoroth",
+    "authorName": "UrsinePatriarch",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "976a-b687-1fdb-07ef",
+    "gameSystemRevision": 25,
+    "library": false,
+    "readme": "v1 begun 8-4-2025\nFinished 9-16-2025\nMWDP 9-17-2025",
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "[F] Honey Armoured Squadron",
+        "id": "4871-530f-95b2-4033",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d7bc-08dd-ba74-0496",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0c85-903b-c83b-da02", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "[F] Indian Rifle Company",
+        "id": "d178-027e-6ba7-5955",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c85c-be52-1651-731e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "724d-58c1-207c-240c", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "[F] Rifle Company",
+        "id": "4224-745a-1f7b-3d38",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ce5d-df3b-93be-9073",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "125e-4d33-e780-a60a", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "Grant/Lee Armoured Squadron",
+        "id": "6a1f-966c-e274-e71b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4770-a726-0cdd-6432",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "403c-9309-b8fc-591b", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "[Reconnaissance] Support Patrol",
+        "id": "9d50-9886-3d3d-8d19",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0abe-aa0e-6539-356e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8e1a-543a-273b-0b46", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "df82-7974-cd6e-5dcc",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Reconnaissance] Light Support Patrol",
+        "id": "2a1e-32af-cd7f-5762",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0393-b1a8-b71a-f5be",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "069d-d3af-a4a5-9c89", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "25bc-65e1-df25-649e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Armour] Valentine Armoured Troop",
+        "id": "cdf6-7507-8529-aa8d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e3c5-fc7e-d252-fef1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fafa-124a-ad39-88c7", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "650a-44eb-534a-453c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-aircraft] 20mm Light AA Troop",
+        "id": "d297-ec7e-74e3-a9f3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "25a5-eb0b-271c-f5ac",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a1c0-69c9-205e-8346", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "613a-21c9-6dd7-c52a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] Hurricane Fighter-bomber Flight",
+        "id": "e9f5-62ec-d301-63d6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7fda-52a1-899c-43e7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e82f-4231-b885-48da", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "c6bd-3fc3-3560-0fab",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] 25 pdr Field Troop",
+        "id": "563d-20bf-9c3c-85ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "744a-679d-b7ab-5225",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d417-7421-5cc2-9c44", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "26cd-a3c9-ac36-6a68",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Observer] Observation Post",
+        "id": "4fdb-93fb-eabb-9c40",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "a19b-21ac-9273-f872",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "967f-b38f-b1d6-2f5b", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "e762-4141-7cd1-cebd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "744a-679d-b7ab-5225",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] 6 pdr Anti-tank Platoon",
+        "id": "da44-d700-73f1-4c83",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2d2b-f83f-fe51-a50c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "53ec-38fa-265c-1f19", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "495a-510a-50be-d0ad",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] 25 pdr Field Troop",
+        "id": "c447-1136-d465-aa8f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "744a-679d-b7ab-5225",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c629-ca0d-5f34-084b", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "58aa-f76f-b6b4-fe28",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] 25 pdr Field Troop",
+        "id": "c020-c070-4c73-5152",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "744a-679d-b7ab-5225",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9da8-e24c-b8d0-2a8b", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "d7ed-aa14-cf74-5510",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Armour] Valentine Armoured Troop",
+        "id": "8644-269b-58f8-88bb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e3c5-fc7e-d252-fef1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c1b7-d939-34af-2e8d", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "cef6-4da5-1db1-c2c5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Boarhound Armoured Car Troop",
+        "id": "1e74-235c-2e39-ece4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2449-038d-a264-7082",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4ba7-abc7-7401-0ec1", "hidden": false, "primary": true, "targetId": "58fd-8352-c305-41bb"}],
+        "constraints": [
+          {
+            "id": "545d-ecd9-1aa6-b43e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Rifle Platoon",
+        "id": "dcbd-d9ac-9c42-e2fe",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a583-3a88-9a9f-9767",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7355-9859-1008-fe63", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "49d5-9c8b-8224-776b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "ce5d-df3b-93be-9073",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian Rifle Platoon",
+        "id": "d66e-cf67-58b6-0522",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7d68-39eb-a63f-e5d2",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b881-9782-97f6-591c", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "a433-801e-eb6a-667f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c85c-be52-1651-731e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Honey Armoured Troop",
+        "id": "f919-cd14-00da-52e3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a97-4194-ec10-ea4c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "cc94-d0bc-d272-20d4", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "10f5-9c7f-5f60-6854",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d7bc-08dd-ba74-0496",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grant/Lee Armoured Troop",
+        "id": "98a2-64f4-db3e-57d7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0b50-ee79-03a0-770a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7a0e-d32e-535a-abe5", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "3aa1-9cb1-1bb8-77d0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "4770-a726-0cdd-6432",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "2-inch mortar",
+        "id": "1a52-0ed5-eb52-36d4",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Slow Firing", "id": "8615-c124-1148-a36e", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Overhead Fire", "id": "3bd0-f0c6-ecac-9940", "hidden": false, "targetId": "6015-3f65-cd0c-42cd", "type": "rule"},
+          {"name": "Smoke", "id": "d4f5-fb1c-987e-c333", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "2-inch mortar",
+            "id": "885c-48c2-f2df-966c",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Assault 5+, Overhead Fire, Slow Firing, Smoke", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "3-inch mortar",
+        "id": "c1da-f1a3-6043-0916",
+        "hidden": false,
+        "infoLinks": [{"name": "Smoke Bombardment", "id": "0755-f20c-c865-5d6b", "hidden": false, "targetId": "5450-1722-5ad1-1d61", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "3-inch mortar",
+            "id": "8d45-3b95-df9a-34a8",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "1", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boys anti-tank rifle",
+        "id": "dff8-cfea-49a6-fe1a",
+        "hidden": false,
+        "infoLinks": [{"name": "Slow Firing", "id": "ba1c-bd54-5627-cf87", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Boys anti-tank rifle",
+            "id": "c6a4-22cf-5f56-25d9",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Assault 5+, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Boys anti-tank rifle (UCP)",
+        "id": "8da2-2c98-bb47-3fcd",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Slow Firing", "id": "768c-b656-e89b-1fc9", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Forward Firing", "id": "86f6-4d99-4c5e-dd31", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Carrier (Boys anti-tank rifle)",
+            "id": "67e4-b2ac-98c1-f6b2",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grant/Lee",
+        "id": "2460-3d69-6187-711d",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "9660-a151-4c4c-b8b7", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Secondary Weapon", "id": "10bc-e484-a61d-057f", "hidden": false, "targetId": "8f5c-f2be-1174-4b0e", "type": "rule"},
+          {"name": "Smoke", "id": "6f26-0c00-4233-29b0", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Grant/Lee (MGs)",
+            "id": "351a-9c76-1ed6-5081",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16”/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Grant/Lee Hull (75mm)",
+            "id": "7648-3af7-f7be-fb52",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing, Smoke", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Grant/Lee Turret (37mm)",
+            "id": "3f87-ec63-9b80-047b",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Secondary Weapon", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Grant/Lee (37mm & 75mm)",
+            "id": "7111-dc12-e234-b0ac",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "5", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "4", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "1", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "20\"/50cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Honey",
+        "id": "0fb4-ae72-7fb3-3448",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Overworked", "id": "2585-fc9f-7ba4-a8f7", "hidden": false, "targetId": "4c99-f2b8-5818-72b1", "type": "rule"},
+          {"name": "No HE", "id": "7085-aa96-607f-0214", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Honey",
+            "id": "5028-f035-3716-7ebb",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "3", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "2", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "1", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "12\"/30cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "28\"/70cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Honey (37mm)",
+            "id": "3431-9b29-4471-deb9",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "No HE, Overworked", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Honey (MGs)",
+            "id": "b648-b3b2-e47b-3621",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "5", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "5", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Carrier MG",
+        "id": "fd15-e836-b239-a7c9",
+        "hidden": false,
+        "infoLinks": [{"name": "Forward Firing", "id": "1b47-d211-e3e2-f21e", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Carrier (MG)",
+            "id": "cfdc-82d0-8db1-1ef1",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vickers MMG",
+        "id": "31f3-d915-9471-eec1",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Vickers MMG",
+            "id": "a826-019d-34fa-f0f8",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "6", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Vickers MMG [Firing Bombardment]",
+            "id": "7a3e-57b2-15ea-c1a1",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"/120cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "1", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SMLE rifle team",
+        "id": "b35c-751b-44cd-a5a3",
+        "hidden": false,
+        "infoLinks": [{"name": "Slow Firing", "id": "3273-3944-d01f-e7b7", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "SMLE rifle team",
+            "id": "1b08-7daa-fbf3-4276",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2 pdr gun",
+        "id": "a6c3-eac2-73fa-ce57",
+        "hidden": false,
+        "infoLinks": [{"name": "No HE", "id": "b3ef-2e5e-aa00-3bdc", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "2 pdr gun",
+            "id": "1858-b93e-9f22-8870",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "No HE", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Bren Gun & SMLE rifle team",
+        "id": "fed4-b664-b8ec-742c",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Canister",
+        "id": "3958-f6bb-a293-8336",
+        "description": "A weapon shooting with Canister suffers a +1 penalty to hit if it is using its Moving ROF.",
+        "hidden": false
+      },
+      {
+        "name": "Mike Target",
+        "id": "a4a4-a56a-9f79-bcc9",
+        "description": "When a Spotting Team successfully Ranges In an Artillery Unit with Mike Target, they may immediately roll to Range In another Artillery Unit. If successful, the second Artillery Unit Unit is treated as Ranging In on the same attempt as the first.",
+        "hidden": false
+      },
+      {
+        "name": "War Cry",
+        "id": "0615-0ea2-1ce7-50d6",
+        "description": "Enemy Units must re-roll their first successful Motivation Test to Counterattact a Unit with War Cry.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Rifle Company",
+        "id": "ce5d-df3b-93be-9073",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] Rifle Platoon",
+            "id": "d899-ded5-4f4e-997e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a583-3a88-9a9f-9767",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2c5b-b089-b865-2b9d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "cbdb-fde4-c4b5-92de",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "* [FS] Rifle Platoon",
+            "id": "1991-38da-e84b-2787",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a583-3a88-9a9f-9767",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "97a1-c470-dd29-b541",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8556-425b-7b4d-0da6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Rifle Company HQ",
+            "id": "1fbe-de9f-f447-a2c6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "cc02-260f-49e4-c1d7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "818c-9121-0895-ef5e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "infoLinks": [{"name": "SMLE rifle team", "id": "4861-5d20-7371-8ff9", "hidden": false, "targetId": "b35c-751b-44cd-a5a3", "type": "infoGroup"}],
+            "profiles": [
+              {
+                "name": "Rifle Company HQ",
+                "id": "e84c-b1d9-5dd7-be16",
+                "hidden": false,
+                "typeId": "0917-e2f0-0c3e-b482",
+                "typeName": "Infantry Unit",
+                "characteristics": [
+                  {"name": "Motivation", "$text": "4+\nCounterattack 3+", "typeId": "4aa0-1b18-70af-9474"},
+                  {"name": "Skill", "$text": "5+\nAssault 4+", "typeId": "7258-881d-dc2d-e80b"},
+                  {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+                  {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+                  {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+                  {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+                  {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+                  {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+                  {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+                  {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x SMLE rifle team",
+                "id": "b980-ba4a-2bc0-742a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "8907-ce49-60d0-1eaf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "a14d-6064-8237-6893",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Rifle Platoon",
+            "id": "9931-e5ce-003d-accf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[FS] Rifle Platoon",
+                "id": "6c6a-5c8c-4d17-64ac",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a583-3a88-9a9f-9767",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "0ecd-ffbe-4cc3-2161",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Weapons Platoons",
+            "id": "e5d0-44fd-5276-f0d1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[M] 3-inch Mortar Platoon",
+                "id": "67cf-3fb0-738c-4896",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5aa0-304b-be7e-2dec",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "d097-7d98-0460-c8f1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[M] Vicker MMG Platoon",
+                "id": "3a71-6ad9-3343-71d9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "88d1-15b7-353c-7db8",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "4cbe-a9a3-2eca-ea55",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Recon Platoons",
+            "id": "99d8-2982-fbd5-c0de",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[S] Universal Carrier Patrol",
+                "id": "e7a9-9c52-7018-d476",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e97f-8f20-810b-7b88",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[S] Universal Carrier Patrol",
+                "id": "63cf-07b6-a6f4-2b8c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "4fb5-e76c-1e50-303d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[S] Universal Carrier Patrol",
+                "id": "bbd7-2702-71e3-8ce1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "d886-3b67-4dc5-09e5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[S] Universal Carrier Patrol",
+                "id": "a6c0-3479-46f2-637b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "d22f-453b-6199-a8e2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Anti-tank Platoon #1",
+            "id": "1549-d25d-38d4-c7e7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d9ca-bccc-c094-2023",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[M] 2 pdr Anti-tank Platoon",
+                "id": "16d3-fdb0-d54f-1c67",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c072-3b50-5f1a-f4ff",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[Anti-tank] 6 pdr Anti-tank Platoon",
+                "id": "5c0c-d257-bddb-eeb6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "db56-b04f-6912-5e92",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Anti-tank Platoon #2",
+            "id": "ba28-4c56-4b93-815f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "fbf9-7b28-cc00-7191",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[M] 2 pdr Anti-tank Platoon",
+                "id": "51d0-6cfc-111a-0349",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c072-3b50-5f1a-f4ff",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[Anti-tank] 6 pdr Anti-tank Platoon",
+                "id": "31e1-efcb-1e19-3e9a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "db56-b04f-6912-5e92",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Honey Armoured Squadron",
+        "id": "d7bc-08dd-ba74-0496",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "[FS] Honey Armoured Troop",
+            "id": "7e27-d986-4493-ae12",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0a97-4194-ec10-ea4c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "7807-ce6c-4f1d-146a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "98ed-0104-d316-85cf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "[FS] Honey Armoured Troop",
+            "id": "4f4b-cc1c-5d07-c5be",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0a97-4194-ec10-ea4c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "fbc3-c262-41e0-901d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "46fd-fe49-bcd2-db9b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Honey Armoured Squadron HQ",
+            "id": "6181-18bc-955c-11a4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "e90c-d070-8ec9-bca8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3908-e7f5-d2d0-032b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "infoLinks": [{"name": "Honey", "id": "4e1a-6096-bd64-51ae", "hidden": false, "targetId": "0fb4-ae72-7fb3-3448", "type": "infoGroup"}],
+            "selectionEntryGroups": [
+              {
+                "name": "Unit Size",
+                "id": "ae45-85e9-3c89-788d",
+                "collective": false,
+                "defaultSelectionEntryId": "24e4-0725-473b-6f31",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "fa63-d53f-ac0e-befc",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "5dae-2760-2b17-3b40",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "3x Honey",
+                    "id": "24e4-0725-473b-6f31",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}]
+                  },
+                  {
+                    "name": "4x Honey",
+                    "id": "bd22-3490-389f-f391",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Honey Troops",
+            "id": "3d49-d2b1-a563-a703",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[FS] Honey Armoured Troop",
+                "id": "21cf-b74a-d95c-974e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0a97-4194-ec10-ea4c",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "10ce-6784-a716-61a1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[FS] Honey Armoured Troop",
+                "id": "8774-a379-ade4-a5cf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0a97-4194-ec10-ea4c",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ae93-6925-a620-cc1e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian Rifle Company",
+        "id": "c85c-be52-1651-731e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "[FS] Indian Rifle Platoon",
+            "id": "d8db-b7f8-523f-1113",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7d68-39eb-a63f-e5d2",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e70b-fcbb-8baa-fe19",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "19b6-a007-7dd9-4ff7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "[FS] Indian Rifle Platoon",
+            "id": "7191-b964-bbf3-3b0c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7d68-39eb-a63f-e5d2",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "c429-2729-fee5-0e19",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a615-38b4-3b6d-15ec",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Indian Rifle Company HQ",
+            "id": "a0e7-5c06-5cab-ca32",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "26f6-e99c-5804-0a23",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c926-3ee5-6eaa-ad7d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "infoLinks": [
+              {"name": "SMLE rifle team", "id": "b020-f708-aa85-a088", "hidden": false, "targetId": "b35c-751b-44cd-a5a3", "type": "infoGroup"},
+              {"name": "War Cry", "id": "3205-6a54-5176-b641", "hidden": false, "targetId": "0615-0ea2-1ce7-50d6", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Indian Rifle Company HQ",
+                "id": "ee08-d6ad-3290-ce87",
+                "hidden": false,
+                "typeId": "0917-e2f0-0c3e-b482",
+                "typeName": "Infantry Unit",
+                "characteristics": [
+                  {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+                  {"name": "Skill", "$text": "5+\nAssault 4+", "typeId": "7258-881d-dc2d-e80b"},
+                  {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+                  {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+                  {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+                  {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+                  {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+                  {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+                  {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+                  {"name": "Notes", "$text": "War Cry", "typeId": "173e-6395-d37b-31a2"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x SMLE rifle team",
+                "id": "61af-c2f8-af2a-96d3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "95b2-d8ae-a0c6-ff44",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "b5e6-9bb8-6137-8f98",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Rifle Platoon",
+            "id": "597f-29d6-2587-7da1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[FS] Rifle Platoon",
+                "id": "863c-d246-3140-e59d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a583-3a88-9a9f-9767",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "8fe6-a5e4-a0ba-4cf8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Weapons Platoons",
+            "id": "9c14-430d-2162-26af",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [M] Indian 3-inch Mortar Platoon",
+                "id": "430b-c3b8-ce6d-4ed0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c099-c3d0-4547-1d47",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "38b8-0eff-fa38-c44d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[M] Indian Vicker MMG Platoon",
+                "id": "0239-51a8-88bb-093c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "994d-2ff7-b37d-fb24",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "8b5a-cebf-5aff-8b1d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Anti-tank Platoon #1",
+            "id": "288a-15fe-952d-fecf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bb97-1a39-00f2-ca33",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* 6 pdr Anti-tank Platoon",
+                "id": "7c8e-51aa-7de9-d9b8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "db56-b04f-6912-5e92",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[M] Indian 2 pdr Anti-tank Platoon",
+                "id": "9ac3-63d2-7fd0-46ca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "48ce-c107-3524-3fc7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Anti-tank Platoon #2",
+            "id": "b1ef-1bfe-f124-16bf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7d5c-f6a2-07a8-92fd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* 6 pdr Anti-tank Platoon",
+                "id": "fb32-665a-81ae-e5ff",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "db56-b04f-6912-5e92",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[M] Indian 2 pdr Anti-tank Platoon",
+                "id": "dc75-f98f-3d80-10c2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "48ce-c107-3524-3fc7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Recon Patrol #1",
+            "id": "f35c-42a8-67e5-96ee",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "da3f-44f1-aeae-ba38",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[S] Indian-pattern Carrier Patrol",
+                "id": "ab27-2071-3ba6-c50c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a1b8-fc20-1e6a-aaaa",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Universal Carrier Patrol",
+                "id": "825f-61a8-878e-673d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "81e3-e5f5-b8ed-bfb7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "6) Optional Recon Patrol #2",
+            "id": "615f-09a5-6c60-3c07",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9041-f7f8-aa10-5ff9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[S] Indian-pattern Carrier Patrol",
+                "id": "1975-6a66-050c-a00d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a1b8-fc20-1e6a-aaaa",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Universal Carrier Patrol",
+                "id": "be5c-edb4-0051-0c9a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "81e3-e5f5-b8ed-bfb7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "7) Optional Recon Patrol #3",
+            "id": "d5f4-0fa7-4120-45b5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "baa9-20e0-6d6c-2e32",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[S] Indian-pattern Carrier Patrol",
+                "id": "0daf-0147-b2fe-3cb3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a1b8-fc20-1e6a-aaaa",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Universal Carrier Patrol",
+                "id": "bff7-6f6d-9c4f-9fca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "81e3-e5f5-b8ed-bfb7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "8) Optional Carrier Patrol",
+            "id": "e5b9-7ab1-bade-1da0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [S] Universal Carrier Patrol",
+                "id": "dd1c-e214-a171-087b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "937d-e3a4-d0b4-eb44",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grant/Lee Armoured Squadron",
+        "id": "4770-a726-0cdd-6432",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "[FS] Grant/Lee Armoured Troop",
+            "id": "fd8a-651c-5fad-f47f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0b50-ee79-03a0-770a",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "f008-65c3-d6db-94bd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "bd6e-f4e7-d5f5-7e2a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "[FS] Grant/Lee Armoured Troop",
+            "id": "a228-3014-0b92-9d6e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0b50-ee79-03a0-770a",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "d2d6-9c97-c747-a8cf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "ee23-1ce4-e5a7-f14b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Grant/Lee Armoured Squadron HQ",
+            "id": "d6e5-b1e3-2a6c-2f89",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "4a3d-a0a1-d5b2-e911",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ae55-16f1-7634-0185",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "infoLinks": [{"name": "Grant", "id": "f3ef-0e41-fced-b3d5", "hidden": false, "targetId": "2460-3d69-6187-711d", "type": "infoGroup"}],
+            "selectionEntryGroups": [
+              {
+                "name": "Unit Size",
+                "id": "5164-7dcd-dfc0-b82f",
+                "collective": false,
+                "defaultSelectionEntryId": "bf59-f946-5143-1270",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "2a36-b3f9-8ac3-2465",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "8d00-d98e-c0e0-79ac",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "2x Grant",
+                    "id": "bf59-f946-5143-1270",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 11}]
+                  },
+                  {
+                    "name": "3x Grant",
+                    "id": "4661-6558-6e8c-6e92",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 16}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Grant Troops",
+            "id": "9fee-8834-3bc7-2583",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[FS] Grant/Lee Armoured Troop",
+                "id": "06c2-0833-e7af-e711",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0b50-ee79-03a0-770a",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "bbe4-f90c-5f7c-2007",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[FS] Grant/Lee Armoured Troop",
+                "id": "4045-8c92-f17e-3495",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0b50-ee79-03a0-770a",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1185-4453-60ec-3669",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] 25 pdr Field Troop",
+        "id": "744a-679d-b7ab-5225",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoGroups": [
+          {
+            "name": "25 pdr gun",
+            "id": "d941-531f-3192-0e2b",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Smoke", "id": "b17c-202e-38a3-e50e", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"},
+              {"name": "Smoke Bombardment", "id": "727f-7eb2-bf95-6a7b", "hidden": false, "targetId": "5450-1722-5ad1-1d61", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "25 pdr gun",
+                "id": "2dd1-e587-69a4-e9bc",
+                "hidden": false,
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "80\"/200cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "3", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "d939-5084-e654-44c6"}
+                ]
+              },
+              {
+                "name": "25 pdr gun [Direct Fire]",
+                "id": "e082-ebdb-3bd8-66e1",
+                "hidden": false,
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "$text": "Smoke", "typeId": "d939-5084-e654-44c6"}
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Gun Shield", "id": "bcaa-bf29-b0bf-245f", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"},
+          {"name": "Large Gun", "id": "65ca-6f44-eb8a-5729", "hidden": false, "targetId": "183b-aef0-86e1-693f", "type": "rule"},
+          {"name": "Mike Target", "id": "4a1e-3704-e0ee-9c99", "hidden": false, "targetId": "a4a4-a56a-9f79-bcc9", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "25 pdr Field Troop",
+            "id": "38d9-4fa6-eb00-c59f",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "4+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "-", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "4\"/10cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "6", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Gun Shield, Large Gun, Mike Target", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "339d-69eb-171f-2a8b",
+            "collective": false,
+            "defaultSelectionEntryId": "e4f9-2bfd-79de-7f7a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d8ec-5fd0-00d9-009a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "679e-261b-d2e7-9097",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 25 pdr gun",
+                "id": "e4f9-2bfd-79de-7f7a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}]
+              },
+              {
+                "name": "4x 25 pdr gun",
+                "id": "2f43-e810-69e5-51ed",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Reconnaissance] Light Support Patrol",
+        "id": "0393-b1a8-b71a-f5be",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Selection",
+            "id": "0edc-175a-e839-0cba",
+            "collective": false,
+            "defaultSelectionEntryId": "fab0-8194-04a2-1aab",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0734-8609-2bb4-12a2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "e7a3-b4e2-188d-90e8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[S] Universal Carrier Patrol",
+                "id": "fab0-8194-04a2-1aab",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Carrier Patrol",
+                "id": "9ae5-94ff-f38e-9823",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a1b8-fc20-1e6a-aaaa",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Universal Carrier Patrol",
+                "id": "2d79-85af-b349-bc24",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "81e3-e5f5-b8ed-bfb7",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Reconnaissance] Support Patrol",
+        "id": "0abe-aa0e-6539-356e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Selection",
+            "id": "08c2-c1d5-f6b7-c3b5",
+            "collective": false,
+            "defaultSelectionEntryId": "4684-df16-c6ae-2bbd",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4982-c7ea-c5e0-9334",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "64b3-ea77-87c1-ec08",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[S] Marmon-Herrington Armoured Car Troop",
+                "id": "4684-df16-c6ae-2bbd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "26ac-8174-0681-15e5",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Universal Carrier Patrol",
+                "id": "4bd3-0489-3b7e-cdf1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f29f-33ac-81d6-db02",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Carrier Patrol",
+                "id": "62d4-dda4-6be3-3c24",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a1b8-fc20-1e6a-aaaa",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[S] Indian-pattern Universal Carrier Patrol",
+                "id": "897b-064a-3145-a0ce",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "81e3-e5f5-b8ed-bfb7",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Observer] Observation Post",
+        "id": "a19b-21ac-9273-f872",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Independent Tank Unit", "id": "62cf-be22-373e-6cf0", "hidden": false, "targetId": "b650-398e-5817-50fb", "type": "rule"},
+          {"name": "Observer", "id": "9b99-1bd2-bb13-b087", "hidden": false, "targetId": "8153-56ce-71c0-391b", "type": "rule"},
+          {"name": "Scout", "id": "c5c8-6a0e-8c64-38f5", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "SMLE rifle team", "id": "a95e-1357-706e-0b5e", "hidden": false, "targetId": "b35c-751b-44cd-a5a3", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Observation Post",
+            "id": "a0a7-b95a-fe64-090a",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 5+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "3+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Independent, Observer, Scout", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1x Observer SMLE rifle team",
+            "id": "5459-ff24-c1d0-7b9a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9d2e-5d75-0747-dea3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ebdc-f7ce-21bf-024d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Marmon-Herrington Armoured Car Troop",
+        "id": "26ac-8174-0681-15e5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Scout", "id": "2b47-a537-6840-edeb", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "Spearhead", "id": "894d-2a2a-bf93-1e36", "hidden": false, "targetId": "70fc-43a3-1ed1-1b01", "type": "rule"},
+          {"name": "Slow Firing", "id": "41f4-3eb0-a339-4543", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Marmon-Herrington Armoured Car Troop",
+            "id": "f3b2-9249-1489-4929",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 6\nLast Stand 5+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "0", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "14\"/35cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "40\"/100cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "5+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Scout, Spearhead", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Marmon-Herrington (MG)",
+            "id": "970d-3240-e577-6202",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Marmon-Herrington (Boys anti-tank rifle)",
+            "id": "f34f-c1cf-1c79-2c90",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "3x Marmon-Herrington (Boys anti-tank rifle)",
+            "id": "422e-777d-91a5-2948",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4093-8ffb-894e-0a29",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "30b5-f7f0-54ad-f3cb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+          }
+        ]
+      },
+      {
+        "name": "Universal Carrier Patrol",
+        "id": "f29f-33ac-81d6-db02",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}],
+        "infoLinks": [
+          {"name": "Scout", "id": "f4c9-ce01-a02e-2cdc", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "Spearhead", "id": "d507-7b50-712b-1e30", "hidden": false, "targetId": "70fc-43a3-1ed1-1b01", "type": "rule"},
+          {"name": "UCP MG", "id": "e17d-4613-fb71-d6af", "hidden": false, "targetId": "fd15-e836-b239-a7c9", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Universal Carrier Patrol",
+            "id": "12de-15ff-ef4b-22be",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 6\nLast Stand 5+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "0", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "20\"/50cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "24\"/60cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Scout, Spearhead", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Type",
+            "id": "caa0-15cf-95e3-a6d9",
+            "collective": false,
+            "defaultSelectionEntryId": "e505-d31d-5acf-9f52",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a84a-3c9d-a18f-d842",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "e32d-7589-1cdc-6577",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Universal Carrier (MG)",
+                "id": "e505-d31d-5acf-9f52",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "df26-3224-bd89-1a8f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}]
+              },
+              {
+                "name": "Universal Carrier (MG & Boys AT rifle)",
+                "id": "f437-9b87-74ff-3b56",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "291b-3112-fe1d-f3ea",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "Boys anti-tank rifle (UCP)", "id": "5131-fc21-b6f9-679a", "hidden": false, "targetId": "8da2-2c98-bb47-3fcd", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian Pattern Carrier Patrol",
+        "id": "a1b8-fc20-1e6a-aaaa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}],
+        "infoLinks": [
+          {"name": "Scout", "id": "bd7d-da0e-92a0-c213", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "Spearhead", "id": "d57e-b1b1-c6e5-a6e3", "hidden": false, "targetId": "70fc-43a3-1ed1-1b01", "type": "rule"},
+          {"name": "UCP MG", "id": "6a1b-560d-66b1-2d19", "hidden": false, "targetId": "fd15-e836-b239-a7c9", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Indian Pattern Carrier Patrol",
+            "id": "fec6-9519-7d67-c00e",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+\nCounterattack 5+\nLast Stand 4+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "0", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "36\"/90cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Scout, Spearhead", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Type",
+            "id": "54ad-2335-5eaa-4674",
+            "collective": false,
+            "defaultSelectionEntryId": "2d21-ccc7-8cb7-526c",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5b5b-81e4-6796-97aa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "2e5a-ee3e-9ec5-1bb2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Indian Pattern Carrier (MG)",
+                "id": "2d21-ccc7-8cb7-526c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "ef96-5baa-9445-04c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}]
+              },
+              {
+                "name": "Indian Pattern Carrier (MG & Boys AT rifle)",
+                "id": "f556-c4bd-4094-be35",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "4a22-e2c7-19a6-6e9f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "Boys anti-tank rifle (UCP)", "id": "fad0-2028-44e2-3fe8", "hidden": false, "targetId": "8da2-2c98-bb47-3fcd", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian Universal Carrier Patrol",
+        "id": "81e3-e5f5-b8ed-bfb7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}],
+        "infoLinks": [
+          {"name": "Scout", "id": "0e15-5cc5-b273-6349", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "Spearhead", "id": "ac4e-917c-9738-bc33", "hidden": false, "targetId": "70fc-43a3-1ed1-1b01", "type": "rule"},
+          {"name": "UCP MG", "id": "0b4a-5e11-6c6f-b518", "hidden": false, "targetId": "fd15-e836-b239-a7c9", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Indian Universal Carrier Patrol",
+            "id": "1257-65ca-2311-8432",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+\nCounterattack 5+\nLast Stand 4+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "0", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "20\"/50cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "24\"/60cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Scout, Spearhead", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Type",
+            "id": "c521-62a9-e67a-e360",
+            "collective": false,
+            "defaultSelectionEntryId": "8a1e-bc5e-7efb-c228",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a992-8e3f-56ba-0e94",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "4fef-a04e-0def-29ff",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 3
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Universal Carrier (MG)",
+                "id": "8a1e-bc5e-7efb-c228",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "76ed-8a02-d38b-5e75",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}]
+              },
+              {
+                "name": "Universal Carrier (MG & Boys AT rifle)",
+                "id": "0dd0-fa0b-dfbe-ea0e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "fcc4-3abb-2b31-f92a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "Boys anti-tank rifle (UCP)", "id": "882c-4edb-8f65-0c8f", "hidden": false, "targetId": "8da2-2c98-bb47-3fcd", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-aircraft] 20mm Light AA Troop",
+        "id": "25a5-eb0b-271c-f5ac",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Dedicated AA", "id": "96db-763d-c9ac-2d17", "hidden": false, "targetId": "f4bc-db53-7a0d-0aeb", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "20mm Light AA Troop",
+            "id": "8d3d-02b9-a023-3e8b",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "6\"/15cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "3+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "20mm AA gun",
+            "id": "d693-58c4-0dd2-9f07",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "5", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Dedicated AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "0277-12a8-5cc3-4c9d",
+            "collective": false,
+            "defaultSelectionEntryId": "b933-504c-ef36-17c0",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "aeb4-980d-73d9-44c5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1808-7a1f-981b-842f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 20mm AA gun",
+                "id": "b933-504c-ef36-17c0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              },
+              {
+                "name": "4x 20mm AA gun",
+                "id": "e10a-3746-27f1-f142",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Armour] Valentine Armoured Troop",
+        "id": "e3c5-fc7e-d252-fef1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "No HE", "id": "3346-5125-d3a1-b058", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Valentine Armoured Troop",
+            "id": "7a0f-74ed-a812-b518",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "6", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "5", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "1", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "14\"/35cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "16\"/40cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Valentine (MG)",
+            "id": "85dd-0235-40d3-e046",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16”/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Valentine III (2 pdr)",
+            "id": "4fd6-9fad-a40d-6d81",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "7", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "No HE", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "3x Valentine II (2 pdr)",
+            "id": "4624-d6cb-652e-a1f9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "58fc-b28a-f151-d747",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f1cf-c6d8-23ba-ea2f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}]
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] Hurricane Fighter-bomber Flight",
+        "id": "7fda-52a1-899c-43e7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Bombs", "id": "66ed-2984-dc01-df3e", "hidden": false, "targetId": "78a2-7146-034e-a601", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Hurricane",
+            "id": "1820-6872-2bc1-c686",
+            "hidden": false,
+            "typeId": "d8ed-85c5-35d4-eb3c",
+            "typeName": "Aircraft Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "ec3b-729b-2af4-7bed"},
+              {"name": "Skill", "$text": "4+", "typeId": "e506-9161-836a-5e2d"},
+              {"name": "Is Hit On", "$text": "5+", "typeId": "9691-8132-58f7-5f86"},
+              {"name": "Save", "$text": "3+", "typeId": "3a7a-29d5-008e-09f7"},
+              {"name": "Tactical", "$text": "UNLIMITED", "typeId": "8791-6355-ebcf-f430"},
+              {"name": "Terrain Dash", "typeId": "e6d2-8608-f213-ef1f"},
+              {"name": "Cross Country Dash", "typeId": "037d-b1be-ca62-5c3e"},
+              {"name": "Road Dash", "typeId": "207b-99f1-9a35-12d8"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "07b3-6909-7897-f282"},
+              {"name": "Notes", "typeId": "8252-ebff-91e7-47ea"}
+            ]
+          },
+          {
+            "name": ".303-inch MGs",
+            "id": "8f7b-f2f3-a219-19f7",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "8\"/20cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "-", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "500 lb bombs",
+            "id": "c31b-a9f4-cc79-2528",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "6\"/15cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "3", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Bomb", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "2x Hurricane",
+            "id": "1ea3-0260-82a9-73d3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5881-8ca8-1f34-5ba3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c3a9-3b8f-a2e1-e214",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 7}]
+          }
+        ]
+      },
+      {
+        "name": "Honey Armoured Troop",
+        "id": "0a97-4194-ec10-ea4c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Honey", "id": "388f-93a7-2462-1988", "hidden": false, "targetId": "0fb4-ae72-7fb3-3448", "type": "infoGroup"}],
+        "selectionEntries": [
+          {
+            "name": "3x Honey",
+            "id": "b722-61a7-efe6-c84e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9bd4-f3f4-e162-6873",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0d2f-5a86-da4e-9bab",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}]
+          }
+        ]
+      },
+      {
+        "name": "Rifle Platoon",
+        "id": "a583-3a88-9a9f-9767",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Bren Gun & SMLE rifle team", "id": "d357-acbd-1516-4e1a", "hidden": false, "targetId": "fed4-b664-b8ec-742c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Rifle Platoon",
+            "id": "303e-929d-d36e-08a3",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 4+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "c0e5-a072-cc7a-af8f",
+            "collective": false,
+            "defaultSelectionEntryId": "b656-971b-8fad-bf0b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5cf5-91cd-18dd-e5d7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "6750-40a1-5ad8-9701",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "5x Bren Gun & SMLE rifle team",
+                "id": "b656-971b-8fad-bf0b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              },
+              {
+                "name": "7x Bren Gun & SMLE rifle team",
+                "id": "c083-35cd-bd61-1c04",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Teams",
+            "id": "cb4a-fe94-ef77-7ef1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "1x Boys anti-tank rifle team",
+                "id": "e2ed-21b8-d790-cf79",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "aaf0-33a0-0cf6-dc8c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "Boys anti-tank rifle", "id": "e17f-c42d-931f-7885", "hidden": false, "targetId": "dff8-cfea-49a6-fe1a", "type": "infoGroup"}]
+              },
+              {
+                "name": "1x 2-inch mortar team",
+                "id": "0c46-e4af-079b-d7df",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "1a72-f59e-f3bb-3684",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "2-inch mortar", "id": "f111-1359-ebf4-adbe", "hidden": false, "targetId": "1a52-0ed5-eb52-36d4", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian Rifle Platoon",
+        "id": "7d68-39eb-a63f-e5d2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "War Cry", "id": "e6cc-01b8-76a7-7bcb", "hidden": false, "targetId": "0615-0ea2-1ce7-50d6", "type": "rule"},
+          {"name": "Bren Gun & SMLE rifle team", "id": "55bf-710a-2edf-f19f", "hidden": false, "targetId": "fed4-b664-b8ec-742c", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Indian Rifle Platoon",
+            "id": "ed8d-5617-933f-f9b6",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 4+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "War Cry", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "b9be-a5f0-59e6-2d9a",
+            "collective": false,
+            "defaultSelectionEntryId": "cbd6-3074-9423-1f54",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7c75-5011-2c26-24b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "ea03-699c-8b32-ab63",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "5x Bren Gun & SMLE rifle team",
+                "id": "cbd6-3074-9423-1f54",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "7x Bren Gun & SMLE rifle team",
+                "id": "fc13-e23a-71ce-f6b0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Teams",
+            "id": "3906-ac0e-fdd1-efbe",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "1x Boys anti-tank rifle team",
+                "id": "ba03-18e1-57d6-f9fe",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9f56-9f3a-c335-97fd",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "Boys anti-tank rifle", "id": "9a15-ff0c-2246-6316", "hidden": false, "targetId": "dff8-cfea-49a6-fe1a", "type": "infoGroup"}]
+              },
+              {
+                "name": "1x 2-inch mortar team",
+                "id": "0245-dbef-1177-46bc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "b0b7-8655-5345-e060",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "2-inch mortar", "id": "b9bf-f909-2760-5fbf", "hidden": false, "targetId": "1a52-0ed5-eb52-36d4", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grant/Lee Armoured Troop",
+        "id": "0b50-ee79-03a0-770a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [{"name": "Grant/Lee", "id": "5ae9-2989-a2f6-496a", "hidden": false, "targetId": "2460-3d69-6187-711d", "type": "infoGroup"}],
+        "selectionEntries": [
+          {
+            "name": "3x Grant/Lee (37mm & 75mm)",
+            "id": "dca5-774b-ae2e-d996",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "8d5d-deb1-d64e-50f5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "063d-7b46-6f9b-ae6e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 16}]
+          }
+        ]
+      },
+      {
+        "name": "Boarhound Armoured Car Troop",
+        "id": "2449-038d-a264-7082",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "No HE", "id": "7b71-1eaf-2b7b-d0ef", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"},
+          {"name": "Scout", "id": "8ec3-39f1-05cf-36c0", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+          {"name": "Spearhead", "id": "a972-1c1a-7266-df00", "hidden": false, "targetId": "70fc-43a3-1ed1-1b01", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Boarhound Armoured Car Troop",
+            "id": "44ed-7bc9-7311-2cdd",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+ \nCounterattack 6\nLast Stand 5+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "3+\nAssault 4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "4", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "3", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "14\"/35cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "36\"/90cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "5+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Scout, Spearhead", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Boarhound (57mm)",
+            "id": "e80c-f02c-7450-4112",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "10", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "No HE", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Boarhound (MGs)",
+            "id": "4a08-6b7a-4b62-be16",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "4", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "943b-7d8d-3fd6-d062",
+            "collective": false,
+            "defaultSelectionEntryId": "ceec-c0cf-81c0-7ab8",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "464f-0428-f30f-67a0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "75f4-60e8-0d30-ab13",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Boarhound (57mm)",
+                "id": "ceec-c0cf-81c0-7ab8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}]
+              },
+              {
+                "name": "3x Boarhound (57mm)",
+                "id": "0eb0-1403-77e7-64bc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}]
+              },
+              {
+                "name": "4x Boarhound (57mm)",
+                "id": "eb00-610e-304d-5584",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 16}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "3-inch Mortar Platoon",
+        "id": "5aa0-304b-be7e-2dec",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Heavy Weapon", "id": "5f5f-cc2c-ba62-57d8", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "3-inch mortar", "id": "b9f3-ab49-8fca-ca15", "hidden": false, "targetId": "c1da-f1a3-6043-0916", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "3-inch Mortar Platoon",
+            "id": "f982-e15d-996d-bc3e",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "6\"/15cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "8\"/20cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Heavy Weapon", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "71e9-a1f7-a42e-ed74",
+            "collective": false,
+            "defaultSelectionEntryId": "487e-3daf-640f-72ae",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "868a-6936-82ea-8f04",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "d2d4-956f-a365-c89a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 3-inch mortar",
+                "id": "487e-3daf-640f-72ae",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "4x 3-inch mortar",
+                "id": "2d77-dc57-f645-508b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "6x 3-inch mortar",
+                "id": "ee11-a034-c98c-cb74",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vickers MMG Platoon",
+        "id": "88d1-15b7-353c-7db8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Heavy Weapon", "id": "c442-3275-3b1f-8d52", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "Vickers MMG", "id": "f78b-4ff9-9173-7d55", "hidden": false, "targetId": "31f3-d915-9471-eec1", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Vickers MMG Platoon",
+            "id": "6b50-fe8d-2415-b7f3",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Heavy Weapon", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "ff78-efb9-9eca-9184",
+            "collective": false,
+            "defaultSelectionEntryId": "edf2-5709-92ff-71b6",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a255-2cc6-6c73-5bbc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "502f-9022-7039-602f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Vickers MMG team",
+                "id": "edf2-5709-92ff-71b6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "4x Vickers MMG team",
+                "id": "e6d0-3cf5-d5e0-b234",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2 pdr Anti-tank Platoon",
+        "id": "c072-3b50-5f1a-f4ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "2 pdr gun", "id": "e6d4-90bc-83f0-1a33", "hidden": false, "targetId": "a6c3-eac2-73fa-ce57", "type": "infoGroup"},
+          {"name": "Gun Shield", "id": "0762-dd9a-59b0-cafe", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "2 pdr Anti-tank Platoon",
+            "id": "8cb3-f8d3-e2e1-db34",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "2\"/5cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "6\"/15cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "5+", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Gun Shield", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "3299-2cbf-a47f-7ab4",
+            "collective": false,
+            "defaultSelectionEntryId": "8b99-7f3c-284a-9afe",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2778-e062-3f40-abf0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "49f2-2158-bcc3-e840",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 2 pdr gun",
+                "id": "8b99-7f3c-284a-9afe",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "3x 2 pdr gun",
+                "id": "9919-9d10-8228-d288",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              },
+              {
+                "name": "4x 2 pdr gun",
+                "id": "b8c4-6c65-5ebf-b451",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "6 pdr Anti-tank Platoon",
+        "id": "db56-b04f-6912-5e92",
+        "collective": false,
+        "comment": "Not sure if anyone'll ever read this, but yeah, this is two of the exact same Selection Entry cause I wanted to keep consistent naming schemes inside of Formations and Support options; no, I have not found a way for Battlescribe to re-name things within its interface correctly.",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "b7f1-0d45-7e9c-99f4", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Gun Shield", "id": "9cec-e9ff-e000-0c98", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "6 pdr Anti-tank Platoon",
+            "id": "c59d-3bd8-39ce-8e74",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "2\"/5cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "6\"/15cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "5+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Gun Shield", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "6 pdr gun",
+            "id": "5fc5-e74a-fccf-0fe7",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "6d1d-4d0e-7be8-6cf3",
+            "collective": false,
+            "defaultSelectionEntryId": "d4fb-1c20-e4f9-cf65",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2fa9-2080-64d2-eba4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0d09-21aa-fcc4-ac9e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "6x 6 pdr gun",
+                "id": "e421-a23b-9022-dec5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+              },
+              {
+                "name": "4x 6 pdr gun",
+                "id": "a730-5592-e0f6-4768",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "2x 6 pdr gun",
+                "id": "d4fb-1c20-e4f9-cf65",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian Vicker MMG Platoon",
+        "id": "994d-2ff7-b37d-fb24",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Heavy Weapon", "id": "7f49-df5a-90f9-6ab3", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "Vickers MMG", "id": "6f65-2f07-2c5e-c912", "hidden": false, "targetId": "31f3-d915-9471-eec1", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Indian Vickers MMG Platoon",
+            "id": "3bf6-24d2-7308-bb0b",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Heavy Weapon", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "98d6-1476-41d8-eabd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "311e-5521-1f73-bb34",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "093b-85c2-a1e1-30b1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Vickers MMG team",
+                "id": "a433-143c-5269-68c3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "4x Vickers MMG team",
+                "id": "d966-0eac-a110-705d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian 2 pdr Anti-tank Platoon",
+        "id": "48ce-c107-3524-3fc7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "2 pdr gun", "id": "b4ff-7d39-17f7-4e68", "hidden": false, "targetId": "a6c3-eac2-73fa-ce57", "type": "infoGroup"},
+          {"name": "Gun Shield", "id": "49a7-af60-d328-b17b", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Indian 2 pdr Anti-tank Platoon",
+            "id": "7f02-b99a-788d-7c18",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "2\"/5cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "6\"/15cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "5+", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Gun Shield", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "0d8f-9d85-bd12-256e",
+            "collective": false,
+            "defaultSelectionEntryId": "203f-bc0e-97a2-e74f",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ceb7-fcd8-c6d7-e787",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "669e-eeee-0583-7cd6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 2 pdr gun",
+                "id": "203f-bc0e-97a2-e74f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              },
+              {
+                "name": "3x 2 pdr gun",
+                "id": "87cd-3463-1276-38c5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "4x 2 pdr gun",
+                "id": "d4ac-917c-75e5-f05f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] 6 pdr Anti-tank Platoon",
+        "id": "2d2b-f83f-fe51-a50c",
+        "collective": false,
+        "comment": "Not sure if anyone'll ever read this, but yeah, this is two of the exact same Selection Entry cause I wanted to keep consistent naming schemes inside of Formations and Support options; no, I have not found a way for Battlescribe to re-name things within its interface correctly.",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "f9bc-5245-17cc-3121", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Gun Shield", "id": "1f1f-1245-f5e3-4d83", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "6 pdr Anti-tank Platoon",
+            "id": "329e-70a5-b383-d33d",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "2\"/5cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "6\"/15cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "5+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Gun Shield", "typeId": "28aa-390d-006a-1776"}
+            ]
+          },
+          {
+            "name": "6 pdr gun",
+            "id": "5685-6fa3-66c6-560e",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "9", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "02a8-bbe5-7f71-0bcf",
+            "collective": false,
+            "defaultSelectionEntryId": "0f04-ceb3-f508-9f55",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "fe56-010f-0664-be1a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "73f8-a78b-822f-f7e9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "6x 6 pdr gun",
+                "id": "2767-f042-4b91-96e1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}]
+              },
+              {
+                "name": "4x 6 pdr gun",
+                "id": "c7b8-c01c-31be-605d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              },
+              {
+                "name": "2x 6 pdr gun",
+                "id": "0f04-ceb3-f508-9f55",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Indian 3-inch Mortar Platoon",
+        "id": "c099-c3d0-4547-1d47",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "infoLinks": [
+          {"name": "Heavy Weapon", "id": "861a-3a6f-e081-7d44", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"},
+          {"name": "3-inch mortar", "id": "ca26-a922-f43d-b735", "hidden": false, "targetId": "c1da-f1a3-6043-0916", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "3-inch Mortar Platoon",
+            "id": "e312-9496-7490-19c7",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "5+\nAssault 6+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "6\"/15cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "8\"/20cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Heavy Weapon", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "a021-4fa2-424a-abb4",
+            "collective": false,
+            "defaultSelectionEntryId": "9362-d1e2-c1df-3437",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a804-d5d3-39b2-e860",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f04a-aa3d-3cad-6c55",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 3-inch mortar",
+                "id": "9362-d1e2-c1df-3437",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}]
+              },
+              {
+                "name": "4x 3-inch mortar",
+                "id": "a3a4-866d-da68-05f8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 4}]
+              },
+              {
+                "name": "6x 3-inch mortar",
+                "id": "c98d-6064-90e2-5cf0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
