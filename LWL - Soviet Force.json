@@ -1,0 +1,4815 @@
+{
+  "catalogue": {
+    "name": "Late-War Leviathans - Soviet",
+    "id": "7be9-8156-3e97-6eb2",
+    "authorContact": "Discord; zharrpostingghoroth",
+    "authorName": "UrsinePatriarch",
+    "authorUrl": "https://github.com/BSData/flamesofwar",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "976a-b687-1fdb-07ef",
+    "gameSystemRevision": 25,
+    "library": false,
+    "readme": "Work begins 9/22/2025\nV1 finished 10/21/25",
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Late-War - Berlin: Soviet", "id": "5b80-4e99-5b87-6973", "importRootEntries": false, "targetId": "69b0-b9f5-2f03-636d", "type": "catalogue"}],
+    "categoryEntries": [
+      {"name": "ARTILLERY", "id": "db57-faf4-996e-54fb", "hidden": true},
+      {"name": "BTR", "id": "994d-42a2-cbaa-481b", "hidden": true},
+      {"name": "ISU-130", "id": "2dec-0b16-2323-f6d4", "hidden": true},
+      {"name": "ISU-7", "id": "35c2-c78e-38fa-b1c5", "hidden": true},
+      {"name": "T-10", "id": "fb47-5b8d-bf1b-a797", "hidden": true},
+      {"name": "T-44", "id": "2e26-9121-91f8-3006", "hidden": true},
+      {"name": "T-54-1", "id": "6d5b-5af8-d42e-fda4", "hidden": true},
+      {"name": "IS-3", "id": "bef1-e5be-2ac4-f60a", "hidden": true}
+    ],
+    "entryLinks": [
+      {
+        "name": "[Anti-tank] SU-100 Tank-Killer Battery",
+        "id": "d3f8-a877-9988-e283",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1cf0-9e02-1422-b51f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3417-36f1-4be2-d49c", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "aef6-7ec8-95a0-0ca4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "76mm Artillery Battery [LS148]",
+        "id": "2aee-75de-a512-4add",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3b75-2dd3-3d98-fcc0",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "92bf-5896-585b-ffbd", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"},
+          {"name": "ARTILLERY", "id": "aee0-f377-b347-77d7", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}
+        ],
+        "constraints": [
+          {
+            "id": "fa05-956c-2c57-64fd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Observer] BA-64 Observation Post",
+        "id": "8eaa-77a8-4045-cfef",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d535-3a2c-d25a-d2ba",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4a26-6659-7c2b-2cff", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "ec5e-c065-417c-24a6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "db57-faf4-996e-54fb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Katyusha Guards Rocket Battery [LS147]",
+        "id": "6db5-4c9f-c52d-a70f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fc2d-20a2-dbb5-5f39",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b9e0-dca0-522f-51dc", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"},
+          {"name": "ARTILLERY", "id": "cf94-3854-9776-0c67", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}
+        ],
+        "constraints": [
+          {
+            "id": "7b11-c396-ee6e-e24b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "BA-64 Armoured Car Platoon [LS184]",
+        "id": "6db9-bf43-2ae5-9886",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d5b5-c25f-5477-6f82",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a445-5945-6977-d6c3", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "0f87-3d34-6648-58d1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-aircraft] ZSU M17 Anti-aircraft Platoon",
+        "id": "43f1-1f15-2380-dd74",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c154-4e8c-05bd-15ea",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fb0f-07a1-6e0e-08c9", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "6bb1-49e9-f5f0-77ae",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] IL-2 Shturmovik (37mm) Assault Company",
+        "id": "cee4-0c79-afa0-af41",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "049c-8637-c28c-faba",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0188-1b1f-c9bb-7d23", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "a0f1-0c70-59ca-a665",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Tank-killer Company",
+        "id": "b89a-660f-88fc-ff60",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4959-3ce5-a7f0-5cce",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4627-6088-9e44-55e9", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "12c9-f94f-d89a-45a4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Tank-killer Company",
+        "id": "5c19-7338-25b2-ef97",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4959-3ce5-a7f0-5cce",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "016b-0f1b-3ead-188e", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "4b49-0107-12f5-5707",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Heavy SP Artillery Regiment",
+        "id": "7ec4-4c82-98a6-f1da",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "82a0-0592-8368-8933",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "e125-10a7-b00c-a434", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "Hero BTR Motor Rifle Battalion",
+        "id": "5570-dff5-f5b8-176e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bb7a-8a76-354f-8800",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "d793-243b-59d0-f984", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "IS-3 Guards Heavy Tank Regiment",
+        "id": "f8e6-b30f-5d50-994a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0f5b-4d59-859a-bff3",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "f49d-2305-bf1f-d992", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "IS-7 Guards Heavy Tank Regiment",
+        "id": "ee06-1ba7-d09e-bdf8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b3f4-d530-e600-f0f0",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "2c27-2ca4-da47-ac56", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "T-10 Tank Heavy Tank Regiment",
+        "id": "45fe-dd9d-f3eb-15c2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c955-2b0f-55de-972e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "bbf8-eb73-777e-3092", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "T-44 Tank Battalion",
+        "id": "111f-0c0e-36ad-2ef7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "946f-954b-ab51-66cc",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "b06a-fc78-63d8-db22", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "T-54-1 Tank Battalion",
+        "id": "93ad-1959-8ba4-6f51",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c87e-d63b-c450-e2f0",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formations", "id": "f947-bd4f-7eba-9540", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "* [FS] Hero BTR Motor Rifle Company",
+        "id": "6ed6-2dcc-e83a-b22b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4435-58f9-0b64-f430",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "4b41-3727-afac-cf75", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "415a-27f1-b6d5-5e1b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "994d-42a2-cbaa-481b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {"field": "category", "type": "remove", "value": "994d-42a2-cbaa-481b"}
+        ]
+      },
+      {
+        "name": "* [FS] IS-7 Guards Heavy Tank Company ",
+        "id": "4c74-8354-bb9d-ffca",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "30b4-c3d8-6b31-6c62",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "15db-854c-83a1-fba3", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "a1fa-1daf-603c-0422",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "35c2-c78e-38fa-b1c5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {"field": "category", "type": "remove", "value": "35c2-c78e-38fa-b1c5"}
+        ]
+      },
+      {
+        "name": "* [FS] ISU-130 Heavy SP Battery",
+        "id": "f032-a325-39f7-5c15",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fd3c-c2ec-2d7c-4b8c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "8ac5-32c1-b144-04fe", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "ce03-4e83-366e-37b3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2dec-0b16-2323-f6d4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {"field": "category", "type": "remove", "value": "2dec-0b16-2323-f6d4"}
+        ]
+      },
+      {
+        "name": "* [FS] T-10 Heavy Tank Company",
+        "id": "2841-e532-8320-e556",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "86a0-bd07-5e08-685e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "9da0-09ee-96fc-cf0a", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "2977-be2e-4538-1069",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fb47-5b8d-bf1b-a797",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {"field": "category", "type": "remove", "value": "fb47-5b8d-bf1b-a797"}
+        ]
+      },
+      {
+        "name": "* [FS] T-44 Tank Company",
+        "id": "2dcb-a1ad-d137-c2a5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "93d7-8e7d-d5f7-6c98",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "4988-122e-ec5d-10ff", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "0bf6-21fb-7df7-bc39",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2e26-9121-91f8-3006",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {"field": "category", "type": "remove", "value": "2e26-9121-91f8-3006"}
+        ]
+      },
+      {
+        "name": "* [FS] T-54-1 Tank Company",
+        "id": "35ea-47d0-3538-be13",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "48c3-cdca-5dd-5bf1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "767e-7218-caec-4873", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "c4c7-6125-9375-33a9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6d5b-5af8-d42e-fda4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          },
+          {"field": "category", "type": "remove", "value": "6d5b-5af8-d42e-fda4"}
+        ]
+      },
+      {
+        "name": "IS-3 Guards Heavy Tank Company ",
+        "id": "6bd5-73b6-e7ce-9071",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2f80-b7d5-eb8d-a560",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "ed1c-dea9-b3cb-05bb", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "3c8d-992a-e67a-7993",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "bef1-e5be-2ac4-f60a"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "bef1-e5be-2ac4-f60a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ISU-122 Heavy SP Battery",
+        "id": "15ab-0293-a86d-03ef",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "934b-f063-4284-961b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "1e1a-a8f0-2c42-bd6a", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "1d8f-0967-f915-5ce1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "fd0a-42d3-fb8a-afeb"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "fd0a-42d3-fb8a-afeb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ISU-152 Heavy SP Battery",
+        "id": "d3ec-5a47-6dcb-5cfb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8542-e97d-1fff-c298",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "685c-2661-fe9b-dd5d", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "3d1c-2bca-fb06-412e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "e303-c883-af67-7940"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e303-c883-af67-7940",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-34 (85mm) Tank Company",
+        "id": "fb32-a2c5-2c5e-a505",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "809b-0268-ffb0-de1d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Formation Support", "id": "cf13-6c91-8fc8-ab99", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "41f6-8888-45a1-dea5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "1f06-98a2-acdf-e48b"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "1f06-98a2-acdf-e48b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "T-10",
+        "id": "25c2-d16d-8732-2aa0",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Brutal", "id": "7ecd-de1a-c2ff-2060", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"},
+          {"name": "Slow Firing", "id": "f6a8-6777-ed86-81f0", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Self-Defence AA", "id": "3476-ce17-e224-77a6", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "T-10",
+            "id": "5ac1-4830-ccef-d978",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 3+\nLast Stand 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "16", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "12", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "20\"/50cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "2+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "T-10 (122mm)",
+            "id": "be25-c3a6-83be-e8b3",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "15", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Brutal, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "T-10 (12.7mm AA MG)",
+            "id": "dcde-f783-6e96-0638",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defence AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-44",
+        "id": "f8b8-8b42-caaa-5e8c",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "T-44 (85mm)",
+            "id": "9c55-7abf-6c16-b80a",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "12", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "T-44 (MG)",
+            "id": "1f55-af2a-7dca-9673",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "T-44",
+            "id": "385f-47ef-8992-6d15",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nLast Stand 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "10", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "7", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "12\"/30cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "28\"/70cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-54-1",
+        "id": "bcd7-51a8-82c6-a4e9",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Self-Defence AA", "id": "67ab-e58b-490e-04ec", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"},
+          {"name": "Slow Firing", "id": "aeea-4196-6b2a-6b0f", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "T-54-1 (100mm)",
+            "id": "e6c7-3099-fb48-cf94",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "15", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "T-54-1 (12.7mm AA MG)",
+            "id": "6200-dbda-1e18-69ca",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defence AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "T-54-1 (MG)",
+            "id": "29cf-a095-1ea8-fce6",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "T-54-1",
+            "id": "b79f-12c4-e518-73d6",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nLast Stand 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "12", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "8", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "12\"/30cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "20\"/50cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "24\"/60cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ISU-130",
+        "id": "4826-8621-be5b-143f",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Forward Firing", "id": "65a0-dcd5-fe23-45d6", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Self-Defence AA", "id": "6c35-e2a1-4d51-334e", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"},
+          {"name": "Slow Firing", "id": "071b-3c23-71b2-f9fb", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "ISU-130 (12.7mm AA MG)",
+            "id": "05db-5517-7702-1099",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defence AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "ISU-130 (130mm) [Direct Fire]",
+            "id": "add3-14ca-5de0-8898",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "36\"/90cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "18", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "ISU-130 (130mm)",
+            "id": "d1da-3cca-5726-54c0",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "72\"/180cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "ARTILLERY", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "ISU-130 Heavy SP Battery",
+            "id": "8d53-0369-85b0-3960",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 5+\nLast Stand 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "9", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "8", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "20\"/50cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      },
+      {"name": "T-34 (85mm)", "id": "f911-14fd-8b7f-018a", "hidden": false},
+      {
+        "name": "IS-3",
+        "id": "24d0-2773-8910-7533",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Slow Firing", "id": "01b5-b623-39cf-ada1", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Self-Defence AA", "id": "1048-7350-bbb9-3a16", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"},
+          {"name": "Brutal", "id": "61e2-630e-f8a5-ab58", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "IS-3 (12.7mm AA MG)",
+            "id": "f21d-6954-0fad-c1e3",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defence AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "IS-3 (122mm)",
+            "id": "db8b-cece-a094-de88",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "14", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Brutal, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "IS-3 (MG)",
+            "id": "635d-008b-8c1a-958c",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "IS-3",
+            "id": "49d3-01bb-9908-c6ea",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 3+\nLast Stand 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nTactics 3+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "14", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "9", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "16\"/40cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "18\"/45cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IS-7",
+        "id": "a73d-3c86-2a40-a360",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Slow Firing", "id": "e715-6c58-b26c-3765", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Self-Defence AA", "id": "8217-1380-6a62-1221", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "IS-7",
+            "id": "119c-9a76-3173-0587",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 3+\nLast Stand 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 3+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "19", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "13", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "20\"/50cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "24\"/60cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "IS-7 (130mm)",
+            "id": "e4f5-6545-3c1c-d0b8",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "36\"/90cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "18", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "IS-7 (14.5mm MGs)",
+            "id": "7591-9d39-5143-13f6",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "5", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defence AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "IS-7 (MGs)",
+            "id": "cc9f-98d9-9e0b-3927",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "3M6 Shmel",
+        "id": "624f-7ceb-63f3-c1cb",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Unarmoured", "id": "c028-5b66-0fb4-4a47", "hidden": false, "targetId": "a5c7-5baa-4aad-ed13", "type": "rule"},
+          {"name": "Back-blast", "id": "6c46-f6a0-6a0c-4a83", "hidden": false, "targetId": "9f03-7bf9-793b-fc9d", "type": "rule"},
+          {"name": "Guided", "id": "db65-94db-16af-7258", "hidden": false, "targetId": "b76a-3cff-52e6-bbee", "type": "rule"},
+          {"name": "HEAT", "id": "1a6b-3e5b-03e8-85e4", "hidden": false, "targetId": "0a75-9107-1a42-067c", "type": "rule"},
+          {"name": "Rear Firing", "id": "5d93-d6ce-a1b0-a785", "hidden": false, "targetId": "e9e5-f5de-e0ef-9e90", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "GAZ Jeep (3M6 Shmel)",
+            "id": "a614-9f9d-2aa2-b12e",
+            "hidden": false,
+            "typeId": "7cf5-5c36-14cc-3c0d",
+            "typeName": "Unarmoured Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "3+", "typeId": "55ef-8653-887d-4642"},
+              {"name": "Skill", "$text": "3+", "typeId": "229c-c44f-2910-c1d1"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "acbb-3bc2-c667-6e4d"},
+              {"name": "Save", "$text": "5+", "typeId": "6e6b-7d9e-7557-43cd"},
+              {"name": "Tactical", "$text": "12\"/30cm", "typeId": "6caa-857a-dce7-e965"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f188-5e37-f014-5069"},
+              {"name": "Cross Country Dash", "$text": "20\"/50cm", "typeId": "d2da-b73b-7a4a-ca53"},
+              {"name": "Road Dash", "$text": "48\"/120cm", "typeId": "271f-e64c-128c-5740"},
+              {"name": "Cross", "$text": "4+", "typeId": "b443-5f9e-d0b5-48b0"},
+              {"name": "Notes", "typeId": "5c4c-b4d7-c2d1-6a93"}
+            ]
+          },
+          {
+            "name": "3M6 Shmel missile",
+            "id": "955a-ebd9-e891-ca4d",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm - 36\"/90cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "-", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "16", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Back-blast, Guided, HEAT, Rear Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "82mm Recoilless",
+        "id": "45f0-39a1-17c2-3cc5",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Back-blast", "id": "57c8-0345-c1be-1a20", "hidden": false, "targetId": "9f03-7bf9-793b-fc9d", "type": "rule"},
+          {"name": "HEAT", "id": "01a8-c551-bb19-893b", "hidden": false, "targetId": "0a75-9107-1a42-067c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "82mm B-10 Recoilless Anti-tank Company",
+            "id": "1baf-f2ee-ea50-d96e",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "4\"/10cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "4\"/10cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "6\"/15cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "8\"/20cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "3+", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          },
+          {
+            "name": "82mm B-10 recoilless",
+            "id": "5dc4-d0e4-b898-da37",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "11", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Back-blast, HEAT", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BTR-152",
+        "id": "552c-e2f5-4ad8-febc",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Passengers #", "id": "4225-87a5-44ff-79a8", "hidden": false, "targetId": "cf99-c640-bffb-48e2", "type": "rule"},
+          {"name": "Unit Transport", "id": "9741-5a87-6747-6ace", "hidden": false, "targetId": "5876-534c-9b8d-a44b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "BTR-152",
+            "id": "71c7-15ce-0f1c-c5a8",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 6\nRemount 5", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "5+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "1", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "36\"/90cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "5+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Passengers 4, Unit Transport", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "BTR-152 (MG)",
+            "id": "3bac-fa09-a8c0-9add",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero BTR Rifle Company",
+        "id": "cb2e-663a-0c23-c356",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "BTR-152", "id": "708e-0540-35ad-7a4c", "hidden": false, "targetId": "552c-e2f5-4ad8-febc", "type": "infoGroup"},
+          {"name": "Slow Firing", "id": "143e-30da-bf92-f116", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "Komissar", "id": "9422-a3c0-3899-a6a4", "hidden": false, "targetId": "cd04-8d13-53bf-4376", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Hero BTR Motor Rifle Company",
+            "id": "fabc-5fdb-e723-583b",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nKomissar 3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "3+\nAssault 2+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "$text": "Komissar", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          },
+          {
+            "name": "DP MG team",
+            "id": "9ca8-6d4f-4019-432e",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "RPG-1 anti-tank team",
+            "id": "6a20-31d9-3690-641e",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "8\"/20cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "11", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "4+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Assault 4+, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Maksim HMG team",
+        "id": "4087-656d-38e5-6b67",
+        "hidden": false,
+        "typeId": "33b6-a72a-2bd8-2565",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "typeId": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "typeId": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "typeId": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "typeId": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "typeId": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "IS-3 Guards Heavy Tank Company ",
+        "id": "2f80-b7d5-eb8d-a560",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "ISU-3", "id": "5448-8594-e768-fba9", "hidden": false, "primary": false, "targetId": "bef1-e5be-2ac4-f60a"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "1ea-a7eb-9ed1-f64a",
+            "collective": false,
+            "defaultSelectionEntryId": "14e8-ef67-e210-a75b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "eb88-abb3-ef6f-9570-min",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "eb88-abb3-ef6f-9570-max",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x IS-3 (122mm)",
+                "id": "221e-9710-e27a-ec15",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 34}],
+                "infoLinks": [{"name": "IS-3", "id": "1ffd-69bb-2034-595a", "hidden": false, "targetId": "24d0-2773-8910-7533", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x IS-3 (122mm)",
+                "id": "56da-a0b3-48d1-f2d1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 26}],
+                "infoLinks": [{"name": "IS-3", "id": "5568-fa97-1c19-63ab", "hidden": false, "targetId": "24d0-2773-8910-7533", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x IS-3 (122mm)",
+                "id": "74e7-890d-4e3d-fa35",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 43}],
+                "infoLinks": [{"name": "IS-3", "id": "e401-0cf2-484b-949e", "hidden": false, "targetId": "24d0-2773-8910-7533", "type": "infoGroup"}]
+              },
+              {
+                "name": "2x IS-3 (122mm)",
+                "id": "14e8-ef67-e210-a75b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 17}],
+                "infoLinks": [{"name": "IS-3", "id": "be14-bf8f-c3fe-2fc8", "hidden": false, "targetId": "24d0-2773-8910-7533", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-44 Tank Company",
+        "id": "93d7-8e7d-d5f7-6c98",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "T-44", "id": "bdd1-570d-4452-7481", "hidden": false, "primary": false, "targetId": "2e26-9121-91f8-3006"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "5d6c-679d-1692-d986",
+            "collective": false,
+            "defaultSelectionEntryId": "dc07-3cbb-2e16-7f7b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1394-b7f6-b8b0-e4d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "b704-1cc6-8294-48e5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "10x T-44 (85mm)",
+                "id": "fd00-842a-1a71-a916",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 72}],
+                "infoLinks": [{"name": "T-44", "id": "5be0-a8da-9345-6184", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x T-44 (85mm)",
+                "id": "dc07-3cbb-2e16-7f7b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 18}],
+                "infoLinks": [{"name": "T-44", "id": "b264-051b-a700-2f5e", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x T-44 (85mm)",
+                "id": "7d6d-f07a-67ec-3ae3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 24}],
+                "infoLinks": [{"name": "T-44", "id": "c4ac-bc70-e7d3-ad88", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x T-44 (85mm)",
+                "id": "8633-5a7b-8425-2110",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 30}],
+                "infoLinks": [{"name": "T-44", "id": "155a-15b7-f21f-3ed5", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "6x T-44 (85mm)",
+                "id": "725d-e3be-8266-df51",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 36}],
+                "infoLinks": [{"name": "T-44", "id": "f9b2-584c-3628-31f6", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "7x T-44 (85mm)",
+                "id": "53ea-13ec-c38e-73bc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 42}],
+                "infoLinks": [{"name": "T-44", "id": "1e36-8c7a-a499-2fd0", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "8x T-44 (85mm)",
+                "id": "005b-f05f-c0ed-92fb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 49}],
+                "infoLinks": [{"name": "T-44", "id": "296e-fe08-1dd2-8469", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              },
+              {
+                "name": "9x T-44 (85mm)",
+                "id": "48c4-b5b1-c0fa-85c2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 55}],
+                "infoLinks": [{"name": "T-44", "id": "8f7e-2f48-efc5-9c92", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-54-1 Tank Company",
+        "id": "48c3-cdca-5dd-5bf1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "T-54-1", "id": "398a-6f2c-18fa-64ef", "hidden": false, "primary": false, "targetId": "6d5b-5af8-d42e-fda4"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "99f2-762b-885f-799c",
+            "collective": false,
+            "defaultSelectionEntryId": "6f3f-247e-1be1-14cf",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "adb7-2c0e-fe94-6f4a-min",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "adb7-2c0e-fe94-6f4a-max",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x T-54-1 (100mm)",
+                "id": "6f3f-247e-1be1-14cf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 22}],
+                "infoLinks": [{"name": "T-54-1", "id": "f2ab-5bfc-7e68-c832", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x T-54-1 (100mm)",
+                "id": "adaf-7818-e1b9-fe48",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 29}],
+                "infoLinks": [{"name": "T-54-1", "id": "71c9-11bb-409d-f198", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x T-54-1 (100mm)",
+                "id": "249f-276c-fc88-6625",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 36}],
+                "infoLinks": [{"name": "T-54-1", "id": "8762-80fa-a379-0960", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "6x T-54-1 (100mm)",
+                "id": "ff33-ef10-e3d0-5c50",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 43}],
+                "infoLinks": [{"name": "T-54-1", "id": "429d-2c87-ca20-096c", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "7x T-54-1 (100mm)",
+                "id": "d6ef-72bc-769e-9d13",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 51}],
+                "infoLinks": [{"name": "T-54-1", "id": "d137-b8eb-8798-8d29", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "8x T-54-1 (100mm)",
+                "id": "4f06-d4c1-7de0-d4e8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 58}],
+                "infoLinks": [{"name": "T-54-1", "id": "2889-66ad-dfa7-94ed", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "9x T-54-1 (100mm)",
+                "id": "d872-70a9-a5f3-1039",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 65}],
+                "infoLinks": [{"name": "T-54-1", "id": "9492-4b59-ab79-ab10", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              },
+              {
+                "name": "10x T-54-1 (100mm)",
+                "id": "6dc2-8638-e055-263f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 72}],
+                "infoLinks": [{"name": "T-54-1", "id": "5837-015e-d6df-1f60", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ISU-130 Heavy SP Battery",
+        "id": "fd3c-c2ec-2d7c-4b8c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "ISU-130", "id": "1680-267c-eab8-e13f", "hidden": false, "primary": false, "targetId": "2dec-0b16-2323-f6d4"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "396e-5ed1-6f00-927a",
+            "collective": false,
+            "defaultSelectionEntryId": "98c7-e241-8d7b-2637",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "798a-b02b-19c3-3b30-min",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "798a-b02b-19c3-3b30-max",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x ISU-130 (130mm)",
+                "id": "e71f-bdfc-7cc6-aa4d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 28}],
+                "infoLinks": [{"name": "ISU-130", "id": "49e0-8bdd-ae6e-21ec", "hidden": false, "targetId": "4826-8621-be5b-143f", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x ISU-130 (130mm)",
+                "id": "dfa7-1913-97b9-1c07",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 21}],
+                "infoLinks": [{"name": "ISU-130", "id": "8e5d-0e41-7cd4-1203", "hidden": false, "targetId": "4826-8621-be5b-143f", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x ISU-130 (130mm)",
+                "id": "9536-d5d9-5593-b869",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 35}],
+                "infoLinks": [{"name": "ISU-130", "id": "deab-a797-2986-bf9e", "hidden": false, "targetId": "4826-8621-be5b-143f", "type": "infoGroup"}]
+              },
+              {
+                "name": "2x ISU-130 (130mm)",
+                "id": "98c7-e241-8d7b-2637",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 14}],
+                "infoLinks": [{"name": "ISU-130", "id": "b13b-1e72-38b2-16b7", "hidden": false, "targetId": "4826-8621-be5b-143f", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero BTR Motor Rifle Battalion",
+        "id": "bb7a-8a76-354f-8800",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] Hero BTR Motor Rifle Company",
+            "id": "1c98-18ba-a8cc-42a9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4435-58f9-0b64-f430",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "7138-caf6-24a1-32ec",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a47d-9551-87b0-a675",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "* [FS] Hero BTR Motor Rifle Company",
+            "id": "c172-a58a-552b-ed3d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4435-58f9-0b64-f430",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4dca-10f0-5d1a-529b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "789a-690b-92a3-7829",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Hero BTR Motor Rifle Battalion HQ",
+            "id": "f360-915b-63c5-dfce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "01b3-28ad-1a13-4b58",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "7742-2077-582b-aa5c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "2x PPSh SMG team, 1x BTR-152",
+                "id": "7cd6-2648-7461-38d7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "ce99-1ed5-a1ce-78a4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "806f-f14d-6487-4f19",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [
+                  {"name": "BTR-152", "id": "e78c-182b-e1cf-bd79", "hidden": false, "targetId": "552c-e2f5-4ad8-febc", "type": "infoGroup"},
+                  {"name": "HQ Transport", "id": "4b4b-9466-054a-6188", "hidden": false, "targetId": "7de4-d921-ff24-9632", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "PPSh SMG team",
+                    "id": "ffb0-57f7-5533-8f0d",
+                    "hidden": false,
+                    "typeId": "33b6-a72a-2bd8-2565",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "4\"/10cm", "typeId": "c2e5-4990-8105-f793"},
+                      {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                      {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+                      {"name": "Anti-Tank", "$text": "1", "typeId": "f57e-fa10-d0f9-e2dd"},
+                      {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+                      {"name": "Notes", "$text": "Pinned ROF 1", "typeId": "d939-5084-e654-44c6"}
+                    ]
+                  },
+                  {
+                    "name": "Hero BTR Motor Rifle Battalion HQ",
+                    "id": "11b7-b03e-047f-d27b",
+                    "hidden": false,
+                    "typeId": "0917-e2f0-0c3e-b482",
+                    "typeName": "Infantry Unit",
+                    "characteristics": [
+                      {"name": "Motivation", "$text": "3+", "typeId": "4aa0-1b18-70af-9474"},
+                      {"name": "Skill", "$text": "3+\nAssault 2+", "typeId": "7258-881d-dc2d-e80b"},
+                      {"name": "Is Hit On", "$text": "3+", "typeId": "0641-f39f-6a33-7dcc"},
+                      {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+                      {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+                      {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+                      {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+                      {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+                      {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+                      {"name": "Notes", "$text": "HQ Transport", "typeId": "173e-6395-d37b-31a2"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional BTR Company",
+            "id": "908b-5c09-d8af-968d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [FS] Hero BTR Motor Rifle Company",
+                "id": "372c-54df-c59b-7e27",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4435-58f9-0b64-f430",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "8450-dd50-1cb7-37e0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Armour Company",
+            "id": "74fb-e76d-eabd-5ef7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9941-9c40-2e14-4e0d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "T-34 (85mm) Tank Company",
+                "id": "6d8d-48a3-0723-e51d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "809b-0268-ffb0-de1d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] T-44 Tank Company",
+                "id": "b125-cdf0-ce88-1d73",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "93d7-8e7d-d5f7-6c98",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Anti-tank Company #1",
+            "id": "5ab4-c354-619d-d05e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ebb1-f183-187d-5646",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Anti-Tank Company",
+                "id": "6328-9ee1-58f3-f1bd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "21ce-db6a-862b-92d4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "82mm B-10 Recoilless Anti-tank Company",
+                "id": "2c2d-96b2-1ec8-ae8e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f984-86d2-302c-5c6d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Anti-tank Company #2",
+            "id": "5715-3abe-80d5-f203",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8f16-0ce7-656e-845c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Anti-Tank Company",
+                "id": "5f2b-5f16-3b3a-3e0f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "21ce-db6a-862b-92d4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "82mm B-10 Recoilless Anti-tank Company",
+                "id": "7f02-887e-ba65-ab85",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f984-86d2-302c-5c6d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Artillery Company",
+            "id": "03ee-8fda-6843-da90",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ce05-4724-4525-497b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "82mm Mortar Company",
+                "id": "7f94-a772-eafe-65ca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f0bf-f1fc-6243-a1c7",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "120mm Mortar Company",
+                "id": "0d6c-75d1-1932-f1e2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "bd75-cd8a-a054-29aa",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "6) Optional Weapons & Infantry Companies",
+            "id": "e5e2-64a3-b2bf-2aef",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "82mm Mortar Company",
+                "id": "30b1-a833-da53-cf0e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f0bf-f1fc-6243-a1c7",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "c52c-8a96-90ed-d338",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Hero SMG Company",
+                "id": "6b1e-4461-c6ef-c252",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6c4f-afc4-c065-f3fd",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Maksim Machine-Gun Company",
+                "id": "f69d-fb09-df99-d1c5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e5f3-4d79-d628-b13d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "b108-1669-6d51-708d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "7) Optional Recon & Anti-aircraft Platoons",
+            "id": "ed4b-c1c3-3a48-a25d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[Reconnaissance] BA-64 Armoured Car Platoon ",
+                "id": "6980-1801-20aa-7fe8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d5b5-c25f-5477-6f82",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a6c6-af57-b4ef-f066",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "[Anti-aircraft] ZSU M17 Anti-aircraft Platoon",
+                "id": "033e-5070-4cb9-4ca6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c154-4e8c-05bd-15ea",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "8cc1-a6d0-e545-7f3f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-54-1 Tank Battalion",
+        "id": "c87e-d63b-c450-e2f0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "[FS] T-54-1 Tank Company",
+            "id": "4d5e-035a-5e0f-0017",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "48c3-cdca-5dd-5bf1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "5ef3-1cf8-56b8-22bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "5ab6-eb1f-953e-d44d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "T-54-1 Tank Battalion HQ",
+            "id": "3c39-819a-df29-fd63",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "8c47-9560-ebe8-cc47",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4621-2cef-0d4d-a32e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "1x T-54-1",
+                "id": "f3aa-c382-f47e-a6b4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "79fc-cd82-fd01-6b93",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "08bc-ae62-e143-d227",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 7}],
+                "infoLinks": [{"name": "T-54-1", "id": "3241-e158-ef34-0a99", "hidden": false, "targetId": "bcd7-51a8-82c6-a4e9", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Armour Selection",
+            "id": "467b-465b-50f0-d6c1",
+            "collective": false,
+            "defaultSelectionEntryId": "8398-5a51-9e7a-47db",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d537-3087-dfc0-f34b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "25e7-0903-bfcb-4c21",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[FS] T-54-1 Tank Company",
+                "id": "8398-5a51-9e7a-47db",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "48c3-cdca-5dd-5bf1",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[FS] T-44 Tank Company",
+                "id": "a1db-cbcd-e650-b959",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "93d7-8e7d-d5f7-6c98",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Anti-tank Company",
+            "id": "424b-1253-5556-e7cd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bf37-ad18-f969-7294",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Anti-Tank Company",
+                "id": "4924-899c-ca4e-1cf8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "21ce-db6a-862b-92d4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "82mm B-10 Recoilless Anti-tank Company",
+                "id": "5e30-f212-f466-7dc5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f984-86d2-302c-5c6d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Infantry Company",
+            "id": "50ce-e282-3136-f8d9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d247-4c81-1113-5792",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "SMG Company",
+                "id": "e9d4-b17f-01af-1b54",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9090-c266-737c-42e4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Hero BTR Motor Rifle Company",
+                "id": "da29-b12c-316e-8b03",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4435-58f9-0b64-f430",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hero SMG Company",
+                "id": "e8bf-d11f-955a-64b3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional AA Platoon",
+            "id": "9726-87d8-3e2d-60ba",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[Anti-aircraft] ZSU M17 Anti-aircraft Platoon",
+                "id": "dde4-61ca-4503-22bb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c154-4e8c-05bd-15ea",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "eed6-6ce4-c929-f07a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy SP Artillery Regiment",
+        "id": "82a0-0592-8368-8933",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "ISU Heavy SP Artillery Regiment HQ",
+            "id": "9fd7-a13f-b1b4-35b8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "3b2c-f5e4-0700-7a14",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1960-1e9b-4a51-a4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "1x IS-2 (late 122mm)",
+                "id": "6ae1-eba5-3ebf-bb1d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "aa2f-2473-96ad-2288",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "e174-ed42-3070-d559",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [{"name": "IS-2 (Late)", "id": "658b-feff-1224-8817", "hidden": false, "targetId": "1762-9b4a-0767-1cd7", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Armour Selection #1",
+            "id": "eb60-5937-ad96-199d",
+            "collective": false,
+            "defaultSelectionEntryId": "1714-d540-179b-3f11",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f84f-472d-ce97-5e54",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "e309-70a0-a7dc-4cbc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] ISU-130 Heavy SP Battery",
+                "id": "1714-d540-179b-3f11",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fd3c-c2ec-2d7c-4b8c",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "IS-130", "id": "442e-9d54-fd91-b5dd", "hidden": false, "primary": false, "targetId": "2dec-0b16-2323-f6d4"}]
+              },
+              {
+                "name": "ISU-122 Heavy SP Battery",
+                "id": "5fcc-8957-7f04-fda9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "934b-f063-4284-961b",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "ISU-152 Heavy SP Battery",
+                "id": "6118-d28f-6ad0-be0b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8542-e97d-1fff-c298",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Armour Selection #2",
+            "id": "41d5-6ba5-fd67-b033",
+            "collective": false,
+            "defaultSelectionEntryId": "8633-bdee-e30c-f88c",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "75aa-4879-6c4f-8b3f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "d7f0-7b0d-bf00-8b19",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] ISU-130 Heavy SP Battery",
+                "id": "8633-bdee-e30c-f88c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fd3c-c2ec-2d7c-4b8c",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "IS-130", "id": "41d4-551d-67a7-c75c", "hidden": false, "primary": false, "targetId": "2dec-0b16-2323-f6d4"}]
+              },
+              {
+                "name": "ISU-122 Heavy SP Battery",
+                "id": "7552-4f1d-62d4-545e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "934b-f063-4284-961b",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "ISU-152 Heavy SP Battery",
+                "id": "2433-fa82-353d-0914",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8542-e97d-1fff-c298",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Armour #1",
+            "id": "1144-a21f-680c-960a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "681d-0f20-d83b-35e3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] ISU-130 Heavy SP Battery",
+                "id": "e476-0481-2e58-a9c8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fd3c-c2ec-2d7c-4b8c",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ISU-130", "id": "2256-6f1b-69ed-9a07", "hidden": false, "primary": false, "targetId": "2dec-0b16-2323-f6d4"}]
+              },
+              {
+                "name": "ISU-122 Heavy SP Battery",
+                "id": "6eb0-dba7-4c91-f47f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "934b-f063-4284-961b",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "ISU-152 Heavy SP Battery",
+                "id": "1be5-b1ba-6252-428b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8542-e97d-1fff-c298",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Armour #2",
+            "id": "dc6e-1f3a-6e51-4348",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9c11-679e-4d7a-7a01",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[FS] ISU-130 Heavy SP Battery",
+                "id": "f7b2-0a24-518a-e324",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fd3c-c2ec-2d7c-4b8c",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "ISU-122 Heavy SP Battery",
+                "id": "728d-4fb0-5aae-75a6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "934b-f063-4284-961b",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "ISU-152 Heavy SP Battery",
+                "id": "2d29-c9c5-8982-a97a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8542-e97d-1fff-c298",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Infantry Company",
+            "id": "6c2a-97f1-a5b1-dfab",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b239-0827-e4fd-5b50",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Hero SMG Company",
+                "id": "725a-c6ce-4b92-d8bb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "SMG Company",
+                "id": "05c9-3a29-f30c-a991",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9090-c266-737c-42e4",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero BTR Motor Rifle Company",
+        "id": "4435-58f9-0b64-f430",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "BTR", "id": "4515-eb98-2db2-b8d9", "hidden": false, "primary": false, "targetId": "994d-42a2-cbaa-481b"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "2eed-36d8-5ec0-7af4",
+            "collective": false,
+            "defaultSelectionEntryId": "e0e8-0091-4ddd-4d4b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "266f-77d9-f9d9-50d1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9649-ac40-ac22-adb3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x DP MG team, 3x RPG AT team, 1x Komissar, 4x BTR-152",
+                "id": "e0e8-0091-4ddd-4d4b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 11}],
+                "infoLinks": [{"name": "Hero BTR Rifle Company", "id": "b623-beff-3a21-922f", "hidden": false, "targetId": "cb2e-663a-0c23-c356", "type": "infoGroup"}]
+              },
+              {
+                "name": "6x DP MG team, 5x RPG AT team, 1x Komissar, 5x BTR-152",
+                "id": "b1ff-0248-2858-1b0b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 16}],
+                "infoLinks": [{"name": "Hero BTR Rifle Company", "id": "ec42-5e78-6983-83f1", "hidden": false, "targetId": "cb2e-663a-0c23-c356", "type": "infoGroup"}]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Maksim HMG teams",
+            "id": "c6de-e917-28a2-51ec",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "1x Maksim HMG team",
+                "id": "8570-a48a-ba03-2243",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9fe6-c01b-58d6-91fb",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [
+                  {"name": "Maksim HMG team", "id": "42b1-96e0-d0f9-d271", "hidden": false, "targetId": "4087-656d-38e5-6b67", "type": "profile"},
+                  {"name": "Heavy Weapon", "id": "2d69-c9af-7d93-9611", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"}
+                ]
+              },
+              {
+                "name": "1x Maksim HMG team",
+                "id": "6047-1beb-953c-979e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "ffaa-189a-d9d6-917b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [
+                  {"name": "Maksim HMG team", "id": "7a1d-13b8-1c7b-7259", "hidden": false, "targetId": "4087-656d-38e5-6b67", "type": "profile"},
+                  {"name": "Heavy Weapon", "id": "4d52-8d2a-f9b6-279b", "hidden": false, "targetId": "edf7-ad9c-029c-94fe", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-10 Heavy Tank Company",
+        "id": "86a0-bd07-5e08-685e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "T-10", "id": "bd92-655b-37a6-0b4e", "hidden": false, "primary": false, "targetId": "fb47-5b8d-bf1b-a797"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "54de-2e56-e46a-bde4",
+            "collective": false,
+            "defaultSelectionEntryId": "c69c-f20e-2bb2-7f5f",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "61ed-4856-7f26-8b35",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "eb4f-6e03-9002-7b99",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x T-10 (122mm)",
+                "id": "44ea-72a1-d49a-edc7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 45}],
+                "infoLinks": [{"name": "T-10", "id": "9b3c-30d6-547d-93a0", "hidden": false, "targetId": "25c2-d16d-8732-2aa0", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x T-10 (122mm)",
+                "id": "39ca-9e5d-7775-659b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 33}],
+                "infoLinks": [{"name": "T-10", "id": "9ad4-8c75-e757-f638", "hidden": false, "targetId": "25c2-d16d-8732-2aa0", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x T-10 (122mm)",
+                "id": "7504-22f8-cacf-9bd3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 56}],
+                "infoLinks": [{"name": "T-10", "id": "6183-9ee3-1b4f-7421", "hidden": false, "targetId": "25c2-d16d-8732-2aa0", "type": "infoGroup"}]
+              },
+              {
+                "name": "2x T-10 (122mm)",
+                "id": "c69c-f20e-2bb2-7f5f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 22}],
+                "infoLinks": [{"name": "T-10", "id": "e16e-d352-fefb-1e00", "hidden": false, "targetId": "25c2-d16d-8732-2aa0", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IS-7 Guards Heavy Tank Company ",
+        "id": "30b4-c3d8-6b31-6c62",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "ISU-7", "id": "da78-20f2-b4d9-3ae3", "hidden": false, "primary": false, "targetId": "35c2-c78e-38fa-b1c5"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "ef0a-1048-1b3d-ed05",
+            "collective": false,
+            "defaultSelectionEntryId": "8983-feab-f907-5a54",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "276a-be6e-0483-d40c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c5a7-ea61-db7c-2889",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x IS-7 (130mm)",
+                "id": "abc3-c1a1-5de9-dd14",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 64}],
+                "infoLinks": [{"name": "IS-7", "id": "0998-d3ef-2a92-00cb", "hidden": false, "targetId": "a73d-3c86-2a40-a360", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x IS-7 (130mm)",
+                "id": "b2e0-b35f-399c-683f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 48}],
+                "infoLinks": [{"name": "IS-7", "id": "d376-8c2b-2472-a979", "hidden": false, "targetId": "a73d-3c86-2a40-a360", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x IS-7 (130mm)",
+                "id": "14bb-e1b9-4310-a1bf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 80}],
+                "infoLinks": [{"name": "IS-7", "id": "c3f0-6283-35aa-7f2c", "hidden": false, "targetId": "a73d-3c86-2a40-a360", "type": "infoGroup"}]
+              },
+              {
+                "name": "2x IS-7 (130mm)",
+                "id": "8983-feab-f907-5a54",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 32}],
+                "infoLinks": [{"name": "IS-7", "id": "5c63-c1eb-dd3d-a9a8", "hidden": false, "targetId": "a73d-3c86-2a40-a360", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Support Battery",
+        "id": "bdf4-4b07-479d-fd66",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "16c2-bc56-fee8-2044",
+            "collective": false,
+            "defaultSelectionEntryId": "4cda-5a6f-be9d-15fa",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "c50a-eced-6eda-5dff",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "967c-25ca-7a11-64d7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Artillery Battery [LS148]",
+                "id": "4cda-5a6f-be9d-15fa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3b75-2dd3-3d98-fcc0",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "fd2d-35e5-cbf7-0c03", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              },
+              {
+                "name": "122mm Artillery Battery [LS149]",
+                "id": "2516-6ffb-f0b1-441d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1778-c0d5-2dbb-4e7b",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "73a4-bed8-802e-707e", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Mortar Support Battery",
+        "id": "ae0a-8f81-565e-115c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "70cc-5448-4806-a60c",
+            "collective": false,
+            "defaultSelectionEntryId": "e816-830a-82e7-1579",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f326-da1f-8c78-578f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c3a5-ff0e-aeb6-9557",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Artillery Battery [LS148]",
+                "id": "10a0-ceb4-bfad-bf54",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3b75-2dd3-3d98-fcc0",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "862d-1074-2b0d-5270", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              },
+              {
+                "name": "160mm Mortar Battery [LS213]",
+                "id": "e816-830a-82e7-1579",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1e06-2d96-9207-ef8d",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Tank-killer Company",
+        "id": "4959-3ce5-a7f0-5cce",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "53d7-b215-eded-9976",
+            "collective": false,
+            "defaultSelectionEntryId": "12b0-66ef-e724-41f8",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "03b5-a664-493e-5ece",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "85f6-634c-e6a0-14fc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "100mm Tank-Killer Company [LS186]",
+                "id": "6eb4-4752-2251-1f08",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "271f-72f2-5d46-8ce6",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Heavy Tank-Killer Company [LS146]",
+                "id": "3cb6-64ba-ce47-cb37",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6483-c5da-2008-8d90",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "3M6 Shmel Tank-killer Company",
+                "id": "12b0-66ef-e724-41f8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6818-31f9-b62b-6bbb",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] 3M6 Shmel Tank-killer Company",
+        "id": "6818-31f9-b62b-6bbb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "344d-de43-0045-d2d8",
+            "collective": false,
+            "defaultSelectionEntryId": "554b-e798-d6f2-0ef0",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2ce5-bf87-2459-cff5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c82d-1940-1e37-098a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x GAZ Jeep (3M6 Shmel)",
+                "id": "554b-e798-d6f2-0ef0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}],
+                "infoLinks": [{"name": "3M6 Shmel", "id": "9019-c712-20ee-e9ab", "hidden": false, "targetId": "624f-7ceb-63f3-c1cb", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x GAZ Jeep (3M6 Shmel)",
+                "id": "b0c9-d0b5-0bd0-c450",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}],
+                "infoLinks": [{"name": "3M6 Shmel", "id": "9a40-b292-a8b6-7c19", "hidden": false, "targetId": "624f-7ceb-63f3-c1cb", "type": "infoGroup"}]
+              },
+              {
+                "name": "5x GAZ Jeep (3M6 Shmel)",
+                "id": "9477-c73b-9ea6-80dc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}],
+                "infoLinks": [{"name": "3M6 Shmel", "id": "cc02-9e75-b414-7e59", "hidden": false, "targetId": "624f-7ceb-63f3-c1cb", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Assorted Support Battery",
+        "id": "6dca-f6b2-5593-c4a3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "c60b-8c72-3e43-e34f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "081d-7d0d-7897-bf8e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "e5ab-3d20-e78d-838c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Artillery Battery [LS148]",
+                "id": "0046-e85f-fcd6-776d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3b75-2dd3-3d98-fcc0",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "a25c-bb5f-87c1-d32a", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              },
+              {
+                "name": "122mm Artillery Battery [LS149]",
+                "id": "e710-9b0b-a700-c982",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1778-c0d5-2dbb-4e7b",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "03db-bf74-b163-3818", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              },
+              {
+                "name": "SU-76 Light SP Battery [LS141]",
+                "id": "ecd5-2deb-0fa0-0d86",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e0f2-2ceb-87a3-f941",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Heavy Support Battery",
+        "id": "054e-f186-041e-66db",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "3c63-6688-7787-f530",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1e15-b12a-d5ae-1072",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "ad51-36ea-b1c8-bce6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "152mm Artillery Battery [LS187]",
+                "id": "623f-8bb9-8d4e-ee9e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4931-5760-c7a2-6786",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "5b1d-e7f3-7533-c327", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              },
+              {
+                "name": "Katyusha Guards Rocket Battery [LS147]",
+                "id": "8d26-ef5b-cd0b-79ab",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fc2d-20a2-dbb5-5f39",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "ARTILLERY", "id": "876f-c086-90ac-8b02", "hidden": false, "primary": false, "targetId": "db57-faf4-996e-54fb"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "82mm B-10 Recoilless Anti-tank Company",
+        "id": "f984-86d2-302c-5c6d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "a194-6b70-42a4-a2f4",
+            "collective": false,
+            "defaultSelectionEntryId": "854e-8fe1-1e86-4118",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5c2a-0c86-06a5-70d1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "70bb-de3a-0c27-aa20",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 82mm B-10 recoilless",
+                "id": "854e-8fe1-1e86-4118",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 3}],
+                "infoLinks": [{"name": "82mm Recoilless", "id": "6dda-b53e-b102-5280", "hidden": false, "targetId": "45f0-39a1-17c2-3cc5", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x 82mm B-10 recoilless",
+                "id": "900d-3a7a-cd18-2ee3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}],
+                "infoLinks": [{"name": "82mm Recoilless", "id": "eda9-4d61-2ddd-2c95", "hidden": false, "targetId": "45f0-39a1-17c2-3cc5", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-44 Tank Battalion",
+        "id": "946f-954b-ab51-66cc",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "T-44 Tank Company",
+            "id": "7857-d308-4a3c-c9eb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "93d7-8e7d-d5f7-6c98",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "0e3b-ed64-2a86-c1f7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "89a9-6a77-6a06-b9a5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "T-44 Tank Battalion HQ",
+            "id": "6fa4-76ee-0be8-15cc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "8e5e-2819-ff61-e218",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "2b48-57ab-0925-90ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "1x T-44",
+                "id": "b3f2-8c14-1543-0996",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "5178-f75d-fd05-d34d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "26d1-5bdd-1eeb-783d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                "infoLinks": [{"name": "T-44", "id": "5459-346d-3c8d-a5e3", "hidden": false, "targetId": "f8b8-8b42-caaa-5e8c", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Armour Selection",
+            "id": "74e8-e46e-652b-9408",
+            "collective": false,
+            "defaultSelectionEntryId": "8c7a-5083-18c8-7b75",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d3a8-9cfb-5563-c12a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "7ecb-773b-290c-cc58",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "T-34 (85mm) Tank Company",
+                "id": "00e0-7663-5d0d-2c3d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "809b-0268-ffb0-de1d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] T-44 Tank Company",
+                "id": "8c7a-5083-18c8-7b75",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "93d7-8e7d-d5f7-6c98",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Anti-tank Company",
+            "id": "d339-025d-4b77-d3a8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5d53-f238-ee1e-4764",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "76mm Anti-Tank Company",
+                "id": "b8d6-462a-5833-8701",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "21ce-db6a-862b-92d4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "82mm B-10 Recoilless Anti-tank Company",
+                "id": "2afb-be13-08fe-7285",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f984-86d2-302c-5c6d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Infantry Company",
+            "id": "11a7-e6ae-22f9-2298",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ea8c-8bc5-7ebe-68a6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "SMG Company",
+                "id": "07c9-825d-2956-0b09",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9090-c266-737c-42e4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Hero BTR Motor Rifle Company",
+                "id": "924d-f257-235a-f983",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4435-58f9-0b64-f430",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hero SMG Company",
+                "id": "4870-504c-ac8b-48d3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional AA Platoon",
+            "id": "cdbb-fe2c-8778-1dde",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[Anti-aircraft] ZSU M17 Anti-aircraft Platoon",
+                "id": "b7a4-b1e7-b40f-8234",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c154-4e8c-05bd-15ea",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "54bf-173b-c325-d8ab",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T-10 Tank Heavy Tank Regiment",
+        "id": "c955-2b0f-55de-972e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "T-10 Heavy Tank Company",
+            "id": "75d2-77cd-1de2-da6d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86a0-bd07-5e08-685e",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "5d28-5e13-8257-2cbb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "642d-a5cc-a25c-cc48",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "T-10 Heavy Tank Company",
+            "id": "101f-9ab6-1e32-1ec1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86a0-bd07-5e08-685e",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "c127-d2e9-4231-b011",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "2d33-afc3-e90e-9364",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "T-10 Tank Battalion HQ",
+            "id": "5c62-5047-049f-6b3c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "629f-7c14-390d-53be",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "42ae-0370-404a-f422",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "1x T-10",
+                "id": "9043-9d71-062d-0ce1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "a765-d5af-49dc-7213",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "1f34-72e0-7e95-56e5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 11}],
+                "infoLinks": [{"name": "T-10", "id": "b4f3-94ef-98a6-b5a7", "hidden": false, "targetId": "25c2-d16d-8732-2aa0", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional T-10 Companies",
+            "id": "4f36-cf51-2fcd-00c9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "[FS] T-10 Heavy Tank Company",
+                "id": "c58f-04b7-7f1a-baf0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86a0-bd07-5e08-685e",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e09e-ff2e-4da7-e4ba",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "T-10 Heavy Tank Company",
+                "id": "0963-8dd5-7abf-5c3a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86a0-bd07-5e08-685e",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "d75b-c4d7-f3b6-f14d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Infantry Company",
+            "id": "a65c-0d8a-1965-4b33",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "55cb-e94d-a881-924c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "SMG Company",
+                "id": "0cd6-f621-1227-d703",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9090-c266-737c-42e4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hero SMG Company",
+                "id": "9caa-91f3-e3de-a29a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IS-7 Guards Heavy Tank Regiment",
+        "id": "b3f4-d530-e600-f0f0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] IS-7 Guards Heavy Tank Company ",
+            "id": "58ed-4817-7765-1913",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "30b4-c3d8-6b31-6c62",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "637a-a26a-0b19-2874",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9062-efaa-d0fd-d79c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "* [FS] IS-7 Guards Heavy Tank Company ",
+            "id": "ad5d-63f0-6835-802e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "30b4-c3d8-6b31-6c62",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4814-aa36-04bc-6eab",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "fb50-3851-e9f9-d638",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "IS-7 Guards Heavy Tank Regiment HQ",
+            "id": "23aa-6637-4ab7-f25c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "95e8-a5fd-2e34-a87d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "d36e-3c95-a8ed-342d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "1x IS-7",
+                "id": "def4-351b-e63b-93fe",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "14f1-10ec-ce9a-b511",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "b5cf-b920-2ae1-60ef",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 16}],
+                "infoLinks": [{"name": "IS-7", "id": "6898-a3c4-1ee2-bfd8", "hidden": false, "targetId": "a73d-3c86-2a40-a360", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional IS-7 Companies",
+            "id": "5dd8-e466-9ac2-408b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "IS-7 Guards Heavy Tank Company ",
+                "id": "9cfd-a4dd-b1c1-e1f3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "30b4-c3d8-6b31-6c62",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "91cb-39a5-b3fc-f081",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "IS-7 Guards Heavy Tank Company ",
+                "id": "b65a-df98-5c5f-64c6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "30b4-c3d8-6b31-6c62",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "bfd9-44d3-55e8-d2ea",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Infantry Company",
+            "id": "bc74-86f3-184e-a7b1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "462c-eb7c-85ef-afa0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "SMG Company",
+                "id": "34a2-8686-806d-4423",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9090-c266-737c-42e4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hero SMG Company",
+                "id": "e613-6e24-9fd6-2943",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "IS-3 Guards Heavy Tank Regiment",
+        "id": "0f5b-4d59-859a-bff3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "[FS] IS-3 Guards Heavy Tank Company ",
+            "id": "abb2-43c7-5ae5-a990",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2f80-b7d5-eb8d-a560",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "16e5-76f8-63fe-c510",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "987d-eb02-8be7-1a11",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "[FS] IS-3 Guards Heavy Tank Company ",
+            "id": "3177-6a08-5d5e-9f48",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2f80-b7d5-eb8d-a560",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "037d-0621-35a3-cfd9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "68e6-0187-ea49-c8b0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "IS-3 Guards Heavy Tank Regiment HQ",
+            "id": "035f-a89b-382e-6b12",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "c559-30ad-57b1-5c90",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "cadc-e11a-ca40-b4e2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "1x IS-3",
+                "id": "b8d9-dba4-e22e-a41b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9bcd-be71-21ba-e146",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "d6fe-dd12-c8fc-8513",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 9}],
+                "infoLinks": [{"name": "IS-3", "id": "5822-8d41-ada8-3a02", "hidden": false, "targetId": "24d0-2773-8910-7533", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Armour Company #1",
+            "id": "6864-e3b2-cede-49d4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "03f5-8654-968c-92f0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "IS-2 (Late) Guards Heavy Tank Company",
+                "id": "bae2-67e6-694c-18f9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d082-4b30-07f5-4f74",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[FS] IS-3 Guards Heavy Tank Company ",
+                "id": "16ea-4c07-79a9-8fec",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2f80-b7d5-eb8d-a560",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Infantry Company",
+            "id": "ca06-b7fb-26cd-28dc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1956-10b6-4c67-b9fd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "SMG Company",
+                "id": "ea63-de4b-8ef8-2c24",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9090-c266-737c-42e4",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Hero SMG Company",
+                "id": "aac9-f59b-d0e3-3948",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "582c-d5be-3665-c26d",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Armour Company #2",
+            "id": "00ec-9655-5380-d339",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e764-c66f-8b72-b896",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "IS-2 (Late) Guards Heavy Tank Company",
+                "id": "9301-d0d1-b64c-b4f0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d082-4b30-07f5-4f74",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "[FS] IS-3 Guards Heavy Tank Company ",
+                "id": "4213-fc62-cbc5-bc0a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2f80-b7d5-eb8d-a560",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

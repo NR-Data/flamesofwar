@@ -1,0 +1,815 @@
+{
+  "gameSystem": {
+    "name": "Flames of War v4",
+    "id": "976a-b687-1fdb-07ef",
+    "authorContact": "battlescribe@bernestedt.se",
+    "authorName": "Ulf Bernestedt",
+    "battleScribeVersion": 2.03,
+    "readme": "Currently being maintained by Hav3rchuck, willus8888, Edavad42, and mdcooledge\n\nv17 - willus8888\n- added Bagration: Soviet publication\n- added Bulge: German publication\n- added Bulge: American publication\n- added Formation Support as per Rulebook page 99\n- changed from Support Platoons to Support Units as per Rulebook page 99\n- added One-man Turret Rule\n- added No MG Rule\n- added Command Card Profile Type\n\nv18 - willus8888\n- added Info field to Command Card Profile Types\n\nv19 - Edivad42\n- added Bulge: British publication\n- created Bulge: British data file\n\nv20 - mdcooledge\n- added Publications (Berlin: Soviet, Berlin: German, D-Day: Waffen-SS)\n- added/updated Bulge: German data file\n\nv21 - mdcooledge\n- created Berlin: German data file\n- bug fixes\n\nv22 - mdcooledge\n- removed Formation Support max 1 contraint to allow for mulitple different selection\n- added Berlin: German Command Cards and supporting logic\n\nv23 - mdcooledge\n- added Bagration: Axis-Alies data.\n\n\nv25 - mdcooledge\n-added Late-War Leviathans data.",
+    "revision": 25,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {
+        "name": "Formations",
+        "id": "5630-abd3-15d8-5cc6",
+        "comment": "v17 - willus8888\n- changed Combat Formations to Formations as per Rulebook page 94",
+        "hidden": false,
+        "page": 94,
+        "publicationId": "453d-401b-fd1e-0f95"
+      },
+      {
+        "name": "Support Units",
+        "id": "9be3-4dab-91f0-f7c5",
+        "comment": "v17 - willus8888\n- changed from Support Platoons to Support Units as per Rulebook page 99",
+        "hidden": false,
+        "page": 99,
+        "publicationId": "453d-401b-fd1e-0f95"
+      },
+      {"name": "Headquaters", "id": "2739-fb2a-059a-ccb0", "hidden": false},
+      {"name": "Command Cards", "id": "c5b6-63ee-3f81-25f2", "hidden": false},
+      {
+        "name": "Allied Formation",
+        "id": "02e3-24e6-27f8-653f",
+        "hidden": false,
+        "page": 99,
+        "publicationId": "453d-401b-fd1e-0f95",
+        "constraints": [
+          {
+            "id": "bcfb-051d-b944-9e63",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Allied Unit",
+        "id": "bf21-c7f3-1de8-efb9",
+        "hidden": false,
+        "page": 99,
+        "publicationId": "453d-401b-fd1e-0f95",
+        "constraints": [
+          {
+            "id": "9074-838a-616d-7fda",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Formation Support",
+        "id": "b531-2fd7-ec0e-d214",
+        "comment": "v17 - willus8888\n- added Formation Support as per Rulebook page 99",
+        "hidden": false,
+        "page": 99,
+        "publicationId": "453d-401b-fd1e-0f95"
+      },
+      {
+        "name": "Wildcards",
+        "id": "58fd-8352-c305-41bb",
+        "comment": "v17 - willus8888\n- added Wildcards as per Rulebook page 99",
+        "hidden": false,
+        "page": 99,
+        "publicationId": "453d-401b-fd1e-0f95"
+      }
+    ],
+    "costTypes": [{"name": "pts", "id": "995a-4d67-6920-bfe4", "defaultCostLimit": -1, "hidden": false}],
+    "forceEntries": [
+      {
+        "name": "Standard",
+        "id": "a4b2-2825-7956-92b9",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Formations",
+            "id": "a848-4467-9550-eafd",
+            "hidden": false,
+            "page": 94,
+            "primary": false,
+            "publicationId": "453d-401b-fd1e-0f95",
+            "targetId": "5630-abd3-15d8-5cc6",
+            "constraints": [
+              {
+                "id": "796f-9354-b70c-b554",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Support Units",
+            "id": "1f7f-6695-e57f-8964",
+            "hidden": false,
+            "page": 99,
+            "primary": false,
+            "publicationId": "453d-401b-fd1e-0f95",
+            "targetId": "9be3-4dab-91f0-f7c5"
+          },
+          {
+            "name": "Headquaters",
+            "id": "3be3-d725-1f59-a527",
+            "hidden": false,
+            "primary": false,
+            "publicationId": "453d-401b-fd1e-0f95",
+            "targetId": "2739-fb2a-059a-ccb0"
+          },
+          {"name": "Command Cards", "id": "61ba-d032-dbe5-150b", "hidden": false, "primary": false, "targetId": "c5b6-63ee-3f81-25f2"},
+          {
+            "name": "Allied Formation",
+            "id": "6e68-b8c1-9a59-4954",
+            "hidden": false,
+            "page": 99,
+            "primary": false,
+            "publicationId": "453d-401b-fd1e-0f95",
+            "targetId": "02e3-24e6-27f8-653f",
+            "constraints": [
+              {
+                "id": "7850-7338-fe07-6b7f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Allied Unit",
+            "id": "2f4e-aa8b-af7a-9da3",
+            "hidden": false,
+            "page": 99,
+            "primary": false,
+            "publicationId": "453d-401b-fd1e-0f95",
+            "targetId": "bf21-c7f3-1de8-efb9",
+            "constraints": [
+              {
+                "id": "a500-8952-273f-1120",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Wildcards",
+            "id": "712b-af5f-bb8d-4b18",
+            "hidden": false,
+            "page": 99,
+            "primary": false,
+            "publicationId": "453d-401b-fd1e-0f95",
+            "targetId": "58fd-8352-c305-41bb"
+          },
+          {"name": "Formation Support", "id": "9f54-d6c3-dbae-3a5b", "hidden": false, "primary": false, "targetId": "b531-2fd7-ec0e-d214"}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Tank Unit",
+        "id": "55ec-3ef5-ca51-e647",
+        "characteristicTypes": [
+          {"name": "Motivation", "id": "046a-7f27-8072-dedb"},
+          {"name": "Skill", "id": "6334-745a-f712-a0aa"},
+          {"name": "Is Hit On", "id": "3931-565d-e382-fda5"},
+          {"name": "Armour Front", "id": "b88a-3ca6-9b40-ff73"},
+          {"name": "Armour Side & Rear", "id": "3712-51b3-aae3-94bd"},
+          {"name": "Armour Top", "id": "f551-1392-03e8-967d"},
+          {"name": "Tactical", "id": "ea9a-bf7d-68c5-e2d7"},
+          {"name": "Terrain Dash", "id": "f7f4-9e66-c9ed-034b"},
+          {"name": "Cross Country Dash", "id": "f73b-6fcf-b0d1-fde4"},
+          {"name": "Road Dash", "id": "b5b1-c829-470a-af62"},
+          {"name": "Cross", "id": "8be2-d5b6-ec4a-76d9"},
+          {"name": "Notes", "id": "33d6-6375-9564-9985"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "33b6-a72a-2bd8-2565",
+        "characteristicTypes": [
+          {"name": "Range", "id": "c2e5-4990-8105-f793"},
+          {"name": "Halted ROF", "id": "7f6e-6f8f-5f15-6e9d"},
+          {"name": "Moving ROF", "id": "f78e-b583-b3a5-754a"},
+          {"name": "Anti-Tank", "id": "f57e-fa10-d0f9-e2dd"},
+          {"name": "Firepower", "id": "9cf3-a34f-60d9-1309"},
+          {"name": "Notes", "id": "d939-5084-e654-44c6"}
+        ]
+      },
+      {
+        "name": "Unarmoured Tank Unit",
+        "id": "7cf5-5c36-14cc-3c0d",
+        "characteristicTypes": [
+          {"name": "Motivation", "id": "55ef-8653-887d-4642"},
+          {"name": "Skill", "id": "229c-c44f-2910-c1d1"},
+          {"name": "Is Hit On", "id": "acbb-3bc2-c667-6e4d"},
+          {"name": "Save", "id": "6e6b-7d9e-7557-43cd"},
+          {"name": "Tactical", "id": "6caa-857a-dce7-e965"},
+          {"name": "Terrain Dash", "id": "f188-5e37-f014-5069"},
+          {"name": "Cross Country Dash", "id": "d2da-b73b-7a4a-ca53"},
+          {"name": "Road Dash", "id": "271f-e64c-128c-5740"},
+          {"name": "Cross", "id": "b443-5f9e-d0b5-48b0"},
+          {"name": "Notes", "id": "5c4c-b4d7-c2d1-6a93"}
+        ]
+      },
+      {
+        "name": "Infantry Unit",
+        "id": "0917-e2f0-0c3e-b482",
+        "characteristicTypes": [
+          {"name": "Motivation", "id": "4aa0-1b18-70af-9474"},
+          {"name": "Skill", "id": "7258-881d-dc2d-e80b"},
+          {"name": "Is Hit On", "id": "0641-f39f-6a33-7dcc"},
+          {"name": "Save", "id": "4750-979d-b2bb-c536"},
+          {"name": "Tactical", "id": "8027-bcf9-d953-3740"},
+          {"name": "Terrain Dash", "id": "b93a-5d61-9a77-50cc"},
+          {"name": "Cross Country Dash", "id": "4862-29d4-9ab9-76a0"},
+          {"name": "Road Dash", "id": "75e3-9f15-03c8-7f95"},
+          {"name": "Cross", "id": "2d03-7d6c-d869-db3f"},
+          {"name": "Notes", "id": "173e-6395-d37b-31a2"}
+        ]
+      },
+      {
+        "name": "Gun Unit",
+        "id": "7c70-b6af-9e5a-e7f6",
+        "characteristicTypes": [
+          {"name": "Motivation", "id": "0954-f596-53ea-4ef7"},
+          {"name": "Skill", "id": "a907-592d-ab2d-5ead"},
+          {"name": "Is Hit On", "id": "1f89-085b-464b-c60f"},
+          {"name": "Save", "id": "ae14-5890-03de-a715"},
+          {"name": "Tactical", "id": "3bad-79bd-27aa-4539"},
+          {"name": "Terrain Dash", "id": "a400-d543-6fb9-26d0"},
+          {"name": "Cross Country Dash", "id": "34ca-877a-8ffa-1006"},
+          {"name": "Road Dash", "id": "d283-e066-839c-fbd7"},
+          {"name": "Cross", "id": "3f9c-89f9-0b29-0585"},
+          {"name": "Notes", "id": "28aa-390d-006a-1776"}
+        ]
+      },
+      {
+        "name": "Aircraft Unit",
+        "id": "d8ed-85c5-35d4-eb3c",
+        "characteristicTypes": [
+          {"name": "Motivation", "id": "ec3b-729b-2af4-7bed"},
+          {"name": "Skill", "id": "e506-9161-836a-5e2d"},
+          {"name": "Is Hit On", "id": "9691-8132-58f7-5f86"},
+          {"name": "Save", "id": "3a7a-29d5-008e-09f7"},
+          {"name": "Tactical", "id": "8791-6355-ebcf-f430"},
+          {"name": "Terrain Dash", "id": "e6d2-8608-f213-ef1f"},
+          {"name": "Cross Country Dash", "id": "037d-b1be-ca62-5c3e"},
+          {"name": "Road Dash", "id": "207b-99f1-9a35-12d8"},
+          {"name": "Cross", "id": "07b3-6909-7897-f282"},
+          {"name": "Notes", "id": "8252-ebff-91e7-47ea"}
+        ]
+      },
+      {
+        "name": "Transport Attachment",
+        "id": "254c-0270-282e-d058",
+        "comment": "v17 - willus8888\n- added",
+        "characteristicTypes": [
+          {"name": "Motivation", "id": "51de-463a-a3e1-ec3b"},
+          {"name": "Skill", "id": "e62d-94ba-601b-c75c"},
+          {"name": "Is Hit On", "id": "860e-e90e-293b-686b"},
+          {"name": "Armour Front", "id": "a309-0493-ff5d-7725"},
+          {"name": "Armour Side & Rear", "id": "8b51-8181-e721-b603"},
+          {"name": "Armour Top", "id": "e21f-71e9-6da5-f6a6"},
+          {"name": "Tactical", "id": "b0ef-07bd-45b9-7df3"},
+          {"name": "Terrain Dash", "id": "93f9-5306-09c6-7dd3"},
+          {"name": "Cross Country Dash", "id": "6877-d7fb-c342-2a36"},
+          {"name": "Road Dash", "id": "c6a7-090f-15bd-f02e"},
+          {"name": "Cross", "id": "86c0-d5f3-cd14-602d"},
+          {"name": "Notes", "id": "19cb-48c0-b4e8-b529"}
+        ]
+      },
+      {
+        "name": "Command Card",
+        "id": "5cbd-556d-67b5-1bd9",
+        "characteristicTypes": [{"name": "Info", "id": "bd5c-655e-1889-6af7"}, {"name": "Details", "id": "4091-e11a-c858-f46e"}, {"name": "Notes", "id": "75a6-20ee-1c76-640a"}]
+      },
+      {"name": "Command Card [Revised]", "id": "c86b-12b3-c1b1-b8e0", "characteristicTypes": [{"name": "Details", "id": "fa11-60d9-4bb8-7538"}]}
+    ],
+    "publications": [
+      {"name": "Fortress Europe", "id": "b8e5-51cf-456c-eafb"},
+      {
+        "name": "Rulebook",
+        "id": "453d-401b-fd1e-0f95",
+        "publicationDate": 2019,
+        "publisher": "ISBN: 9781988558059",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW009M"
+      },
+      {"name": "Fighting First", "id": "821b-34cc-8e2d-92bd"},
+      {"name": "D-Day: American", "id": "8a18-905e-29ba-846c"},
+      {"name": "Afrika Korps", "id": "fb30-f3e6-6949-ca30"},
+      {"name": "Armoured Fist", "id": "59c8-b9e8-2f69-1767"},
+      {"name": "Desert Rat", "id": "aaf1-dbb1-9f80-cdc3"},
+      {"name": "Avanti", "id": "8795-daff-c9a1-7202"},
+      {"name": "Enemy at the Gates", "id": "4acf-8711-6a06-562a"},
+      {"name": "Iron Cross", "id": "259f-463e-b7b1-5f53"},
+      {"name": "Ghost Panzers", "id": "f4e1-10cd-8e77-b4b2"},
+      {"name": "Red Banner", "id": "9c95-3df5-45e4-4f28"},
+      {
+        "name": "D-Day: German",
+        "id": "10a4-8008-66c3-952e",
+        "comment": "Updated in v20 by mdcooledge",
+        "publicationDate": 2019,
+        "publisher": "ISBN: 9781988558080",
+        "publisherUrl": "https:www.flamesofwar.com",
+        "shortName": "FW263"
+      },
+      {
+        "name": "D-Day: British",
+        "id": "0071-7fad-4956-579d",
+        "comment": "Updated info in v20 by mdcooledge",
+        "publicationDate": 2019,
+        "publisher": "ISBN: 9781988558141",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW264"
+      },
+      {"name": "Death From Above", "id": "5ab4-5ce9-268b-6f05"},
+      {"name": "All American", "id": "7dad-f562-34ff-9ca3"},
+      {
+        "name": "Bagration: Soviet",
+        "id": "9f90-b6ea-6e0c-9aa3",
+        "comment": "added in v17 by willus8888",
+        "publicationDate": 2020,
+        "publisher": "ISBN: 9781988558189",
+        "publisherUrl": "https://www.flamesofwar.com/hobby.aspx?art_id=7060",
+        "shortName": "FW266"
+      },
+      {
+        "name": "Bulge: German",
+        "id": "3bbf-3707-35dd-b1f5",
+        "comment": "added in v17 by willus8888\nupdated info in v20 by mdcooledge",
+        "publicationDate": 2022,
+        "publisher": "ISBN: 9781988558318",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW271"
+      },
+      {
+        "name": "Bulge: American",
+        "id": "afae-8f3f-0f99-8376",
+        "comment": "added in v17 by willus8888",
+        "publicationDate": 2021,
+        "publisher": "ISBN: 9781988558295",
+        "publisherUrl": "https://www.flamesofwar.com/hobby.aspx?art_id=7340",
+        "shortName": "FW270"
+      },
+      {
+        "name": "Bulge: British",
+        "id": "ace1-d7bb-f665-21a0",
+        "comment": "added in v19 by Edivad42",
+        "publicationDate": 2022,
+        "publisher": "ISBN: 9781988558325",
+        "publisherUrl": "https://www.flamesofwar.com/Default.aspx?tabid=53&art_id=7569",
+        "shortName": "FW272"
+      },
+      {
+        "name": "D-Day: Waffen-SS",
+        "id": "5845-a16a-204b-dda9",
+        "comment": "Added in v20 by mdcooledge",
+        "publicationDate": 2020,
+        "publisher": "ISBN: 9781988558202",
+        "publisherUrl": "https:www.flamesofwar.com",
+        "shortName": "FW265"
+      },
+      {
+        "name": "Berlin: Soviet",
+        "id": "4021-7322-ad7d-e1d9",
+        "comment": "Added in v20 by mdcooledge",
+        "publicationDate": 2022,
+        "publisher": "ISBN: 9781988558370",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW274"
+      },
+      {
+        "name": "Berlin: German",
+        "id": "892e-f53d-4077-cf72",
+        "comment": "Added in v20 by mdcooledge",
+        "publicationDate": 2022,
+        "publisher": "ISBN: 9781988558363",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW273"
+      },
+      {
+        "name": "Bagration: German",
+        "id": "269c-a260-1f35-23c5",
+        "comment": "Added in v20 by mdcooledge",
+        "publicationDate": 2020,
+        "publisher": "ISBN: 9781988558196",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW267"
+      },
+      {
+        "name": "Bagration: Axis-Allies",
+        "id": "94b0-77e6-8d24-9f2b",
+        "comment": "Added in v23 by mdcooledge",
+        "publicationDate": 2019,
+        "publisher": "ISBN: 9781988558271",
+        "publisherUrl": "www.flamesofwar.com",
+        "shortName": "FW269"
+      },
+      {"name": "Late-War Leviathans", "id": "9fff-fd82-e3c2-d110", "publicationDate": 2024, "publisherUrl": "www.flamesofwar.com"}
+    ],
+    "sharedRules": [
+      {
+        "name": "Assault 5+",
+        "id": "c061-64c4-cd6f-ced0",
+        "description": "Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.",
+        "hidden": false
+      },
+      {"name": "Brutal", "id": "97da-9a33-4ff1-56f2", "description": "Intantry, Gun and Unarmoured Tank Teams re-roll successful Saves.", "hidden": false},
+      {"name": "Dedicated AA", "id": "f4bc-db53-7a0d-0aeb", "description": "Use full ROF when firing at Aircraft", "hidden": false},
+      {"name": "Forward Firing", "id": "fa9d-68f6-57d9-dc5d", "description": "Weapons can only hit targets fully in front of the Team.", "hidden": false},
+      {
+        "name": "Gun Shield",
+        "id": "2f2d-c5a9-ef7e-1b5e",
+        "description": "A Gun Team with the Gun Shield is in Bulletproof Cover when Shot at from in front of the Team's base. A Gun Shield does not offer any protection against Artillery Bombardments or if the Team moved at Dash speed.",
+        "hidden": false
+      },
+      {
+        "name": "Heavy Weapon",
+        "id": "edf7-ad9c-029c-94fe",
+        "description": "A Heavy Weapon Team cannot Charge into Contact, but may be an Assaulting Team if in Contact with an enemy Team. Heavy Weapons have a worse Assault rating.",
+        "hidden": false
+      },
+      {"name": "HQ Transport", "id": "7de4-d921-ff24-9632", "description": "Transports are part of the HQ Unit.", "hidden": false},
+      {
+        "name": "Independent",
+        "id": "b650-398e-5817-50fb",
+        "description": "An Independent Team can use the Mistaken Target rule to reassign hits to nearby Units, but cannot Charge into Contact, nor take an Objective.",
+        "hidden": false
+      },
+      {"name": "Large Gun", "id": "183b-aef0-86e1-693f", "description": "Cannot be placed from Ambush within 16\"/40cm of the enemy.", "hidden": false},
+      {
+        "name": "No HE",
+        "id": "b000-d0f1-08fd-0d43",
+        "description": "A weapon with No HE targeting an Infantry or Gun Team, adds +1 to the score needed To Hit.",
+        "hidden": false
+      },
+      {"name": "Observer", "id": "8153-56ce-71c0-391b", "description": "Team can Spot for any friendly Artillery Unit", "hidden": false},
+      {"name": "Overworked", "id": "4c99-f2b8-5818-72b1", "description": "Overworked weapons add +1 to the scort To Hit when moving.", "hidden": false},
+      {"name": "Pinned ROF 1", "id": "3284-2a9d-b7f4-e17a", "description": "Reduce ROF to 1 when Pinned Down", "hidden": false},
+      {"name": "Rear Firing", "id": "e9e5-f5de-e0ef-9e90", "description": "Weapons can only hit targets fully to the rear of the Team.", "hidden": false},
+      {
+        "name": "Scout",
+        "id": "967a-118e-dc01-7e0b",
+        "description": "Scouts are Gone to Ground unless they Shoot or Assault. This means that if they are Concealed, the enemy will suffer an additional +1 penalty to hit them.",
+        "hidden": false
+      },
+      {"name": "Self-Defence AA", "id": "6c0b-8d39-70b6-9d1c", "description": "Self-Defence AA weapons can Shoot at Aircraft with ROF 1.", "hidden": false},
+      {"name": "Slow Firing", "id": "e215-d5bf-83ce-606a", "description": "+1 To Hit for Moving ROF.", "hidden": false},
+      {"name": "Smoke", "id": "6f51-dbfe-55b0-a6d0", "description": "Smoke weapons can Shoot Smoke ammunition.", "hidden": false},
+      {"name": "Smoke Bombardment", "id": "5450-1722-5ad1-1d61", "description": "Once per game can fire a Smoke Bombardment.", "hidden": false},
+      {
+        "name": "SP Gun",
+        "id": "8f04-5766-b365-655a",
+        "description": "SP Guns have a worse Counterattack rating and a worse Assault rating. If they are Open-topped they have a significantly worse Counterattack rating.",
+        "hidden": false
+      },
+      {"name": "Spearhead", "id": "70fc-43a3-1ed1-1b01", "description": "Unit can move before the game to expand the Deployment Area.", "hidden": false},
+      {"name": "Protected Ammo", "id": "ad4a-22fc-2234-7874", "description": "Tanks with Protected Ammo have a better Remount rating.", "hidden": false},
+      {
+        "name": "Assault 4+",
+        "id": "dc00-41ba-b4dd-f068",
+        "description": "Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.",
+        "hidden": false
+      },
+      {
+        "name": "Passengers #",
+        "id": "1dcd-ee7f-6116-8df5",
+        "comment": "These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy",
+        "description": "A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.",
+        "hidden": false
+      },
+      {
+        "name": "Transport Attachment",
+        "id": "956c-27fc-6880-7738",
+        "description": "Infantry and Gun Units containing Transport Teams as a Tank Attachment (or vice versa) are split into two Units; an Infantry or Gun Unit and a Transport Unit (each with their Unit Leader). Both parts of the Unit operate independently as seperate Units, supporting each other, although they deploy as a single Unit.",
+        "hidden": false
+      },
+      {"name": "Gun", "id": "139e-9d64-28a3-a3dd", "description": "Gun Teams has a worse Assault rating.", "hidden": false},
+      {
+        "name": "Bombs",
+        "id": "78a2-7146-034e-a601",
+        "description": "No penalty for having only 1 or 2 weapons firing, Only Teams from this Unit can Spot for it.",
+        "hidden": false
+      },
+      {
+        "name": "Overhead Fire",
+        "id": "6015-3f65-cd0c-42cd",
+        "description": "Grenade launchers and light mortars capable of Overhead Fire can fire over friendly teams.",
+        "hidden": false
+      },
+      {
+        "name": "Secondary Weapon",
+        "id": "8f5c-f2be-1174-4b0e",
+        "description": "Weapons with this rule my fire at the same or a different target at the same time as another weapon at ROT 1 and +1 To Hit.",
+        "hidden": false
+      },
+      {
+        "name": "Passengers #",
+        "id": "23e1-f5f2-1523-0d4c",
+        "comment": "These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy",
+        "description": "A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.",
+        "hidden": false
+      },
+      {
+        "name": "Passengers #",
+        "id": "cd0d-0113-cc7e-c00d",
+        "comment": "These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy",
+        "description": "A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.",
+        "hidden": false
+      },
+      {
+        "name": "Assault 6+",
+        "id": "31e3-3b2b-d53c-cd03",
+        "description": "Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.",
+        "hidden": false
+      },
+      {
+        "name": "Assault 3+",
+        "id": "8e04-1fed-e341-7e82",
+        "description": "Teams with the Assault # special rule uses # number for To Hit rolls in Assaults rather than the normal one shown on the card.",
+        "hidden": false
+      },
+      {"name": "Pinned ROF 2", "id": "9003-7173-8595-9d4f", "description": "Reduce ROF to 2 when Pinned Down", "hidden": false},
+      {
+        "name": "Rockets",
+        "id": "e8ff-3c3f-0f0a-04c2",
+        "description": "No penalty for having only 1 or 2 weapons firing, Only Teams from this Unit can Spot for it.",
+        "hidden": false
+      },
+      {"name": "Tractor", "id": "1add-f696-3ad3-0243", "description": "Team can carry one Gun Team as Passangers.", "hidden": false},
+      {
+        "name": "Salvo",
+        "id": "0291-289f-7711-31bb",
+        "description": "Weapons with a ROF of \"salvo\" are Artillery weapons and fire Artillery Bombardments, but use a 10”/25cm square Salvo Template rather than the normal 6”/15cm Artillery Template.\n\nA Salvo Template may not be placed within 6\"/15cm of a friendly Team.",
+        "hidden": false
+      },
+      {
+        "name": "Flame-thrower",
+        "id": "f8ec-4aba-faa0-f2d0",
+        "description": "Infantry, Gun, and Unarmoured Tank Teams re-roll successful Saves when hit by a Flame-thrower and the Unit is automatically Pinned Down. Armoured Tank Teams use their Top armour for Armour Saves when hit by a Flame-thrower.\nFlame-throwers may shoot in Defensive Fire. However, while a Unit that is Hit by a Flame-thrower is Pinned Down, this does not automatically stop the assault. The defender still needs to score five (or eight) hits as normal to stop the assault as normal.",
+        "hidden": false
+      },
+      {
+        "name": "Passengers #",
+        "id": "cf99-c640-bffb-48e2",
+        "comment": "These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy",
+        "description": "A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.",
+        "hidden": false
+      },
+      {"name": "Amphibious", "id": "ae17-5a95-a5f5-63b5", "description": "This vehicle treats impassable water as Difficult Terrain", "hidden": false},
+      {
+        "name": "Softskin",
+        "id": "c72e-a283-4a87-3078",
+        "description": "If transport destroyed, passengers ddestroyed.  the rest are sent to the rear and passengers must dismount.",
+        "hidden": false
+      },
+      {"name": "Unarmoured", "id": "a5c7-5baa-4aad-ed13", "description": "Team cannot Charge into Contact and must Break Off if Assaulted.", "hidden": false},
+      {"name": "Unarmoured Tank", "id": "a1e7-43cb-e04a-f7a6", "hidden": false},
+      {
+        "name": "One-man Turret",
+        "id": "d8b4-96eb-5fd0-2163",
+        "comment": "added in v17 by willus8888",
+        "description": "Some tanks and armoured cars have tiny one-man turrets, leaving one man the job of commander, gunner, and loader.\n\nA One-man Turret main weapon adds +1 to the score needed To Hit when moving.",
+        "hidden": false,
+        "page": "https://fow.fandom.com/wiki/Special_Rules#One-man_Turret"
+      },
+      {"name": "No MG", "id": "4a2a-aa63-8f05-4ab7", "comment": "v17 - willus8888\n- added", "hidden": false},
+      {
+        "name": "Cavalry",
+        "id": "c62a-5462-5d2a-649c",
+        "description": "+1 To Hit for all Shooting. Move 6\"/15cm when Charging into Contact. Cannot hit Armoured Tanks in Assaults. Not Concealed and friends cannot shoot over these teams when Stationary in Open. Cannot occupy Foxholes or Buildings.",
+        "hidden": false
+      },
+      {"name": "HEAT", "id": "0a75-9107-1a42-067c", "description": "Target Armour is not increased by +1 if it is more than 16\"/40cm away.", "hidden": false},
+      {
+        "name": "Pioneers",
+        "id": "d5d8-38e6-2091-b13d",
+        "description": "Teams cross Minefields on 3+. If not Pinned Down, may clear the Minefield automatically next turn.",
+        "hidden": false
+      },
+      {
+        "name": "Armoured Reserve",
+        "id": "5829-745d-2e10-47b1",
+        "description": "In missions with Deep Reserves, you may only field one Tank Unit with Armoured Reserve, one Tank Unit with Front Armour of 3 or more, or one Aircraft Unit on the table at the start of the game.",
+        "hidden": false
+      },
+      {
+        "name": "Dismount",
+        "id": "adfb-38ac-d14c-5575",
+        "description": "Unit may dismount at the start of the Movement Step. Once dismounted, may not remount for rest of the game and moves as Infantry.",
+        "hidden": false
+      },
+      {
+        "name": "Gigantic",
+        "id": "4fca-c940-f1ad-b2fc",
+        "description": "Teams for this Unit cannot be placed from Ambush within 16\"/40cm of any enemy Team.",
+        "hidden": false
+      },
+      {
+        "name": "Mountaineers",
+        "id": "243b-2c1e-a3f8-7ee5",
+        "description": "Teams frim a Unit with Mountaineers that start their Movement Step adjacent to a cliff or mountain side (or another similar Impassable terrain feature) roll a Skill Test. If successful, the Team may move using Terrain Dash across the terrain.",
+        "hidden": false
+      },
+      {
+        "name": "Accurate",
+        "id": "472c-543b-a3d3-c0b4",
+        "description": "Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away and the Shooting Team did not Move.",
+        "hidden": false
+      },
+      {
+        "name": "Air Observation Post",
+        "id": "b21c-48d2-e006-35ff",
+        "description": "An Air Observation Post is an Aircraft that arrives on a roll of 3+ (rather than the usual 4+)\n\nAn Air Observation Post is unarmed, but can act as an Observer, Spotting for an Artillery Bombardment with an Aiming Point within 12\"/30cm of tha Aircraft. The opposing player may shoot at the Aircraft immediately before it rolls to Range In as though the aircraft was Shooting.",
+        "hidden": false
+      },
+      {
+        "name": "Back-blast",
+        "id": "9f03-7bf9-793b-fc9d",
+        "description": "A Team firing a Back-blast weapon cannot be Concealed if it shot in its previous Shooting Step.",
+        "hidden": false
+      },
+      {"name": "Component", "id": "f664-721e-ee70-808d", "description": "Component Teams rule use the same rating of their parent Unit.", "hidden": false},
+      {
+        "name": "Infra-Red (IR)",
+        "id": "afef-4d4a-f82d-6656",
+        "description": "A Unit with Infra-Red rolls two dice on the Night Visibility Table and chooses the highest score.",
+        "hidden": false
+      },
+      {
+        "name": "MG Transport",
+        "id": "3066-0137-b9fb-6447",
+        "description": "M1917 HMG or M1919 LMG teams my fire while Monunted as a Passenger in an M3 half-track, using the Optional Passenger MG weapon line.",
+        "hidden": false
+      },
+      {
+        "name": "Seek, Strike, and Destroy",
+        "id": "fdde-4a19-0251-7c59",
+        "description": "A Unit with Seek, Strike, and Destroy my attempt a Shoot and Scoot Movement Order after succeeding with a Blitz Move Movment Order earlier in the same turn.",
+        "hidden": false
+      },
+      {
+        "name": "Smooth RIde",
+        "id": "e670-9f57-beb0-a08f",
+        "description": "M4 Easy Eight Tank teams do not suffer the +1 penalty To Hit for Stabiliser if they Move less than 4\"/10cm in the Movement Step.",
+        "hidden": false
+      },
+      {
+        "name": "Stabiliser",
+        "id": "a317-b641-a67c-82c7",
+        "description": "Weapons with Stabiliser suffer a +1 penalty To Hit if the Tank Moved in the Movement Step.",
+        "hidden": false
+      },
+      {
+        "name": "Time on Target",
+        "id": "a5b6-3e7e-68f6-d887",
+        "description": "If an Artillery Unit with Time on Targer ranges in on the first attempt, any Infantry or Gun Teams hit by the Bombardment must re-roll successful Saves.",
+        "hidden": false
+      },
+      {
+        "name": "Mounted Assault",
+        "id": "924d-5265-8fe9-e41a",
+        "description": "This Unit has better Assault & Counterattack ratings with Passengers (present in columns)",
+        "hidden": false
+      },
+      {
+        "name": "Unit Transport",
+        "id": "5876-534c-9b8d-a44b",
+        "description": "The Unit Leader of the Transport Attachment must end the Movement Step within 6\"/15cm of the Unit Leader of its Passenger Unit while on table. If it cannot do this, then the Transport Attachment must be Sent to the Rear.",
+        "hidden": false
+      },
+      {
+        "name": "Guided",
+        "id": "b76a-3cff-52e6-bbee",
+        "description": "Guided weapons do not suffer the usual +1 penalty TO Hit if the targeted Team is more than 16\"/40cm away. Guided weapons cannot hit Infantry Teams unless the Infantry are stationary and in Bulletproof Cover.",
+        "hidden": false
+      },
+      {
+        "name": "Stormtroopers",
+        "id": "6cd4-be97-b8cd-5f9c",
+        "description": "The Unit may attempt a second Movement Order after succeeding in its first Movement Order. The second Movement Order must be different from the first.",
+        "hidden": false,
+        "page": 87,
+        "publicationId": "453d-401b-fd1e-0f95"
+      },
+      {
+        "name": "Old Hand",
+        "id": "6917-e995-c71f-63e2",
+        "description": "An Old Hand Formation Commander gives Units from their Formation whose Unit Leader is within 6\"/15cm of the Formation Commander a Tactics raiting of 3+.",
+        "hidden": false,
+        "page": 3,
+        "publicationId": "3bbf-3707-35dd-b1f5"
+      },
+      {
+        "name": "IR Searchlight",
+        "id": "2b71-0d7c-e187-b5bb",
+        "description": "A Unit with an Infra-Red Searchlight may, instead of Shooting, Illuminate a target in Line of Sight within 32\"/80cm. To do this the unit with the Infra-Red Searchlight does not need to roll for Night Visibility and can automatically see out to 32\"/80cm. All Units with the Infra-Red special rule may Shoot at that target without rolling for Night Visibility. Hits may be allocated to Teams from the same Unit within 6\"/15cm of the target Team.",
+        "hidden": false
+      },
+      {
+        "name": "Night Fighters",
+        "id": "2920-556d-a61e-0401",
+        "description": "If a Force with Night Fighters is the Attacker in a mission without the Meeting Engagement rule, the player may attack at night. If they do so, Night Fighting Dawn rules are in effect at the start of the game.\n\nUnits from Formations with Night Fighters can move freely from the start of the game. Other Units from other Formations or Support in the Force, unless equipped with Infra-Red, may not move out of their Deployment Area while the game is played in Darkness, but can move when Dawn breaks.",
+        "hidden": false
+      },
+      {
+        "name": "Uhu",
+        "id": "ad1e-21b7-462c-6763",
+        "description": "An Sd Kfz 251/Uhu Tank Team is sent to the rear at the beginning of their Movement Step in which the game is fought in Daylight. An Uhu removed n this fashion does not count as Destroyed, and if Bailed Out, automatically Remounts.\n\nAn Uhu Tank Team is brought forward at the beginning of their first Movement Step in which the game is fought at Night. Before moving an Infra-Red equipped Unit, you may place its Uhu on the table.\n\nThe Uhu must be placed with 4\"/10cm of a Team from the Unit, and may not be:\n* within 16\"/40cm of any enemy Team within Line of Sight, unless Concealed by Terrain from it, or\n* within 4\"/10cm of any enemy Team.\n\nOnce Brought Forward in this way, the Uhu must move at Dash Speed (and therefore cannot Shoot or Assault this turn), but may Illuminate a target with its Infra-Red Searchlights.",
+        "hidden": false
+      },
+      {
+        "name": "Bazooka Skirts",
+        "id": "8632-8046-32a9-3942",
+        "description": "A Tank Team with Bazooka Skirts increases its Side armour to 5 against weapons with Firepower 5+ or 6.",
+        "hidden": false
+      },
+      {
+        "name": "Nest",
+        "id": "b72e-e78a-9911-ad22",
+        "description": "A Nest is always Concealed and in Bulletproof Cover. Teams Shooting a Nest must re-roll successful Firepower tests to Destroy it.\nNests cannot be Assaulted by Tanks nor can they Charge into Contact.\nEach Nest is a separate Unit, even when taken as part of the same selection.",
+        "hidden": false
+      },
+      {
+        "name": "Passengers #",
+        "id": "9f2d-0bb9-b3ae-bb70",
+        "comment": "These have all been given the same name and text so as to not break links in the 20+ catalogs where they are present; please do not alter them in any way. - Ursy",
+        "description": "A Transport Team can carry Infantry Teams as Passengers. The # indicatres how many Teams can be carried.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Warrior",
+        "id": "3bf7-7a62-ca18-c39d",
+        "collective": false,
+        "comment": "This is included into warrior upgrades so that there are no other warriors added to the force",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "a065-acf0-6a9f-9660",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "8934-fece-6741-7d26",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "59c4-e838-af9b-4966",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}]
+      }
+    ]
+  }
+}
