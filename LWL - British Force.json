@@ -1,0 +1,4052 @@
+{
+  "catalogue": {
+    "name": "Late-War Leviathans - British",
+    "id": "41c8-8342-0c33-b9cb",
+    "authorContact": "Discord; zharrpostingghoroth",
+    "authorName": "UrsinePatriarch",
+    "authorUrl": "https://github.com/BSData/flamesofwar",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "976a-b687-1fdb-07ef",
+    "gameSystemRevision": 25,
+    "library": false,
+    "readme": "Work begins 9/22/2025\nV1 finished 10/22/25",
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [{"name": "Late-War - Bulge: British", "id": "d947-a77b-73de-d873", "importRootEntries": false, "targetId": "46c6-85fe-74b1-31a1", "type": "catalogue"}],
+    "categoryEntries": [
+      {"name": "CENTURION 1", "id": "2af5-3861-9448-7a1d", "hidden": true},
+      {"name": "CHARIOTEER", "id": "67bb-0607-e5b7-8200", "hidden": true},
+      {"name": "CENTURION 3", "id": "6e9e-6d49-3608-658f", "hidden": true},
+      {"name": "SARACEN", "id": "2c92-d8b9-00ec-92de", "hidden": true},
+      {"name": "TORTOISE", "id": "7549-d749-71ae-9914", "hidden": true},
+      {"name": "CHURCHILL", "id": "e908-35f2-f65c-4c25", "hidden": true}
+    ],
+    "entryLinks": [
+      {
+        "name": "* [F] Centurion Armoured Squadron",
+        "id": "b16b-dfb4-dfed-86e4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1419-c5f8-de6d-e970",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ae69-ed78-e16b-a7e2", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "[F] Charioteer Armoured Squadron",
+        "id": "8a22-026e-bbb9-ac85",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "89d6-8619-aaf6-a21b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e2eb-ff87-96b2-4c6a", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "* [F] Saracen Motor Company",
+        "id": "7a03-bc9c-fba3-51fa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a0c1-b88c-8a2a-0d56",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "104d-ef55-f198-2c90", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "* [F] Tortoise Armoured Squadron",
+        "id": "af2d-93c4-b4e2-66b0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b17a-3ee2-7169-f8ad",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c390-d70e-cf52-5fc3", "hidden": false, "primary": true, "targetId": "5630-abd3-15d8-5cc6"}]
+      },
+      {
+        "name": "[FS] Centurion 1 Armoured Troop",
+        "id": "bab6-ef94-20f9-66ea",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f173-12d5-1e28-a18a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f1ce-7faf-e905-bfd3", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "5a17-0512-aadc-ea82",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "2af5-3861-9448-7a1d"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2af5-3861-9448-7a1d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[FS] Centurion 3 Armoured Troop",
+        "id": "92ca-d5b1-948c-ba47",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c347-a0eb-1d85-958f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ec79-f86e-5b66-a6d1", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "e991-dca9-e5b2-6313",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "6e9e-6d49-3608-658f"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6e9e-6d49-3608-658f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[FS] Charioteer Armoured Troop",
+        "id": "69de-38d2-ea4d-6578",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "52c6-c41e-9788-4df7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2f92-6195-430a-a465", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "08f5-c18c-663d-167d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "67bb-0607-e5b7-8200"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "67bb-0607-e5b7-8200",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "* [FS] Guards Churchill Armoured Troop",
+        "id": "b595-63e9-e8b1-bac3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "31f2-6880-73e7-463b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "42fd-fd9a-83c1-bd4a", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "1847-b1b6-ce74-2407",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "e908-35f2-f65c-4c25"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e908-35f2-f65c-4c25",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[FS] Saracen Motor Platoon",
+        "id": "c706-a05a-a228-d519",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5dd2-7996-9561-7681",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2369-55a5-9e64-abeb", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "298d-99cb-cda4-2061",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "2c92-d8b9-00ec-92de"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2c92-d8b9-00ec-92de",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[FS] Tortoise Assault Troop",
+        "id": "0583-547e-3111-91d9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ce7e-c5d9-ac74-7717",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0a63-00d6-add8-c542", "hidden": false, "primary": true, "targetId": "b531-2fd7-ec0e-d214"}],
+        "constraints": [
+          {
+            "id": "3421-7e00-79a9-6d96",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {"field": "category", "type": "remove", "value": "7549-d749-71ae-9914"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "7549-d749-71ae-9914",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-aircraft] Bofors SP AA Troop",
+        "id": "2cf5-f106-2370-7a8d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d42f-a971-6155-bfe4",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "55b8-cc03-23ae-d648", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "ac37-1b24-1c1f-1b32",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] Typhoon Fighter-Bomber Flight",
+        "id": "5b0c-5ab1-c8c1-a825",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "225e-bde9-d2a0-9ce8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c9e4-6b0f-1788-2a55", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "54b1-7496-2192-c256",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "* [Observer] Support OP",
+        "id": "5108-5863-2efd-cc21",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "9174-3ab0-cfbf-8b55",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7bdb-7eb3-24aa-6211", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "1cba-dbb6-d8c1-4b12",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "e0ea-2e56-ca75-fa67",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  },
+                  {
+                    "childId": "bc86-73a0-2f17-6a52",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Support Troop",
+        "id": "1460-ebe6-a5fa-3d57",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "96c4-deb1-a304-9226",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4811-7a22-7afd-1837", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "dbde-417d-0612-e897",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Support Troop",
+        "id": "83e6-1175-e3f0-bb64",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "96c4-deb1-a304-9226",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1102-11bc-9b60-5942", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "b9cc-49b3-cdda-806d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Support Troop",
+        "id": "c911-4118-fb0f-f842",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "96c4-deb1-a304-9226",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6900-9132-86df-2a1a", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "0786-341f-8cb5-9a55",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Support Troop",
+        "id": "8a2d-70f4-855d-2c0f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "96c4-deb1-a304-9226",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "77bc-2b1c-7594-e130", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "becf-4dad-92b2-0537",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Reconnaissance] Support Troop",
+        "id": "8f45-efea-5633-bba4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4bcd-e6b5-6292-99ff",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a781-cfc5-abfa-d577", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "dd9b-10a0-c113-bc4c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Reconnaissance] Support Troop",
+        "id": "3d91-a2bb-afd9-c9a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4bcd-e6b5-6292-99ff",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5d7c-80c4-e4df-e4e8", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "7b44-21e1-717a-d703",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Light Support Troop",
+        "id": "b280-a00b-0f54-0874",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fc68-0bd0-aaaa-b898",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e763-fb76-4961-d729", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "7c2e-a46b-45a8-6edf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Light Support Troop",
+        "id": "9587-919f-7914-e143",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fc68-0bd0-aaaa-b898",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9b33-43f2-f174-3c07", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "699d-d1b2-fc3d-f047",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Heavy Support Troop",
+        "id": "a2aa-96a9-ab94-dfad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "93b0-680d-ea84-a9a0",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d988-a774-1bc6-8824", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "0398-01e9-a39c-811a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Heavy Support Troop",
+        "id": "3949-7934-168e-ad56",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "93b0-680d-ea84-a9a0",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3780-4e00-1d4c-a374", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "ad26-db81-e400-7e06",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Armour] Crocodile Flame-Tank Platoon",
+        "id": "bd0c-f51c-042b-9c85",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cbe6-a634-2d78-21a8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "23fd-2a51-9073-4b50", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "9143-98d7-45ae-c9f2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Armour] Crocodile Flame-Tank Platoon",
+        "id": "b9aa-da37-11cb-1ce9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "cbe6-a634-2d78-21a8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "06e7-ed47-869c-e0f7", "hidden": false, "primary": true, "targetId": "9be3-4dab-91f0-f7c5"}],
+        "constraints": [
+          {
+            "id": "57a8-5d73-2596-12c1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "Centurion 1 (17 pdr)",
+        "id": "54d7-5328-7987-40e7",
+        "hidden": true,
+        "profiles": [
+          {
+            "name": "Centurion 1",
+            "id": "ea6e-36c1-76ba-308e",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 3+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "10", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "5", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "16\"/40cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "18\"/45cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "2+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Tank Formation", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Centurion 1 (17 pdr)",
+            "id": "50db-e660-f42a-030f",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "36\"/90cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "15", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Centurion 1 (20mm MG)",
+            "id": "cbea-56b8-d0ea-bd18",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "6", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Centurion 3 (20 pdr)",
+        "id": "3f76-7209-f020-66de",
+        "hidden": true,
+        "infoLinks": [{"name": "Stabiliser", "id": "7df2-a949-70de-329b", "hidden": false, "targetId": "a317-b641-a67c-82c7", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Centurion 3",
+            "id": "2869-9b8c-f760-a817",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "10", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "5", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "12\"/30cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "16\"/40cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "18\"/45cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "2+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Tank Formation", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Centurion 3 (20 pdr)",
+            "id": "afc9-4d2d-2390-e560",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "40\"/100cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "17", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Stabiliser", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Centurion 3 (MG)",
+            "id": "d26b-f732-3a65-3be7",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tortoise (32 pdr)",
+        "id": "b973-da9b-9872-e917",
+        "hidden": true,
+        "infoLinks": [{"name": "Forward Firing", "id": "ef34-a9e3-53fc-883c", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Tortoise",
+            "id": "7dbc-63b3-61af-44ed",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 5+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "21", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "11", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "2", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "2+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Tank Formation", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Tortoise (32 pdr)",
+            "id": "c272-72f8-68ff-b6c8",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "40\"/100cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "18", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Forward Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Tortoise (MGs)",
+            "id": "5bc9-a653-25ad-bd8e",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "5", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "5", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Comet",
+        "id": "c8b1-2c9c-db79-ceed",
+        "hidden": false,
+        "infoLinks": [{"name": "Smoke", "id": "aeab-a11a-2d60-8588", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Comet (77mm)",
+            "id": "151d-55b4-2d35-be31",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "36\"/90cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "14", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Smoke", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Comet (MGs)",
+            "id": "0ced-1bd4-7849-feb6",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "4", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Comet",
+            "id": "2211-cf40-e2ff-a177",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "7", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "5", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "1", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "12\"/30cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "28\"/70cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M10 (Late)",
+        "id": "8b86-65d4-ee1c-35a4",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Self-Defence AA", "id": "65f9-d32b-e048-5c83", "hidden": false, "targetId": "6c0b-8d39-70b6-9d1c", "type": "rule"},
+          {"name": "No HE", "id": "3f7e-781f-8dbd-9162", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "M10",
+            "id": "80ac-831b-6603-e7c2",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounter Attack 6", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "5", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "2", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "14\"/35cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "20\"/50cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "M10 (50 .cal MG)",
+            "id": "e276-e087-f696-7220",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "2", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "4", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "5+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Self-defence AA", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "M10 (late 17 pdr)",
+            "id": "e569-4b75-156f-eaba",
+            "hidden": false,
+            "publicationId": "0071-7fad-4956-579d",
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "36\"/90cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "15", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "No HE", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saracen Transport",
+        "id": "97a5-82c2-6240-0cc9",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Passengers #", "id": "a12f-64e8-9301-703b", "hidden": false, "targetId": "1dcd-ee7f-6116-8df5", "type": "rule"},
+          {"name": "Unit Transport", "id": "97ab-84c1-f806-1a68", "hidden": false, "targetId": "5876-534c-9b8d-a44b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Saracen Transport",
+            "id": "dae1-7ea3-800a-1903",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "5+\nCounterattack 6", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "2", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "1", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "16\"/40cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Passengers 2, Unit Transport", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Saracen (MG)",
+            "id": "2226-7801-82a1-2c7c",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hornet",
+        "id": "b500-8d41-77df-d8be",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Back-blast", "id": "84d7-4302-ded7-5bba", "hidden": false, "targetId": "9f03-7bf9-793b-fc9d", "type": "rule"},
+          {"name": "Brutal", "id": "6796-72c4-95bd-5f28", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"},
+          {"name": "Forward Firing", "id": "2030-7c23-e9e4-4365", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Guided", "id": "5177-fc19-04a7-d8c1", "hidden": false, "targetId": "b76a-3cff-52e6-bbee", "type": "rule"},
+          {"name": "HEAT", "id": "63a0-c5ee-aa8d-09dc", "hidden": false, "targetId": "0a75-9107-1a42-067c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Hornet",
+            "id": "fa21-bbd5-7f42-0938",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "0", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "14\"/35cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Hornet (Malkara missile)",
+            "id": "29e3-86f6-0f4e-415b",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm - 48\"/120cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "-", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "18", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Back-blast, Brutal, Forward Firing, Guided, HEAT", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charioteer",
+        "id": "5552-1efc-1321-7947",
+        "hidden": false,
+        "infoLinks": [{"name": "Overworked", "id": "cafd-b78d-b246-f328", "hidden": false, "targetId": "4c99-f2b8-5818-72b1", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Charioteer",
+            "id": "d31c-efe6-8928-a02d",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "4", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "3", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "1", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "12\"/30cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "28\"/70cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "typeId": "33d6-6375-9564-9985"}
+            ]
+          },
+          {
+            "name": "Charioteer (20 pdr)",
+            "id": "b139-c4f2-9713-ed39",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "40\"/100cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "17", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Overworked", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "Charioteer (MG)",
+            "id": "5535-fcda-58c0-cee6",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "3", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "3", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "120mm BAT",
+        "id": "2061-1384-3e6f-daa2",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Accurate", "id": "8bb7-2e57-3390-e8b7", "hidden": false, "targetId": "472c-543b-a3d3-c0b4", "type": "rule"},
+          {"name": "Back-blast", "id": "5ae6-d563-4da9-5716", "hidden": false, "targetId": "9f03-7bf9-793b-fc9d", "type": "rule"},
+          {"name": "Brutal", "id": "07b0-72dc-60df-7910", "hidden": false, "targetId": "97da-9a33-4ff1-56f2", "type": "rule"},
+          {"name": "Forward Firing", "id": "a3d0-3ec8-e2db-7604", "hidden": false, "targetId": "fa9d-68f6-57d9-dc5d", "type": "rule"},
+          {"name": "Slow Firing", "id": "7e98-d6bf-51ea-70ee", "hidden": false, "targetId": "e215-d5bf-83ce-606a", "type": "rule"},
+          {"name": "HEAT", "id": "dc55-a080-ad78-9382", "hidden": false, "targetId": "0a75-9107-1a42-067c", "type": "rule"},
+          {"name": "Gun Shield", "id": "5816-6db5-e929-3f4d", "hidden": false, "targetId": "2f2d-c5a9-ef7e-1b5e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "120mm BAT recoilless rifle",
+            "id": "e55a-c0cb-1888-3c89",
+            "hidden": false,
+            "typeId": "33b6-a72a-2bd8-2565",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+              {"name": "Halted ROF", "$text": "1", "typeId": "7f6e-6f8f-5f15-6e9d"},
+              {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+              {"name": "Anti-Tank", "$text": "18", "typeId": "f57e-fa10-d0f9-e2dd"},
+              {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+              {"name": "Notes", "$text": "Accurate, Back-blast, Brutal, Forward Firing, HEAT, Slow Firing", "typeId": "d939-5084-e654-44c6"}
+            ]
+          },
+          {
+            "name": "120mm BAT Anti-tank Platoon",
+            "id": "78fd-5089-d9a8-716e",
+            "hidden": false,
+            "typeId": "7c70-b6af-9e5a-e7f6",
+            "typeName": "Gun Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+", "typeId": "0954-f596-53ea-4ef7"},
+              {"name": "Skill", "$text": "4+\nAssault 5+", "typeId": "a907-592d-ab2d-5ead"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "1f89-085b-464b-c60f"},
+              {"name": "Save", "$text": "3+", "typeId": "ae14-5890-03de-a715"},
+              {"name": "Tactical", "$text": "2\"/5cm", "typeId": "3bad-79bd-27aa-4539"},
+              {"name": "Terrain Dash", "$text": "2\"/5cm", "typeId": "a400-d543-6fb9-26d0"},
+              {"name": "Cross Country Dash", "$text": "4\"/10cm", "typeId": "34ca-877a-8ffa-1006"},
+              {"name": "Road Dash", "$text": "6\"/15cm", "typeId": "d283-e066-839c-fbd7"},
+              {"name": "Cross", "$text": "5+", "typeId": "3f9c-89f9-0b29-0585"},
+              {"name": "Notes", "$text": "Gun Shield", "typeId": "28aa-390d-006a-1776"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saracen Motor Platoon",
+        "id": "6901-3c88-5ee1-188f",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Bren Gun team", "id": "dc46-61f2-6815-ce92", "hidden": false, "targetId": "7e13-3fa6-5d62-7502", "type": "profile"},
+          {"name": "PIAT", "id": "53e2-9969-b7c7-4a62", "hidden": false, "targetId": "e741-985f-42d2-b4de", "type": "profile"},
+          {"name": "2-inch mortar", "id": "21b5-0967-5901-5ca4", "hidden": false, "targetId": "c509-146e-9908-d0fe", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Saracen Motor Platoon",
+            "id": "4a84-593a-f258-8c34",
+            "hidden": false,
+            "typeId": "0917-e2f0-0c3e-b482",
+            "typeName": "Infantry Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "4+\nCounterattack 3+", "typeId": "4aa0-1b18-70af-9474"},
+              {"name": "Skill", "$text": "4+\nAssault 3+", "typeId": "7258-881d-dc2d-e80b"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+              {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+              {"name": "Notes", "typeId": "173e-6395-d37b-31a2"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M5 half-track Transport",
+        "id": "d76c-6c53-985c-fb8f",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Passengers #", "id": "dfc9-9df4-1c9e-d61c", "hidden": false, "targetId": "1dcd-ee7f-6116-8df5", "type": "rule"},
+          {"name": "Unit Transport", "id": "c83c-aa9a-069f-7f56", "hidden": false, "targetId": "5876-534c-9b8d-a44b", "type": "rule"},
+          {"name": "Tractor", "id": "6762-cd43-c109-cd9d", "hidden": false, "targetId": "1add-f696-3ad3-0243", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "M5 half-track",
+            "id": "7e63-9da4-2a25-a42e",
+            "hidden": false,
+            "typeId": "55ec-3ef5-ca51-e647",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Motivation", "$text": "5+\nCounterattack 6", "typeId": "046a-7f27-8072-dedb"},
+              {"name": "Skill", "$text": "4+\nAssault 6", "typeId": "6334-745a-f712-a0aa"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+              {"name": "Armour Front", "$text": "1", "typeId": "b88a-3ca6-9b40-ff73"},
+              {"name": "Armour Side & Rear", "$text": "0", "typeId": "3712-51b3-aae3-94bd"},
+              {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+              {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+              {"name": "Cross Country Dash", "$text": "18\"/45cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+              {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "b5b1-c829-470a-af62"},
+              {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+              {"name": "Notes", "$text": "Passengers 3, Unit Transport", "typeId": "33d6-6375-9564-9985"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Centurion 1 Armoured Troop",
+        "id": "f173-12d5-1e28-a18a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "CENTURION 1", "id": "46cc-b747-f007-e716", "hidden": false, "primary": false, "targetId": "2af5-3861-9448-7a1d"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "887-740d-d7f1-c253",
+            "collective": false,
+            "defaultSelectionEntryId": "ebfb-5ee7-38c6-ebb",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8d17-5e7e-3949-1c0d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7774-e37d-f2a-ea05",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Centurion 1 (17 pdr)",
+                "id": "ebfb-5ee7-38c6-ebb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 20}],
+                "infoLinks": [{"name": "Centurion 1 (17 pdr)", "id": "0e2d-04ef-46f1-fba2", "hidden": false, "targetId": "54d7-5328-7987-40e7", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x Centurion 1 (17 pdr)",
+                "id": "396b-c2b8-8098-1a77",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 29}],
+                "infoLinks": [{"name": "Centurion 1 (17 pdr)", "id": "d172-c82b-cb30-a2c7", "hidden": false, "targetId": "54d7-5328-7987-40e7", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Centurion 1 (17 pdr)",
+                "id": "4ff7-d688-787a-f862",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 39}],
+                "infoLinks": [{"name": "Centurion 1 (17 pdr)", "id": "52bf-fe77-a5bf-bd39", "hidden": false, "targetId": "54d7-5328-7987-40e7", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Centurion 3 Armoured Troop",
+        "id": "c347-a0eb-1d85-958f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "CENTURION 3", "id": "1408-b1df-a538-1d21", "hidden": false, "primary": false, "targetId": "6e9e-6d49-3608-658f"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "f82a-8467-609b-b47f",
+            "collective": false,
+            "defaultSelectionEntryId": "2f06-761d-b1ec-78ba",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b369-b323-d927-8db1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "aaa6-902b-b04f-7406",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Centurion 3 (20 pdr)",
+                "id": "2f06-761d-b1ec-78ba",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 22}],
+                "infoLinks": [{"name": "Centurion 3 (20 pdr) [LB614]", "id": "83e6-bcbe-4fa4-4ef5", "hidden": false, "targetId": "3f76-7209-f020-66de", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x Centurion 3 (20 pdr)",
+                "id": "4488-bd48-7ad3-9447",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 33}],
+                "infoLinks": [{"name": "Centurion 3 (20 pdr) [LB614]", "id": "318f-9e56-6701-dbb7", "hidden": false, "targetId": "3f76-7209-f020-66de", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Centurion 3 (20 pdr)",
+                "id": "41c7-9811-cc5-bd55",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 44}],
+                "infoLinks": [{"name": "Centurion 3 (20 pdr) [LB614]", "id": "3eb6-0a65-64d1-394c", "hidden": false, "targetId": "3f76-7209-f020-66de", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tortoise Assault Troop",
+        "id": "ce7e-c5d9-ac74-7717",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "TORTOISE", "id": "0db0-8913-acbf-2d0f", "hidden": false, "primary": false, "targetId": "7549-d749-71ae-9914"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "4b27-5070-a385-2f4b",
+            "collective": false,
+            "defaultSelectionEntryId": "9b0c-4919-9554-1db6",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "12b7-d4ac-c119-2bee",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "98fb-7985-ffc2-314f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Tortoise (32 pdr)",
+                "id": "9b0c-4919-9554-1db6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 30}],
+                "infoLinks": [{"name": "Tortoise (32 pdr) [LB602]", "id": "9e42-bd0c-3d59-78f7", "hidden": false, "targetId": "b973-da9b-9872-e917", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x Tortoise (32 pdr)",
+                "id": "92a9-1d96-4a54-c0af",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 45}],
+                "infoLinks": [{"name": "Tortoise (32 pdr) [LB602]", "id": "c1b9-dfee-5139-8c9f", "hidden": false, "targetId": "b973-da9b-9872-e917", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Comet Armoured Troop",
+        "id": "c52a-fd62-e5a3-6c12",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "f38c-3654-e944-7f4f",
+            "collective": false,
+            "defaultSelectionEntryId": "c6ad-56ed-5cfc-7ce3",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "dcf9-6e4a-f6f0-ce91",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d773-f83d-6555-9a7d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Comet (77mm)",
+                "id": "c6ad-56ed-5cfc-7ce3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 21}],
+                "infoLinks": [{"name": "Comet", "id": "165a-0689-daba-23a5", "hidden": false, "targetId": "c8b1-2c9c-db79-ceed", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Comet (77mm)",
+                "id": "9f1f-49ec-84a4-975c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 28}],
+                "infoLinks": [{"name": "Comet", "id": "86e9-c646-7866-b1cb", "hidden": false, "targetId": "c8b1-2c9c-db79-ceed", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saracen Motor Company",
+        "id": "a0c1-b88c-8a2a-0d56",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] Saracen Motor Platoon",
+            "id": "7330-a001-c285-8483",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5dd2-7996-9561-7681",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "af7a-d0b1-363a-bae3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "74c6-c426-0d78-81c9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "* [FS] Saracen Motor Platoon",
+            "id": "3570-f3f8-00a7-3ea3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5dd2-7996-9561-7681",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "db75-9bc5-e723-8b87",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f97d-38c2-2676-529d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Saracen Motor Company HQ",
+            "id": "e04a-8738-76dd-bc2b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "7add-ea78-dd8d-76b7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f5b5-7c8a-40f5-7eb5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "2x Sten SMG team",
+                "id": "6215-5705-211c-3141",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "e4c4-1cbb-756b-8bfe",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "5f68-dd61-4764-567c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [
+                  {"name": "Sten SMG team", "id": "71bc-2531-ef79-7303", "hidden": false, "targetId": "104a-ff57-0257-cc3e", "type": "profile"},
+                  {"name": "HQ Transport", "id": "c713-95d9-50cd-8d36", "hidden": false, "targetId": "7de4-d921-ff24-9632", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Saracen Motor Platoon HQ",
+                    "id": "60df-cdd3-75eb-2b80",
+                    "hidden": false,
+                    "typeId": "0917-e2f0-0c3e-b482",
+                    "typeName": "Infantry Unit",
+                    "characteristics": [
+                      {"name": "Motivation", "$text": "4+\nCounterattack 3+", "typeId": "4aa0-1b18-70af-9474"},
+                      {"name": "Skill", "$text": "4+\nAssault 3+", "typeId": "7258-881d-dc2d-e80b"},
+                      {"name": "Is Hit On", "$text": "4+", "typeId": "0641-f39f-6a33-7dcc"},
+                      {"name": "Save", "$text": "3+", "typeId": "4750-979d-b2bb-c536"},
+                      {"name": "Tactical", "$text": "8\"/20cm", "typeId": "8027-bcf9-d953-3740"},
+                      {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "b93a-5d61-9a77-50cc"},
+                      {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "4862-29d4-9ab9-76a0"},
+                      {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "75e3-9f15-03c8-7f95"},
+                      {"name": "Cross", "$text": "AUTO", "typeId": "2d03-7d6c-d869-db3f"},
+                      {"name": "Notes", "$text": "HQ Transport", "typeId": "173e-6395-d37b-31a2"}
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "1) Optional Transport",
+                "id": "a87b-3e62-e562-bd12",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "6699-5c49-7ee4-4741",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Saracen",
+                    "id": "ac9f-ad03-5aa5-5bb0",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                    "infoLinks": [{"name": "Saracen Transport", "id": "49e8-2cf7-13f6-0a9b", "hidden": false, "targetId": "97a5-82c2-6240-0cc9", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "M5 half-track",
+                    "id": "d6f2-e3a9-932f-a805",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                    "infoLinks": [{"name": "M5 half-track Transport", "id": "85a0-c972-42f5-c5f4", "hidden": false, "targetId": "d76c-6c53-985c-fb8f", "type": "infoGroup"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Saracen Platoon",
+            "id": "9011-687a-05e8-887b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [FS] Saracen Motor Platoon",
+                "id": "33d5-86c6-5da3-0089",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5dd2-7996-9561-7681",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "cdcc-229d-73ee-849b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Anti-tank Platoon",
+            "id": "8fb6-1dd7-73c2-2878",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "c8ee-6b95-f124-43eb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Motor 6 pdr Anti-Tank Platoon",
+                "id": "b51a-4119-2a5b-4d5f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f26b-4914-4be9-7e4c",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* 120mm BAT Anti-tank Platoon",
+                "id": "c4bc-a407-2b90-7a40",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4005-6f6e-e795-0933",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Weapons Platoon",
+            "id": "646c-67a7-b4c1-29bf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4ad4-257c-6bb8-b808",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "MMG Carrier Patrol",
+                "id": "2fce-fe11-b64d-c0de",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3209-da6c-aadb-01d7",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Vickers Machine-Gun Platoon",
+                "id": "5fae-a24f-fde2-3bd8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e686-b9dd-c794-8213",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional AT & Artillery Platoons",
+            "id": "9382-06e5-7f5a-5d5a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* 120mm BAT Anti-tank Platoon",
+                "id": "1d9b-203b-afdb-8545",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4005-6f6e-e795-0933",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ea82-cd24-bc39-0aa0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "3-inch Mortar Platoon",
+                "id": "aee9-643b-4a28-2eba",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "dc7e-dcfd-bbf6-e9b8",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ce66-9775-19a0-1be5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Recon Patrols",
+            "id": "507a-4d56-3f60-706e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Universal Carrier Patrol",
+                "id": "4881-d5b4-16b6-0fd2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c5a3-a78d-9ad6-4858",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "5eba-28bb-34bd-5cc0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Universal Carrier Patrol",
+                "id": "0799-1c5a-1310-833c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c5a3-a78d-9ad6-4858",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "152c-4294-de2f-3a82",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Universal Carrier Patrol",
+                "id": "d7d3-dd6d-5f76-bfca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c5a3-a78d-9ad6-4858",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "7eae-c12e-1705-b604",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Centurion Armoured Squadron",
+        "id": "1419-c5f8-de6d-e970",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Centurion Armoured Squadron HQ",
+            "id": "6fc9-d775-271c-a6e4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "9af2-4580-fdff-e711",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "09d0-7429-c5ea-692b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntryGroups": [
+              {
+                "name": "1) Unit Type",
+                "id": "521c-084b-c919-7b56",
+                "collective": false,
+                "defaultSelectionEntryId": "69e4-e0eb-b77b-9fd2",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "c57e-b8c5-a9fb-e650",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9033-6901-0f60-c200",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "1x Centurion 1 (17 pdr)",
+                    "id": "69e4-e0eb-b77b-9fd2",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}],
+                    "infoLinks": [{"name": "Centurion 1 (17 pdr)", "id": "1cb4-d329-c944-fbf7", "hidden": false, "targetId": "54d7-5328-7987-40e7", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "2x Centurion 1 (17 pdr)",
+                    "id": "f6fa-e06c-f75b-000b",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 20}],
+                    "infoLinks": [{"name": "Centurion 1 (17 pdr)", "id": "58c0-cb74-44ca-5f06", "hidden": false, "targetId": "54d7-5328-7987-40e7", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "1x Centurion 3 (20 pdr)",
+                    "id": "91ea-b6aa-21fd-6c06",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 11}],
+                    "infoLinks": [{"name": "Centurion 3 (20 pdr)", "id": "522d-b384-4b42-48c3", "hidden": false, "targetId": "3f76-7209-f020-66de", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "2x Centurion 3 (20 pdr)",
+                    "id": "99bd-ba97-2dcd-dcf0",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 22}],
+                    "infoLinks": [{"name": "Centurion 3 (20 pdr)", "id": "3fce-49b3-931f-60ef", "hidden": false, "targetId": "3f76-7209-f020-66de", "type": "infoGroup"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "5) Optional Recon & AA Units",
+            "id": "80c5-0a07-4d54-d3d4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Chaffee Recce Patrol",
+                "id": "3009-911b-75bf-a7fd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e49d-860c-4734-f554",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "7365-dab8-5cd1-87ed",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Crusader AA Troop",
+                "id": "b6b9-6496-995f-f526",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8b7f-9b88-f575-5079",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "0572-1554-5f09-0575",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "1) Armour Selection #1",
+            "id": "f9a7-ea11-2e09-f5ad",
+            "collective": false,
+            "defaultSelectionEntryId": "7888-9c4b-49b2-94c7",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "35f6-451c-1c11-8b6b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "6f6c-370b-7480-ef26",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Centurion 1 Armoured Troop",
+                "id": "7888-9c4b-49b2-94c7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f173-12d5-1e28-a18a",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Centurion 3 Armoured Troop",
+                "id": "0904-01d9-2fce-c00c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c347-a0eb-1d85-958f",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Armour Selection #2",
+            "id": "c1e4-adc7-ca1a-d2ba",
+            "collective": false,
+            "defaultSelectionEntryId": "2309-4abf-6cd4-019a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "19ba-8465-e853-510e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "58d1-2af6-b0f2-8856",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Centurion 1 Armoured Troop",
+                "id": "2309-4abf-6cd4-019a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f173-12d5-1e28-a18a",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Centurion 3 Armoured Troop",
+                "id": "cad9-647a-a150-ea69",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c347-a0eb-1d85-958f",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Armour Troop #1",
+            "id": "8edf-e073-a81d-6758",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ef27-9d50-74d1-f4bc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Centurion 1 Armoured Troop",
+                "id": "d120-cf5a-ccae-0280",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f173-12d5-1e28-a18a",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Centurion 3 Armoured Troop",
+                "id": "e933-d9f8-dcdf-084c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c347-a0eb-1d85-958f",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Armour Troop #2",
+            "id": "4b89-6db2-a865-06d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4922-d48e-a40c-04f0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Centurion 1 Armoured Troop",
+                "id": "ad7c-b04b-fb53-133f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f173-12d5-1e28-a18a",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Centurion 3 Armoured Troop",
+                "id": "9c4b-02e8-1300-0488",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c347-a0eb-1d85-958f",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charioteer Armoured Squadron",
+        "id": "89d6-8619-aaf6-a21b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] Charioteer Armoured Troop",
+            "id": "2a79-5bde-6e49-e5bd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "52c6-c41e-9788-4df7",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "0040-2267-609e-8df4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "b493-4295-4a82-dc2d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "* [FS] Charioteer Armoured Troop",
+            "id": "e767-054b-0968-0b50",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "52c6-c41e-9788-4df7",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "8258-fa3a-7870-c0a7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "7211-1ce0-a371-2e3c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Charioteer Armoured Squadron HQ",
+            "id": "2c96-8250-6b5e-1a25",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "b9fc-8775-62c0-0c1a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "1d05-9cfc-8f9c-ed60",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntryGroups": [
+              {
+                "name": "1) Unit Size",
+                "id": "7887-d72d-2266-af69",
+                "collective": false,
+                "defaultSelectionEntryId": "e781-74a4-dba3-6a46",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "987f-a58d-f02c-d205",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "559c-21bf-1caa-6231",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "1x Charioteer (20 pdr)",
+                    "id": "e781-74a4-dba3-6a46",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 5}],
+                    "infoLinks": [{"name": "Charioteer", "id": "879d-b19f-7d3d-b4cd", "hidden": false, "targetId": "5552-1efc-1321-7947", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "2x Charioteer (20 pdr)",
+                    "id": "53e8-88c8-f1e8-64d2",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}],
+                    "infoLinks": [{"name": "Charioteer", "id": "f038-44b8-04e7-06be", "hidden": false, "targetId": "5552-1efc-1321-7947", "type": "infoGroup"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Charioteer Troops",
+            "id": "5845-2098-201b-73d7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [FS] Charioteer Armoured Troop",
+                "id": "f463-8809-2806-8682",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "52c6-c41e-9788-4df7",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e9bd-95f4-b3b7-42f1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "* [FS] Charioteer Armoured Troop",
+                "id": "4550-5bfc-dc62-4eee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "52c6-c41e-9788-4df7",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1e5d-0918-5ede-6c5c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Recon & AA Units",
+            "id": "5304-acf1-960d-4d06",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Chaffee Recce Patrol",
+                "id": "ce8a-097a-4b35-0e2b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e49d-860c-4734-f554",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e541-dad0-2261-f958",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Crusader AA Troop",
+                "id": "ca22-0182-226e-4347",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8b7f-9b88-f575-5079",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "7445-3a5a-b334-e05a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tortoise Armoured Squadron",
+        "id": "b17a-3ee2-7169-f8ad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] Tortoise Assault Troop",
+            "id": "dfb5-fe46-defe-8c79",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "ce7e-c5d9-ac74-7717",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "693f-25ef-13a7-0a55",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8d89-8eb5-9817-e709",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Tortoise Armoured Squadron HQ",
+            "id": "5f47-0261-c9a4-a035",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "755b-0656-d37c-99b4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "dd81-60d8-6375-c713",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+            "selectionEntryGroups": [
+              {
+                "name": "1) Unit Size",
+                "id": "e690-aa1b-b937-f0f2",
+                "collective": false,
+                "defaultSelectionEntryId": "722b-39ff-d6b0-8801",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "be2f-8f98-0020-6115",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "c87f-8cc1-ac92-76d0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "1x Tortoise (32 pdr)",
+                    "id": "722b-39ff-d6b0-8801",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 15}],
+                    "infoLinks": [{"name": "Tortoise (32 pdr)", "id": "07b2-be94-4fa4-28b4", "hidden": false, "targetId": "b973-da9b-9872-e917", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "2x Tortoise (32 pdr)",
+                    "id": "c141-ac5a-4379-0b54",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 30}],
+                    "infoLinks": [{"name": "Tortoise (32 pdr)", "id": "7922-7313-c1f9-60a1", "hidden": false, "targetId": "b973-da9b-9872-e917", "type": "infoGroup"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Armour Selection",
+            "id": "c5dd-d96c-be13-7fb5",
+            "collective": false,
+            "defaultSelectionEntryId": "92f5-ef71-4edf-1337",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "dca0-19b1-0a1a-6954",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "dc7a-7fbf-39a4-8dec",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Tortoise Assault Troop",
+                "id": "92f5-ef71-4edf-1337",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "ce7e-c5d9-ac74-7717",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Guards Churchill Armoured Troop",
+                "id": "69d8-28f4-dac5-0392",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "31f2-6880-73e7-463b",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Armour Troop #1",
+            "id": "78a5-57f5-6e86-743c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "06da-d81e-59d4-c54a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Tortoise Assault Troop",
+                "id": "e868-2b5c-d9ef-468a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "ce7e-c5d9-ac74-7717",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Guards Churchill Armoured Troop",
+                "id": "fba7-fc02-0690-725d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "31f2-6880-73e7-463b",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Armour Troop #2",
+            "id": "679a-88f3-8c54-1c1b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "36b0-26e5-1a03-e3ed",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Tortoise Assault Troop",
+                "id": "bf1c-a258-91ca-a34d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "ce7e-c5d9-ac74-7717",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* [FS] Guards Churchill Armoured Troop",
+                "id": "d984-fa9e-e544-44ef",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "31f2-6880-73e7-463b",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Tortoise Troop",
+            "id": "72ef-7a9e-d84d-2e1e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6cff-76c1-0b0c-88af",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Tortoise Assault Troop",
+                "id": "e276-7cb9-f178-2090",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "ce7e-c5d9-ac74-7717",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Recon & AA Units",
+            "id": "2e2e-d53d-e1d5-9b95",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Chaffee Recce Patrol",
+                "id": "140d-3d2c-48d8-9b1d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e49d-860c-4734-f554",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "3db4-9142-bf27-cf3b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Crusader AA Troop",
+                "id": "e736-5ab1-0ebb-765e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8b7f-9b88-f575-5079",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6197-e821-da63-05b5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hornet Guided Weapon Anti-tank Troop",
+        "id": "f872-e739-be8d-7d82",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "02b5-02dd-ecf3-c788",
+            "collective": false,
+            "defaultSelectionEntryId": "43ac-1abd-acf0-4453",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "be02-f221-fe4a-0f0f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "fcc1-27dd-8051-778a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Hornet (Malkara missile)",
+                "id": "43ac-1abd-acf0-4453",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                "infoLinks": [{"name": "Hornet", "id": "8d7b-69de-15bb-a696", "hidden": false, "targetId": "b500-8d41-77df-d8be", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Hornet (Malkara missile)",
+                "id": "5621-f10a-9cd9-1ce8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}],
+                "infoLinks": [{"name": "Hornet", "id": "cd07-4b65-36b0-dacf", "hidden": false, "targetId": "b500-8d41-77df-d8be", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Light Support Troop",
+        "id": "fc68-0bd0-aaaa-b898",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "3dcd-be18-65b4-91b5",
+            "collective": false,
+            "defaultSelectionEntryId": "bb91-99af-f4f6-07c2",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2957-962c-2d0f-24ad",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9efe-2470-d310-b9b7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[S] Hornet Guided Weapon Anti-tank Troop",
+                "id": "bb91-99af-f4f6-07c2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f872-e739-be8d-7d82",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "M10 (late) SP Anti-Tank Troop",
+                "id": "52b2-e66c-27f1-5b70",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "33ad-b157-94b0-7048",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cromwell OP Observation Post",
+        "id": "2964-7a99-6a37-e103",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "1x Cromwell OP",
+            "id": "403f-27fb-7777-8e9b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+            "infoLinks": [
+              {"name": "No HE", "id": "07f2-387c-001c-a540", "hidden": false, "targetId": "b000-d0f1-08fd-0d43", "type": "rule"},
+              {"name": "Smoke", "id": "90d2-4822-cd00-c5c2", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"},
+              {"name": "Observer", "id": "8776-0026-e186-a75c", "hidden": false, "targetId": "8153-56ce-71c0-391b", "type": "rule"},
+              {"name": "Independent", "id": "e154-4a6b-18f7-69be", "hidden": false, "targetId": "b650-398e-5817-50fb", "type": "rule"},
+              {"name": "Scout", "id": "7f32-35f6-f9d0-1b25", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Cromwell OP",
+                "id": "ef32-5965-c94c-f693",
+                "hidden": false,
+                "typeId": "55ec-3ef5-ca51-e647",
+                "typeName": "Tank Unit",
+                "characteristics": [
+                  {"name": "Motivation", "$text": "4+\nLast Stand 6\nCounterattack 5+\nRemount 3+", "typeId": "046a-7f27-8072-dedb"},
+                  {"name": "Skill", "$text": "3+", "typeId": "6334-745a-f712-a0aa"},
+                  {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+                  {"name": "Armour Front", "$text": "6", "typeId": "b88a-3ca6-9b40-ff73"},
+                  {"name": "Armour Side & Rear", "$text": "4", "typeId": "3712-51b3-aae3-94bd"},
+                  {"name": "Armour Top", "$text": "1", "typeId": "f551-1392-03e8-967d"},
+                  {"name": "Tactical", "$text": "12\"/30cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+                  {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "f7f4-9e66-c9ed-034b"},
+                  {"name": "Cross Country Dash", "$text": "28\"/70cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+                  {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "b5b1-c829-470a-af62"},
+                  {"name": "Cross", "$text": "3+", "typeId": "8be2-d5b6-ec4a-76d9"},
+                  {"name": "Notes", "$text": "Independent, Observer, Scout", "typeId": "33d6-6375-9564-9985"}
+                ]
+              },
+              {
+                "name": "Cromwell (75mm)",
+                "id": "06fb-e22d-ea00-5416",
+                "hidden": false,
+                "publicationId": "0071-7fad-4956-579d",
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "28\"/70cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "10", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "3+", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "$text": "Smoke", "typeId": "d939-5084-e654-44c6"}
+                ]
+              },
+              {
+                "name": "Cromwell (MGs)",
+                "id": "dcee-89a5-c336-2656",
+                "hidden": false,
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "$text": "4", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M10 (late) SP Anti-tank Troop",
+        "id": "6fa4-0861-9cf0-bfe9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "c02a-0615-16e1-b189",
+            "collective": false,
+            "defaultSelectionEntryId": "521e-1c17-e665-9b59",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d2d0-c535-3e16-3425",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "8df6-d378-d6a4-6a17",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M10 (late 17 pdr)",
+                "id": "521e-1c17-e665-9b59",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 11}],
+                "infoLinks": [{"name": "M10 (Late)", "id": "d264-1653-def9-24d3", "hidden": false, "targetId": "8b86-65d4-ee1c-35a4", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x M10 (late 17 pdr)",
+                "id": "2ba5-052d-caae-effe",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 22}],
+                "infoLinks": [{"name": "M10 (Late)", "id": "9b7a-f876-99e2-55ae", "hidden": false, "targetId": "8b86-65d4-ee1c-35a4", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guards Churchill Armoured Troop",
+        "id": "31f2-6880-73e7-463b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "CHURCHILL", "id": "fcc9-e410-181a-7183", "hidden": false, "primary": false, "targetId": "e908-35f2-f65c-4c25"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "d8e2-367a-11d0-7927",
+            "collective": false,
+            "defaultSelectionEntryId": "81d0-cf6f-8112-c665",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "cdad-1268-0b7f-9833",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "9632-e3df-a807-8a65",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Churchill (75mm)",
+                "id": "81d0-cf6f-8112-c665",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                "infoLinks": [{"name": "Churchill", "id": "7b8a-1706-69e9-a27c", "hidden": false, "targetId": "56b6-2b98-9a5e-2721", "type": "infoGroup"}]
+              },
+              {
+                "name": "Churchill (late 75mm)",
+                "id": "cd68-7ccb-783c-e9fa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 8}],
+                "infoLinks": [{"name": "Churchill (late)", "id": "3411-e28b-3185-8a14", "hidden": false, "targetId": "e2ec-fead-4df3-6816", "type": "profile"}]
+              },
+              {
+                "name": "Churchill (6 pdr)",
+                "id": "1f61-300a-fb4b-fd4d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "13fc-98f2-f4d0-2464",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                "infoLinks": [{"name": "Churchill (6 pdr)", "id": "24a1-5716-ccca-02a4", "hidden": false, "targetId": "47e1-0696-4f17-cd6b", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Charioteer Armoured Troop",
+        "id": "52c6-c41e-9788-4df7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "CHARIOTEER", "id": "1fc5-079a-1793-c2af", "hidden": false, "primary": false, "targetId": "67bb-0607-e5b7-8200"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "61b5-e732-164e-3b86",
+            "collective": false,
+            "defaultSelectionEntryId": "3b5c-4da4-9f19-2f55",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a776-5035-6f8d-c8d6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0af6-b61e-5461-1568",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Charioteer (20 pdr)",
+                "id": "3b5c-4da4-9f19-2f55",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 14}]
+              },
+              {
+                "name": "4x Charioteer (20 pdr)",
+                "id": "c593-b061-ddb8-0702",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 19}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saracen Motor Platoon",
+        "id": "5dd2-7996-9561-7681",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "SARACEN", "id": "fc68-0e06-ff41-1fe1", "hidden": false, "primary": false, "targetId": "2c92-d8b9-00ec-92de"}],
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "df96-a0f3-6366-8c54",
+            "collective": false,
+            "defaultSelectionEntryId": "e699-4755-8d98-15d1",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "51cc-ea4b-910f-e1c2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c600-ccb2-ccc6-01bf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Bren Gun team, 1x PIAT AT team, 1x 2-inch mortar",
+                "id": "e699-4755-8d98-15d1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 6}],
+                "infoLinks": [{"name": "Saracen Motor Platoon", "id": "0e0c-164e-4e27-c938", "hidden": false, "targetId": "6901-3c88-5ee1-188f", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Bren Gun team, 1x PIAT AT team, 1x 2-inch mortar",
+                "id": "74c0-a586-4be7-9786",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 7}],
+                "infoLinks": [{"name": "Saracen Motor Platoon", "id": "73bf-9c6d-1377-5281", "hidden": false, "targetId": "6901-3c88-5ee1-188f", "type": "infoGroup"}]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Unit Transport",
+            "id": "6189-220c-8cad-3d86",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f9d7-1b5d-5c35-feb6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Saracen",
+                "id": "f8f2-6675-4a2c-8aa9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 2}],
+                "infoLinks": [{"name": "Saracen Transport", "id": "da2f-2239-3b36-cb46", "hidden": false, "targetId": "97a5-82c2-6240-0cc9", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "4x Saracen",
+                    "conditions": [
+                      {
+                        "childId": "74c0-a586-4be7-9786",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5dd2-7996-9561-7681",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "3x Saracen",
+                    "conditions": [
+                      {
+                        "childId": "e699-4755-8d98-15d1",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5dd2-7996-9561-7681",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "M5 half-track",
+                "id": "722f-854d-f1d5-25f8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 1}],
+                "infoLinks": [{"name": "M5 half-track Transport", "id": "6687-b668-e6c1-b2fc", "hidden": false, "targetId": "d76c-6c53-985c-fb8f", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "4x M5 half-track",
+                    "conditions": [
+                      {
+                        "childId": "74c0-a586-4be7-9786",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5dd2-7996-9561-7681",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "3x M5 half-track",
+                    "conditions": [
+                      {
+                        "childId": "e699-4755-8d98-15d1",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "5dd2-7996-9561-7681",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Observer] Support OP",
+        "id": "9174-3ab0-cfbf-8b55",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "6ca2-2902-f9da-12a5",
+            "collective": false,
+            "defaultSelectionEntryId": "47e3-52d9-76f2-c8cd",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "76ff-33e9-c374-b7dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "343c-c795-12cb-809a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Auster OP Observation Post",
+                "id": "1d5b-0fb6-bb13-c88d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e9c9-4fc5-cf4e-f438",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Universal Carrier OP Observation Post",
+                "id": "47e3-52d9-76f2-c8cd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a45-6bc2-74ab-9400",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Cromwell OP Observation Post",
+                "id": "78d5-9ec5-a680-fb8a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2964-7a99-6a37-e103",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] Support Troop",
+        "id": "96c4-deb1-a304-9226",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "db7f-2a0d-4381-6d44",
+            "collective": false,
+            "defaultSelectionEntryId": "6c35-5820-0c06-9b31",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7d1a-008c-1e12-51d8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c084-db76-a7e3-0a10",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Sexton Field Troop",
+                "id": "176f-0ce6-b050-e6b2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "bc86-73a0-2f17-6a52",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "25 pdr Field Troop",
+                "id": "6c35-5820-0c06-9b31",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e0ea-2e56-ca75-fa67",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Reconnaissance] Support Troop",
+        "id": "4bcd-e6b5-6292-99ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "c6c2-c27d-4d8f-a7a0",
+            "collective": false,
+            "defaultSelectionEntryId": "9805-c68b-ae30-7461",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "92d1-18dd-30b8-e781",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "01ca-f811-0386-610d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Daimler Armoured Car Troop",
+                "id": "9805-c68b-ae30-7461",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4054-0dec-a800-10fd",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Saladin Armoured Car Troop",
+                "id": "e9bc-48ed-b96c-c78c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b16a-946c-98f2-fd66",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saladin Armoured Car Troop",
+        "id": "b16a-946c-98f2-fd66",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "3x Saladin (76mm)",
+            "id": "418c-b26c-54f8-827e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9845-4b42-f0df-e4a4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a93b-f07c-862d-0668",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 12}],
+            "infoLinks": [
+              {"name": "HEAT", "id": "f1d9-be5c-d0e8-0d19", "hidden": false, "targetId": "0a75-9107-1a42-067c", "type": "rule"},
+              {"name": "Overworked", "id": "180d-a4ed-c413-2fd9", "hidden": false, "targetId": "4c99-f2b8-5818-72b1", "type": "rule"},
+              {"name": "Smoke", "id": "d606-9dd0-1588-3204", "hidden": false, "targetId": "6f51-dbfe-55b0-a6d0", "type": "rule"},
+              {"name": "Scout", "id": "84a0-4cd9-484f-63f4", "hidden": false, "targetId": "967a-118e-dc01-7e0b", "type": "rule"},
+              {"name": "Spearhead", "id": "f6df-104c-9304-f70f", "hidden": false, "targetId": "70fc-43a3-1ed1-1b01", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Saladin",
+                "id": "c2e0-f5ad-f359-d0e1",
+                "hidden": false,
+                "typeId": "55ec-3ef5-ca51-e647",
+                "typeName": "Tank Unit",
+                "characteristics": [
+                  {"name": "Motivation", "$text": "4+\nCounterattack 6\nLast Stand 5+", "typeId": "046a-7f27-8072-dedb"},
+                  {"name": "Skill", "$text": "3+\nAssault 5+", "typeId": "6334-745a-f712-a0aa"},
+                  {"name": "Is Hit On", "$text": "4+", "typeId": "3931-565d-e382-fda5"},
+                  {"name": "Armour Front", "$text": "2", "typeId": "b88a-3ca6-9b40-ff73"},
+                  {"name": "Armour Side & Rear", "$text": "1", "typeId": "3712-51b3-aae3-94bd"},
+                  {"name": "Armour Top", "$text": "0", "typeId": "f551-1392-03e8-967d"},
+                  {"name": "Tactical", "$text": "10\"/25cm", "typeId": "ea9a-bf7d-68c5-e2d7"},
+                  {"name": "Terrain Dash", "$text": "10\"/25cm", "typeId": "f7f4-9e66-c9ed-034b"},
+                  {"name": "Cross Country Dash", "$text": "16\"/40cm", "typeId": "f73b-6fcf-b0d1-fde4"},
+                  {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "b5b1-c829-470a-af62"},
+                  {"name": "Cross", "$text": "4+", "typeId": "8be2-d5b6-ec4a-76d9"},
+                  {"name": "Notes", "$text": "Scout, Spearhead", "typeId": "33d6-6375-9564-9985"}
+                ]
+              },
+              {
+                "name": "Saladin (76mm)",
+                "id": "aebd-1c06-4ff4-6867",
+                "hidden": false,
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"/60cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "2", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "$text": "1", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "11", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "2+", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "$text": "HEAT, Overworked, Smoke", "typeId": "d939-5084-e654-44c6"}
+                ]
+              },
+              {
+                "name": "Saladin (MGs)",
+                "id": "aea9-c9a6-15e7-a7ce",
+                "hidden": false,
+                "typeId": "33b6-a72a-2bd8-2565",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "16\"/40cm", "typeId": "c2e5-4990-8105-f793"},
+                  {"name": "Halted ROF", "$text": "4", "typeId": "7f6e-6f8f-5f15-6e9d"},
+                  {"name": "Moving ROF", "$text": "4", "typeId": "f78e-b583-b3a5-754a"},
+                  {"name": "Anti-Tank", "$text": "2", "typeId": "f57e-fa10-d0f9-e2dd"},
+                  {"name": "Firepower", "$text": "6", "typeId": "9cf3-a34f-60d9-1309"},
+                  {"name": "Notes", "typeId": "d939-5084-e654-44c6"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-tank] Heavy Support Troop",
+        "id": "93b0-680d-ea84-a9a0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "aff3-6bc1-468d-7dd9",
+            "collective": false,
+            "defaultSelectionEntryId": "b3d7-b8cd-b158-7bff",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3206-c9e7-188a-e53e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "fe11-0494-f490-331d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "120mm BAT Anti-tank Platoon",
+                "id": "b3d7-b8cd-b158-7bff",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4005-6f6e-e795-0933",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Archer Anti-tank Troop",
+                "id": "9633-2022-2426-198a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "ba29-128e-4eb2-dcd7",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "120mm BAT Anti-tank Platoon",
+        "id": "4005-6f6e-e795-0933",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "ebb1-17be-eb47-78b2",
+            "collective": false,
+            "defaultSelectionEntryId": "0d7b-6207-c7c1-8f3a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e7a9-3490-f607-e818",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "e986-b5e2-7935-e962",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x 120mm BAT recoilless rifle",
+                "id": "0d7b-6207-c7c1-8f3a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 10}]
+              },
+              {
+                "name": "4x 120mm BAT recoilless rifle",
+                "id": "42f3-4027-5b09-86bc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "995a-4d67-6920-bfe4", "value": 21}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
